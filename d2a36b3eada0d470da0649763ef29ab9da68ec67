@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da20952f_2717f9a4",
+        "filename": "src/com/android/camera/VideoModule.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 1480,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2013-11-20T19:59:28Z",
+      "side": 1,
+      "message": "Better use spaces instead of tabs here",
+      "revId": "d2a36b3eada0d470da0649763ef29ab9da68ec67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

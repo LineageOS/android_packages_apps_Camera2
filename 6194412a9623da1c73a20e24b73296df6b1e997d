@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da20952f_87260515",
+        "filename": "res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2013-11-20T20:01:39Z",
+      "side": 1,
+      "message": "It looks like this parameter got accidentally pulled in with this patchset?",
+      "revId": "6194412a9623da1c73a20e24b73296df6b1e997d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

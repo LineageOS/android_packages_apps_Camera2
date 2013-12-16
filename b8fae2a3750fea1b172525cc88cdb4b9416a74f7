@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a740942_f55f6773",
+        "filename": "res/values-th/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-12-16T07:38:16Z",
+      "side": 1,
+      "message": "Please remove those comments and use UNIX/Linux file endings. Otherwise you get those annoying \u0027\\r\u0027s.",
+      "revId": "b8fae2a3750fea1b172525cc88cdb4b9416a74f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

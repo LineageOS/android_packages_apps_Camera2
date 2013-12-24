@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a68dd71_d036f2b3",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2250,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2013-12-24T18:09:25Z",
+      "side": 1,
+      "message": "Probably don\u0027t need this in this patchset?",
+      "revId": "386a87ec1bee5c3ab7e32913dd03f098a58cd1bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_f03bf69a",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2265,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2013-12-24T18:09:25Z",
+      "side": 1,
+      "message": "Should this be unconditionally disabled?",
+      "revId": "386a87ec1bee5c3ab7e32913dd03f098a58cd1bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

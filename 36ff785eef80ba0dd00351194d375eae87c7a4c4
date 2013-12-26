@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a68dd71_41eeb6ed",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-12-26T16:08:28Z",
+      "side": 1,
+      "message": "This is why I hate CAF now. These \"Off/On\" strings are EVERYWHERE.",
+      "revId": "36ff785eef80ba0dd00351194d375eae87c7a4c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_21f142ce",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-12-26T16:08:28Z",
+      "side": 1,
+      "message": "I would really want to know what\u0027s the difference between \"face recognition\" and \"face detection\"...",
+      "revId": "36ff785eef80ba0dd00351194d375eae87c7a4c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

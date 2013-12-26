@@ -33,6 +33,24 @@
       "revId": "36ff785eef80ba0dd00351194d375eae87c7a4c4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_01bf5ed1",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-12-26T16:27:37Z",
+      "side": 1,
+      "message": "That one I know!\n\nFace detection is the technique where a picture is analyzed and faces, or rather objects that look like human faces are defined in there, such as those round circles you get when faces are in the picture.\nFace recognition is the technique where a face is linked to a (known/already defined) person, such as in crime series where the police analyze a picture of someone\u0027s face and try to identify it.\nSimply put: face recognition is an extended version of face detection.\n\nThis was actually in a test I needed to do last year, but since that was answered in Dutch, I hope my answer isn\u0027t worse in English.",
+      "parentUuid": "9a68dd71_21f142ce",
+      "revId": "36ff785eef80ba0dd00351194d375eae87c7a4c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

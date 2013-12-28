@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a68dd71_86acbfee",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6473
+      },
+      "writtenOn": "2013-12-28T16:41:06Z",
+      "side": 0,
+      "message": "You referring to the if statement?",
+      "revId": "dac5b3dd14a5b8995adc0c311b5fc7fafff692fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

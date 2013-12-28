@@ -16,6 +16,24 @@
       "revId": "b6fc0b79729e3bf09d2560d00fd4aa5d64f5402f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_46bb270f",
+        "filename": "src/com/android/camera/CameraSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 6473
+      },
+      "writtenOn": "2013-12-28T17:24:04Z",
+      "side": 1,
+      "message": "Only in this file right? Is the other OK? :)",
+      "parentUuid": "9a68dd71_c6f717f4",
+      "revId": "b6fc0b79729e3bf09d2560d00fd4aa5d64f5402f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

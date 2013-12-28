@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a68dd71_53b6873e",
+        "filename": "src/com/android/camera/CameraSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-12-28T11:24:03Z",
+      "side": 1,
+      "message": "This line must have a double indent (8 blanks).",
+      "revId": "2e70105d25188a82ef9d86e0a7173b9df49f2771",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_f381bb4e",
+        "filename": "src/com/android/camera/CameraSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-12-28T11:24:03Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "2e70105d25188a82ef9d86e0a7173b9df49f2771",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_1387af62",
+        "filename": "src/com/android/camera/CameraSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 382,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-12-28T11:24:03Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "2e70105d25188a82ef9d86e0a7173b9df49f2771",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_b37b437b",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2108,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-12-28T11:24:03Z",
+      "side": 1,
+      "message": "This line must have indent (8 blanks)",
+      "revId": "2e70105d25188a82ef9d86e0a7173b9df49f2771",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_d3803749",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2120,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-12-28T11:24:03Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "2e70105d25188a82ef9d86e0a7173b9df49f2771",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_73962b96",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2132,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-12-28T11:24:03Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "2e70105d25188a82ef9d86e0a7173b9df49f2771",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

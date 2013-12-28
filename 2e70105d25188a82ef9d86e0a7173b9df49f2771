@@ -70,6 +70,24 @@
     },
     {
       "key": {
+        "uuid": "9a68dd71_06876f62",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2108,
+      "author": {
+        "id": 6473
+      },
+      "writtenOn": "2013-12-28T16:42:15Z",
+      "side": 1,
+      "message": "You referring to the if  statement?",
+      "parentUuid": "9a68dd71_b37b437b",
+      "revId": "2e70105d25188a82ef9d86e0a7173b9df49f2771",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a68dd71_d3803749",
         "filename": "src/com/android/camera/PhotoModule.java",
         "patchSetId": 2

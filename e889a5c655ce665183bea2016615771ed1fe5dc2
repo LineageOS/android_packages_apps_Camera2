@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a68dd71_dfba766e",
+        "filename": "res/values-es/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-12-30T07:15:36Z",
+      "side": 1,
+      "message": "I\u0027m fine with it",
+      "parentUuid": "9a68dd71_ff5f3a73",
+      "revId": "e889a5c655ce665183bea2016615771ed1fe5dc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a68dd71_1f656e44",
         "filename": "res/values-es/qcomstrings.xml",
         "patchSetId": 1
@@ -53,6 +71,40 @@
     },
     {
       "key": {
+        "uuid": "9a68dd71_3faab21a",
+        "filename": "res/values-es/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-12-30T07:15:36Z",
+      "side": 1,
+      "message": "\"¿Modo de exposición?\"  up to you",
+      "revId": "e889a5c655ce665183bea2016615771ed1fe5dc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_5fa7664f",
+        "filename": "res/values-es/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-12-30T07:15:36Z",
+      "side": 1,
+      "message": "Frame Average \u003d Matricial?  you are the expert in photography here :)",
+      "revId": "e889a5c655ce665183bea2016615771ed1fe5dc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a68dd71_df5ef675",
         "filename": "res/values-es/qcomstrings.xml",
         "patchSetId": 1
@@ -64,6 +116,23 @@
       "writtenOn": "2013-12-30T03:34:17Z",
       "side": 1,
       "message": "same as above (powermode)",
+      "revId": "e889a5c655ce665183bea2016615771ed1fe5dc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_ff62da15",
+        "filename": "res/values-es/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-12-30T07:15:36Z",
+      "side": 1,
+      "message": "¿\"Súper fina\"? from http://lema.rae.es/drae/srv/search?id\u003d7Oi3SZXeU2x57yFiJDk",
       "revId": "e889a5c655ce665183bea2016615771ed1fe5dc2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

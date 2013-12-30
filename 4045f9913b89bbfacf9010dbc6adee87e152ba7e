@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a68dd71_7a13585d",
+        "filename": "res/values-es/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-12-30T08:20:43Z",
+      "side": 1,
+      "message": "http://lema.rae.es/drae/?val\u003dsuperfina",
+      "revId": "4045f9913b89bbfacf9010dbc6adee87e152ba7e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

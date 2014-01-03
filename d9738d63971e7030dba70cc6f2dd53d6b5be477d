@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a5de9d1_ef7d51e8",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-03T06:06:17Z",
+      "side": 1,
+      "message": "Can we make some standard here?\n\nThe \".\" vs \",\" thing isn\u0027t looking good.",
+      "revId": "d9738d63971e7030dba70cc6f2dd53d6b5be477d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a5de9d1_4f6d8531",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-03T06:06:17Z",
+      "side": 1,
+      "message": "Sounds weird, but I have no idea how to translate it (neither what this option does...).",
+      "revId": "d9738d63971e7030dba70cc6f2dd53d6b5be477d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a5de9d1_6f6ac11c",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-03T06:06:17Z",
+      "side": 1,
+      "message": "ustaw -\u003e okre?l (?)\n\n(so we don\u0027t double this word in the same sentence).",
+      "revId": "d9738d63971e7030dba70cc6f2dd53d6b5be477d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_4e3a67cf",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-05T08:04:47Z",
+      "side": 0,
+      "message": "Please revert this removal.",
+      "revId": "3cb20325a433af70f5986c8210406bc71ab3b13a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

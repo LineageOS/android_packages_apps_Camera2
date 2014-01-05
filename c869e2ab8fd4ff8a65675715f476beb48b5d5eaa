@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_ae243baf",
+        "filename": "res/values-lt/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-05T08:04:47Z",
+      "side": 1,
+      "message": "According to https://en.wikipedia.org/wiki/Decimal_mark the comma is used?",
+      "revId": "c869e2ab8fd4ff8a65675715f476beb48b5d5eaa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

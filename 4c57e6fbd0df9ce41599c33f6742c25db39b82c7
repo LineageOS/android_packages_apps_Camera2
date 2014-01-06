@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_547c3a20",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T11:44:27Z",
+      "side": 1,
+      "message": "(He says this is actually translatable)\n\nI would remove the abbreviation in that case",
+      "parentUuid": "5a5ae5dd_19491bd1",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_b45b2e2e",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_7479362f",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T11:44:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a5ae5dd_b45b2e2e",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_54419a38",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2014-01-06T09:34:13Z",
       "side": 1,
       "message": "zsl -\u003e ZSL",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_1476c23e",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T11:44:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a5ae5dd_54419a38",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -158,6 +212,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_d48eea26",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 315,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T11:44:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a5ae5dd_146242d9",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_f9167fa6",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -193,6 +265,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_f493e64d",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T11:44:27Z",
+      "side": 1,
+      "message": "Since it\u0027s CAF it shouldn\u0027t be modified, but I\u0027m not happy with this. I\u0027ll change it.",
+      "parentUuid": "5a5ae5dd_b4a9eee1",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_593f9325",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -204,6 +294,24 @@
       "writtenOn": "2014-01-06T06:45:16Z",
       "side": 1,
       "message": "false is goed, maar dan moeten de strings hieronder wel allemaal in hoofdletters, net zoals de rest",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_9498726c",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T11:44:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a5ae5dd_593f9325",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -227,6 +335,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_54a3da9e",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T11:44:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a5ae5dd_34489e5b",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_f451a60f",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -238,6 +364,24 @@
       "writtenOn": "2014-01-06T09:34:13Z",
       "side": 1,
       "message": "*",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_74a05691",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 566,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T11:44:27Z",
+      "side": 1,
+      "message": "In NL \u00271080p\u0027 is more common, same as \u0027720p\u0027.",
+      "parentUuid": "5a5ae5dd_f451a60f",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -308,6 +452,24 @@
       "side": 1,
       "message": "I agree, \"CAF\" is not much self-explaining -\u003e bad UX",
       "parentUuid": "5a5ae5dd_f49f66b2",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_14ad6288",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 575,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T11:44:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a5ae5dd_94407209",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_34f97e4e",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T13:57:51Z",
+      "side": 1,
+      "message": "If we use \u0027ZSL\u0027 in other strings, that also goes for other languages. And then that can still be ZSL, thus making it untranslatable.\n\nI don\u0027t like to have a seperate English/non-English situation",
+      "parentUuid": "5a5ae5dd_74d856f0",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_b45b2e2e",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -154,6 +172,24 @@
       "side": 1,
       "message": "This should be translatable",
       "parentUuid": "5a5ae5dd_743e16ba",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_d494aae9",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-06T13:57:51Z",
+      "side": 1,
+      "message": "He referenced to lines 276 and 277, but clicked too high.",
+      "parentUuid": "5a5ae5dd_14e562a7",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

@@ -19,6 +19,40 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_74cb7673",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-06T11:35:48Z",
+      "side": 1,
+      "message": "\u0027Vintage (warm)\u0027 of \u0027Oud (warm)\u0027.\nOuderwets vind ik niet passend voor vintage.",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_14f1e2cd",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-06T11:35:48Z",
+      "side": 1,
+      "message": "\u0027sec\u0027 zonder punt",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_7965afdf",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2

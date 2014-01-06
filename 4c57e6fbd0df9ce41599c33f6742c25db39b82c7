@@ -105,6 +105,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_f43be69a",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-06T10:03:00Z",
+      "side": 1,
+      "message": "Ok!\nPlease disregard my comment below ;)",
+      "parentUuid": "5a5ae5dd_5468baba",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_394657c0",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -272,6 +290,24 @@
       "side": 1,
       "message": "I think this could be replaced with \"Continuous\" (as in other focus modes like \"Continuous picture\")",
       "parentUuid": "5a5ae5dd_34317eed",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_94407209",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 575,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-06T10:03:00Z",
+      "side": 1,
+      "message": "I agree, \"CAF\" is not much self-explaining -\u003e bad UX",
+      "parentUuid": "5a5ae5dd_f49f66b2",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

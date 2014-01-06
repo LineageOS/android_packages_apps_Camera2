@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "5a5ae5dd_544bda2b",
+        "filename": "src/com/android/camera/util/CameraUtil.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 358,
+      "author": {
+        "id": 5742
+      },
+      "writtenOn": "2014-01-06T10:04:48Z",
+      "side": 1,
+      "message": "I found function used in Android.... try this, maybe fotos will be better\n\n\npublic static int[] convertYUV420_NV21toARGB8888(byte [] data, int width, int height) {\n    int size \u003d width*height;\n    int offset \u003d size;\n    int[] pixels \u003d new int[size];\n    int u, v, y1, y2, y3, y4;\n \n    // i along Y and the final pixels\n    // k along pixels U and V\n    for(int i\u003d0, k\u003d0; i \u003c size; i+\u003d2, k+\u003d2) {\n    \ty1 \u003d data[i  ]\u00260xff;\n    \ty2 \u003d data[i+1]\u00260xff;\n    \ty3 \u003d data[width+i  ]\u00260xff;\n    \ty4 \u003d data[width+i+1]\u00260xff;\n \n\tv \u003d data[offset+k  ]\u00260xff;\n        u \u003d data[offset+k+1]\u00260xff;\n\tv \u003d v-128;\n        u \u003d u-128;\n \n        pixels[i  ] \u003d convertYUVtoARGB(y1, u, v);\n        pixels[i+1] \u003d convertYUVtoARGB(y2, u, v);\n        pixels[width+i  ] \u003d convertYUVtoARGB(y3, u, v);\n        pixels[width+i+1] \u003d convertYUVtoARGB(y4, u, v);\n \n\tif (i!\u003d0 \u0026\u0026 (i+2)%width\u003d\u003d0)\n\t    i+\u003dwidth;\n    }\n \n    return pixels;\n}\n \nprivate static int convertYUVtoARGB(int y, int u, int v) {\n    int r,g,b;\n \n    r \u003d y + (int)(1.402f*u);\n    g \u003d y - (int)(0.344f*v + 0.714f*u);\n    b \u003d y + (int)(1.772f*v);\n    r \u003d r\u003e255? 255 : r\u003c0 ? 0 : r;\n    g \u003d g\u003e255? 255 : g\u003c0 ? 0 : g;\n    b \u003d b\u003e255? 255 : b\u003c0 ? 0 : b;\n    return 0xff000000 | (r\u003c\u003c16) | (g\u003c\u003c8) | b;\n}",
+      "revId": "f1c23f65026b78cfc555a4c47eec6a36d13588f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_f9f2ff6e",
         "filename": "src/com/android/camera/util/CameraUtil.java",
         "patchSetId": 2

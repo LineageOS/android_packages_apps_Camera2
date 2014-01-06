@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_f9f2ff6e",
+        "filename": "src/com/android/camera/util/CameraUtil.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 374,
+      "author": {
+        "id": 5742
+      },
+      "writtenOn": "2014-01-06T07:50:50Z",
+      "side": 1,
+      "message": "What is y1192 ? r, g and b are to low.\n\n// Convert, cast to signed byte is important!\n\nvar r \u003d y + (1.403 * (sbyte)v);\n\nvar g \u003d y - (0.344 * (sbyte)u) - (0.714 * (sbyte)v);\n\nvar b \u003d y + (1.770 * (sbyte)u);\n\nif (r \u003c 0)\n    r \u003d 0;\nelse if (r \u003e 255)\n    r \u003d 255;\n\nif (g \u003c 0)\n    g \u003d 0;\nelse if (g \u003e 255)\n    g \u003d 255;\n\nif (b \u003c 0)\n    b \u003d 0;\nelse if (b \u003e 255)\n    b \u003d 255;\n\n\n    return 0xff000000 | (r\u003c\u003c16) | (g\u003c\u003c8) | b;\n\nI found in google also \n\nAssuming UYVY/422\n\nY1 \u003d data[j+0];\nCr \u003d data[j+1];\nY2 \u003d data[j+2];\nCb \u003d data[j+3];\n\nYour conversion calculation are wierd, and incorrect for HD.\n\nFor SD\n\nR \u003d max(0, min(255, 1.164(Y - 16) + 1.596(Cr - 128)));\nG \u003d max(0, min(255, 1.164(Y - 16) - 0.813(Cr - 128) - 0.391(Cb - 128)));\nB \u003d max(0, min(255, 1.164(Y - 16) + 2.018(Cr - 128)));\n\nFor HD\n\nR \u003d max(0, min(255, 1.164(Y - 16) + 1.793(Cr - 128)));\nG \u003d max(0, min(255, 1.164(Y - 16) - 0.534(Cr - 128) - 0.213(Cb - 128)));\nB \u003d max(0, min(255, 1.164(Y - 16) + 2.115(Cr - 128)));",
+      "revId": "f1c23f65026b78cfc555a4c47eec6a36d13588f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

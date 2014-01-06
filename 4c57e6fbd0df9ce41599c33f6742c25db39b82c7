@@ -19,6 +19,74 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_b45b2e2e",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-06T09:34:13Z",
+      "side": 1,
+      "message": "space after \u003e",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_54419a38",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-06T09:34:13Z",
+      "side": 1,
+      "message": "zsl -\u003e ZSL",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_743e16ba",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-06T09:34:13Z",
+      "side": 1,
+      "message": "*",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_144b225b",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-06T09:34:13Z",
+      "side": 1,
+      "message": "*",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_394657c0",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -64,6 +132,74 @@
       "writtenOn": "2014-01-06T06:45:16Z",
       "side": 1,
       "message": "false is goed, maar dan moeten de strings hieronder wel allemaal in hoofdletters, net zoals de rest",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_34489e5b",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-06T09:34:13Z",
+      "side": 1,
+      "message": "I\u0027d remove the word \u0027Jpeg\u0027 and mark as untranslateable",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_f451a60f",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 566,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-06T09:34:13Z",
+      "side": 1,
+      "message": "*",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_d44caa78",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-06T09:34:13Z",
+      "side": 1,
+      "message": "*",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_34317eed",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 575,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-06T09:34:13Z",
+      "side": 1,
+      "message": "*",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

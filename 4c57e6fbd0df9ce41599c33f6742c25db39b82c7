@@ -87,6 +87,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_5468baba",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2014-01-06T09:44:01Z",
+      "side": 1,
+      "message": "Nope, \"Hz\" could be translated in some languages.",
+      "parentUuid": "5a5ae5dd_144b225b",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_394657c0",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -104,6 +122,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_146242d9",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 315,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2014-01-06T09:44:01Z",
+      "side": 1,
+      "message": "DIS \u003d Digital Image Stabilizer (could be translated, too, maybe we\u0027ll only need to \"un-abbreviate\" it)",
+      "parentUuid": "5a5ae5dd_394657c0",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_f9167fa6",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -115,6 +151,24 @@
       "writtenOn": "2014-01-06T06:45:16Z",
       "side": 1,
       "message": "- JPEG\n\nafkorting \u003d hoofdletters",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_b4a9eee1",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2014-01-06T09:44:01Z",
+      "side": 1,
+      "message": "also untranslatable.",
+      "parentUuid": "5a5ae5dd_f9167fa6",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -200,6 +254,24 @@
       "writtenOn": "2014-01-06T09:34:13Z",
       "side": 1,
       "message": "*",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_f49f66b2",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 575,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2014-01-06T09:44:01Z",
+      "side": 1,
+      "message": "I think this could be replaced with \"Continuous\" (as in other focus modes like \"Continuous picture\")",
+      "parentUuid": "5a5ae5dd_34317eed",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

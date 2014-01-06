@@ -16,6 +16,23 @@
       "revId": "f1c23f65026b78cfc555a4c47eec6a36d13588f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_d962a316",
+        "filename": "src/com/android/camera/util/CameraUtil.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 5742
+      },
+      "writtenOn": "2014-01-06T07:58:39Z",
+      "side": 1,
+      "message": "int r \u003d  y + (1.403 * v); \n\nint g \u003d y - (0.344 * u) - (0.714 * v); \n\nint b \u003d y + (1.770 *  u); \n\nif (r \u003c 0)\n    r \u003d 0;\nelse if (r \u003e 255)\n    r \u003d 255;\nif (g \u003c 0)\n    g \u003d 0;\nelse if (g \u003e 255)\n    g \u003d 255;\nif (b \u003c 0)\n    b \u003d 0;\nelse if (b \u003e 255)\n    b \u003d 255;\n\n    rgb[yp] \u003d 0xff000000 | (r\u003c\u003c16) | (g\u003c\u003c8) | b;",
+      "revId": "f1c23f65026b78cfc555a4c47eec6a36d13588f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

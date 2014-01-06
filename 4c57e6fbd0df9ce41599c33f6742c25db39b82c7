@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_19491bd1",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-06T06:45:16Z",
+      "side": 1,
+      "message": "nee, deze wil je wel vertalen!\n\nZero Shutter Lag, moet ook anders te vertalen zijn",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_394657c0",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 315,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-06T06:45:16Z",
+      "side": 1,
+      "message": "hier is vast ook een vertaling voor te vinden? Weet alleen nog niet wat de afkorting betekent....",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_f9167fa6",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-06T06:45:16Z",
+      "side": 1,
+      "message": "- JPEG\n\nafkorting \u003d hoofdletters",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_593f9325",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-06T06:45:16Z",
+      "side": 1,
+      "message": "false is goed, maar dan moeten de strings hieronder wel allemaal in hoofdletters, net zoals de rest",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

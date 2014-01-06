@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_b43faed5",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 wat mij betreft verwijderen als ze niet meer nodig zijn, terughalen kan altijd nog.",
+      "parentUuid": "5a5ae5dd_79928f59",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_74cb7673",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2014-01-06T11:35:48Z",
       "side": 1,
       "message": "\u0027Vintage (warm)\u0027 of \u0027Oud (warm)\u0027.\nOuderwets vind ik niet passend voor vintage.",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_b416ce53",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Heb ik 1-op-1 overgenomen uit 10.2:\n\nhttps://github.com/CyanogenMod/android_packages_apps_Gallery2/blob/cm-10.2/res/values-nl/cm_strings.xml \n\nregel 128 en 129\n\nWat mij betreft niet veranderen.",
+      "parentUuid": "5a5ae5dd_74cb7673",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_540c3a42",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Heb ik 1-op-1 overgenomen uit 10.2:\n\nhttps://github.com/CyanogenMod/android_packages_apps_Gallery2/blob/cm-10.2/res/values-nl/cm_strings.xml \n\nregel 142 e.v.\n\nWat mij betreft niet veranderen tenzij we het beleid veranderen.",
+      "parentUuid": "5a5ae5dd_14f1e2cd",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_7965afdf",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "ik zie hieronder een hoop strings die uit qcomstrings.xml komen, kunnen we die niet in een apart cm_ qcomstrings.xml bestand zetten? Maakt het veel makkelijk om NL en Engels te vergelijken op Github\n\nEn anders tenminste een scheiding aangeven met \u003c-- qcomstrings --\u003e",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_9f088b2a",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 Klopt, het was ook even zoeken :-) En wat mij betreft maken we er ook twee bestanden van om de consistentie te houden met de Engelse versie. Als er veel steun voor is wil ik wel een poging wagen om er twee bij Marco aan te leveren. Plaatsen op Github is nog ff een stap te ver voor mij :-)",
+      "parentUuid": "5a5ae5dd_7965afdf",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -104,6 +176,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_1f349bdc",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Geen idee...\nAls tussenweg misschien Energie modus in de kop en hier Laag verbruik?",
+      "parentUuid": "5a5ae5dd_d99aa3c5",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_f99f5fb2",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -115,6 +205,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Normaal energieverbruik\n\n- Normaal",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_ff517f0f",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "En hier Normaal verbruik?",
+      "parentUuid": "5a5ae5dd_f99f5fb2",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -138,6 +246,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_7f3eefb9",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "In de Engelse versie staat mode vandaar de modus en het werkwoord selecteer, ik neem aan dat bij deze kop ook actie wordt gevraagd of niet?",
+      "parentUuid": "5a5ae5dd_99a42b09",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_59af93e3",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -149,6 +275,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Beeldgemiddelde",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_5f13f35c",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_59af93e3",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -172,6 +316,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_df9a83c5",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Mooi artikel man! Mijn initiële vertaling was niet echt on-the-spot :-)\n\nMaar bij nader inzien zou ik gaan voor Belichtingsmeting of lichtmeting, zie \nhttp://nl.wikipedia.org/wiki/Spotmeting#Spotmeters\nWant dat doe je hiermee volgens mij.",
+      "parentUuid": "5a5ae5dd_79accfed",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_39b6573e",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -183,6 +345,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Videolengte\n- Duur video\n- Lengte video\n\n?",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_9fa40b09",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Video-lengte? Voor gebruik streepje zie eerder...",
+      "parentUuid": "5a5ae5dd_39b6573e",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -206,6 +386,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_bfa9c7e1",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "MMS is 1op1 overgenomen uit Engels, hebben wij een ander beleid hiervoor?",
+      "parentUuid": "5a5ae5dd_f9867f64",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_997bcb7b",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -217,6 +415,41 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- 30 minuten",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_5faf73e3",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 Ik was vast een beetje moe, 30 minutes staat in de Engelse versie :-)",
+      "parentUuid": "5a5ae5dd_997bcb7b",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_7facafed",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Typo: verbetering!",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -240,6 +473,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_3fb6373e",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 Ik snap deze ook niet. In de Engelse versie staat Enable, dus inderdaad Inschakelen",
+      "parentUuid": "5a5ae5dd_b9800748",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_79936fa4",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -251,6 +502,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Uitschakelen ?",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_df81234f",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 En hier Uitschakelen",
+      "parentUuid": "5a5ae5dd_79936fa4",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -274,6 +543,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_ff865f64",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Weet niet, 1-op-1 uit de Engelse versie overgenomen. De foto-freak weet vast wel wat ermee bedoeld wordt...",
+      "parentUuid": "5a5ae5dd_5996b395",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_19903b95",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -285,6 +572,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "Die extra spatie aan de voorkant zit ook in het Engels...foutje?\n\n- Zone autofocus\n\n- Autofocus-zone\n\n?",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_bf80e747",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Tja, ik ben wel (een beetje) consequent geweest :-)\nIk ben een beetje afgegaan op:\nhttps://github.com/CyanogenMod/android_packages_apps_Camera2/blob/cm-11.0/res/values/qcomstrings.xml\n\nRegel 121, maar ik sta open voor iets beters.",
+      "parentUuid": "5a5ae5dd_19903b95",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -308,6 +613,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_5f969395",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Belichtingsmeting of lichtmeting? zie hierboven.",
+      "parentUuid": "5a5ae5dd_d9e86319",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_f9ed1f26",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -319,6 +642,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Beeldgemiddelde",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_7f934fa4",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_f9ed1f26",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -342,6 +683,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_1f901b95",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_b9f7a7f4",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_59dd536f",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -353,6 +712,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Gezichtsherkenning",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_dfcfe3b1",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "-1 Volgens mij zit er een verschil tussen detectie (merken dat het een gezicht is) en herkenning (zien dat het mijn lelijke kop is:-)). Voor de laatste wordt dacht ik recognition gebruikt. Zie r. 221",
+      "parentUuid": "5a5ae5dd_59dd536f",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -376,6 +753,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_ffd41f48",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_19e7db41",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_39e4173a",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -387,6 +782,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Ingeschakeld\n\n- Inschakelen\n\n zie r.147",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_5fc45391",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 Voor Inschakelen, snap niet waar deze vandaan komt...",
+      "parentUuid": "5a5ae5dd_39e4173a",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -410,6 +823,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_7fc10f80",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 voor Uitschakelen",
+      "parentUuid": "5a5ae5dd_d9cf03b2",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_99c98baf",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -421,6 +852,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "HFR \u003d High Frame Rate?\n\n- Hoge beeldsnelheid (HFR) wordt niet ondersteund bij deze resolutie",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_df3603b4",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_99c98baf",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -444,6 +893,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_ff3bbf9a",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_b9cec7b2",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_59c47391",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -455,6 +922,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Videoresolutie niet ondersteund voor dit type encoder",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_bf454718",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1: Video-resolutie?",
+      "parentUuid": "5a5ae5dd_59c47391",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -478,6 +963,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_5f4bf32b",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 ZSL-modus? zie eerder.",
+      "parentUuid": "5a5ae5dd_19befbff",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_39bbb710",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -489,6 +992,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- HDR niet ondersteund in ZSL-stand",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_7f482f2e",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 idem",
+      "parentUuid": "5a5ae5dd_39bbb710",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -512,6 +1033,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_1f557bc5",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_d93623b4",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_b9456718",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -523,6 +1062,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- AE-bracket wordt momenteel niet ondersteund door apps \n\n\nIn het Engels staat Apps met hoofdletter...aanpassen?",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_1fe7bb41",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1\n+1",
+      "parentUuid": "5a5ae5dd_b9456718",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -546,6 +1103,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_1f6c9b9b",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Misschien lengte i.p.v. de grootte of gaat het hier helemaal niet om? Ik snap het ook niet echt wat bedoeld wordt. Maar is dit de essentie:?\n\n•De resolutie van de video-momentopname is kleiner dan die van de video, dus wordt de resolutie gelijk gemaakt aan de video. Kies een hogere of gelijke resolutie dan de huidige.",
+      "parentUuid": "5a5ae5dd_594b132c",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_796fef92",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -557,6 +1132,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Resolutie wordt niet ondersteund in lage-energieverbruik-stand. Momentopname wordt gemaakt met grootte van het video. Kies normale-energieverbruik-stand voor deze resolutie.\n\n\n\nEngels spreekt van High power mode, maar er is alleen Low en Normal ? Aanpassen?",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_ff097fde",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Energiemodus? Klopt, heb geen High power gezien!!",
+      "parentUuid": "5a5ae5dd_796fef92",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -580,6 +1173,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_1f033bba",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "•Alleen momentopname wordt ondersteund voor deze  resolutie?\nzie r 216 in:\nhttps://github.com/CyanogenMod/android_packages_apps_Camera2/blob/cm-11.0/res/values/qcomstrings.xml",
+      "parentUuid": "5a5ae5dd_3969778c",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_d904e3c7",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -591,6 +1202,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Hoge beeldsnelheid (HFR)",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_3f0077aa",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_d904e3c7",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -614,6 +1243,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_df2b6332",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 Wat mij betreft nr. 2 :-)",
+      "parentUuid": "5a5ae5dd_990e6be4",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_59f9d3c7",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -625,6 +1272,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- ISO",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_ff309fa0",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Actie in de titel?",
+      "parentUuid": "5a5ae5dd_59f9d3c7",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -648,6 +1313,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_9f25eb5d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_390097aa",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_d92b8332",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -659,6 +1342,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Anti-strepen\n\n?",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_dfd28334",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "-1 Ik heb opgezocht dat het om banden in een plaatje gaat (b.v. bij de overgang van de ene grijstint naar de andere), en dat zijn geen strepen maar echt zichtbare banden. Weet de bron niet meer maar kan het vast wel weer terug vinden als je het wilt weten.",
+      "parentUuid": "5a5ae5dd_d92b8332",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -682,6 +1383,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_ffd73f21",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 Dit is niet het tegenovergestelde van stereo :-)",
+      "parentUuid": "5a5ae5dd_99250b5e",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_b92a472b",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -693,6 +1412,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Aanraken voor AF/AEC\n\n- Aanraken voor Auto-focus/belichting\n\nhttp://androiddev.orkitra.com/?p\u003d26759",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_9fdc0b48",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 maakt me niet uit welke van de 2 :-)",
+      "parentUuid": "5a5ae5dd_b92a472b",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -716,6 +1453,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_7fe4af0c",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Ik denk:\nhttp://answers.yahoo.com/question/index?qid\u003d20110418025033AAT6lHs\nMaar kan ook:\nhttp://securitysystemsinkerala.blogspot.nl/2012/11/what-is-dis-camera.html\nzijn. Ik denk het eerste, maar is het relevant voor de vertaling?",
+      "parentUuid": "5a5ae5dd_191a7b18",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_d9d2a334",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -727,6 +1482,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "Niveau of Stand ? \nIk vind het 2e mooier",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_7fda6f7a",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Maakt mij niet uit.",
+      "parentUuid": "5a5ae5dd_d9d2a334",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -750,6 +1523,41 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_1ff1fbcd",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 Sorry, heb ik blijkbaar verkeerd begrepen",
+      "parentUuid": "5a5ae5dd_99dc2b48",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_9ff2cb05",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "JPEG? zie r. 332",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_59e79312",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -761,6 +1569,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "al deze formaten kunnen net zo goed translatable\u003dfalse zijn?",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_1406c220",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_59e79312",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -784,6 +1610,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_3fee37ed",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 306,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_19f11bce",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_d9b943ee",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -795,6 +1639,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "Ik vind het ook heel fijn, maar....:p\n\n- Superfijn\n\n- Super\n\n2e optie hebben we in 10.2",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_3403be11",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 Super :-)",
+      "parentUuid": "5a5ae5dd_d9b943ee",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -818,6 +1680,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_3f8dd77b",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_99b3cb0a",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_59ceb384",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -829,6 +1709,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "Je bent iig wel consistent met het gebruik van \"Opladergeluid\" :P\n\n- Ingeschakeld\n\n- Inschakelen",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_dfb923ee",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1 Klopt, snap het ook niet....",
+      "parentUuid": "5a5ae5dd_59ceb384",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -852,6 +1750,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_ffbe5fd3",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "5a5ae5dd_79cb6f73",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_19c83b74",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -863,6 +1779,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Continu",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_9fb3ab0a",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "CAF staat in het Engels toch?",
+      "parentUuid": "5a5ae5dd_19c83b74",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -886,6 +1820,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_ff03bf0b",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 350,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "-1 Ik kan het mis hebben maar een streepje plaats je als de leesbaarheid vergroot wordt, als ik dit woord zonder streepje zie had het voor mij ook een bommel-ding kunnen als je begrijpt wat ik bedoel, of een spie-gelei :-)",
+      "parentUuid": "5a5ae5dd_39c5f75a",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_f9a51fb5",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -897,6 +1849,24 @@
       "writtenOn": "2014-01-06T06:21:50Z",
       "side": 1,
       "message": "- Groote van het video ongeldig voor time-lapse\n\nIs wel een bekend begrip denk ik?",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_5fce9384",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 353,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-06T16:26:25Z",
+      "side": 1,
+      "message": "Geen idee, maar in ieder geval: grootte van de video",
+      "parentUuid": "5a5ae5dd_f9a51fb5",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

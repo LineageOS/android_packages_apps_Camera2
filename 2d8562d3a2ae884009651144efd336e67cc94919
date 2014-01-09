@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_e48ecf26",
+        "filename": "res/values-hu/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2014-01-09T02:39:14Z",
+      "side": 1,
+      "message": "encoder -\u003e kódoló, kodek?",
+      "revId": "2d8562d3a2ae884009651144efd336e67cc94919",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_04944b35",
+        "filename": "res/values-hu/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2014-01-09T02:39:14Z",
+      "side": 1,
+      "message": "az alkalmazás jelenleg nem támogatja az...",
+      "revId": "2d8562d3a2ae884009651144efd336e67cc94919",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

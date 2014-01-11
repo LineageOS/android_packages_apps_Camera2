@@ -497,6 +497,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_e216bf54",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-11T04:28:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a5ae5dd_baceb5b2",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_f451a60f",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1

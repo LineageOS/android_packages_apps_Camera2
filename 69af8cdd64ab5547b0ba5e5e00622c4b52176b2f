@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_3d1aba18",
+        "filename": "res/values-af/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-11T10:00:32Z",
+      "side": 1,
+      "message": "You can move this strings to cm_strings.xml.",
+      "revId": "69af8cdd64ab5547b0ba5e5e00622c4b52176b2f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

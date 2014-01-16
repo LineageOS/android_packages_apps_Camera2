@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_6d9077ed",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T16:22:57Z",
+      "side": 1,
+      "message": "I don\u0027t think RAW should be capitalized, since it\u0027s not an abbreviation\n\nhttp://en.wikipedia.org/wiki/Raw_image_format",
+      "revId": "18f886168dcbdfe594e4f69abbbd5a1e579ade1c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

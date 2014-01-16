@@ -2,6 +2,57 @@
   "comments": [
     {
       "key": {
+        "uuid": "5a5ae5dd_2da6ffc1",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "Low Power",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_cdaacb85",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "Normal Power",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_edaf8792",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "Auto Exposure Mode",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_19491bd1",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -144,6 +195,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_0db6a3dc",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "Autofocus zone\n\nhttp://en.wikipedia.org/wiki/Autofocus",
+      "parentUuid": "5a5ae5dd_7479362f",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_54419a38",
         "filename": "res/values/qcomstrings.xml",
         "patchSetId": 1
@@ -173,6 +242,108 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "5a5ae5dd_54419a38",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_8dd133fe",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "apps (no capital A)",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_adce6f58",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "remove space at the end",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_ed02276f",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "There is no High Power Mode, only Normal mode (see line 42)",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_adf50f84",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "remove space at the end",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_2d303f56",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "- ISO",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_ed39c742",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "- Auto (HJR)",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -350,6 +521,23 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "5a5ae5dd_146242d9",
+      "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_ad92ef55",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 391,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:57:53Z",
+      "side": 1,
+      "message": "Picture Format",
       "revId": "4c57e6fbd0df9ce41599c33f6742c25db39b82c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

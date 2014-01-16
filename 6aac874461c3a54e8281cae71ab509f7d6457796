@@ -264,6 +264,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_6d9cf769",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:58:02Z",
+      "side": 1,
+      "message": "We gebruiken vaak \"Stand\" in het NL, ipv Modus\n\nSelect gaat weg, zie http://review.cyanogenmod.org/#/c/57262/1",
+      "parentUuid": "5a5ae5dd_7f3eefb9",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_59af93e3",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -398,6 +416,24 @@
       "side": 1,
       "message": "MMS is 1op1 overgenomen uit Engels, hebben wij een ander beleid hiervoor?",
       "parentUuid": "5a5ae5dd_f9867f64",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_0d88e321",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:58:02Z",
+      "side": 1,
+      "message": "mms en sms worden tegenwoordig niet meer als afkorting gebruikt, maar als zelfstandig naamwoord\n\nhttp://nl.wikipedia.org/wiki/Multimedia_Messaging_Service",
+      "parentUuid": "5a5ae5dd_bfa9c7e1",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -730,6 +766,24 @@
       "side": 1,
       "message": "-1 Volgens mij zit er een verschil tussen detectie (merken dat het een gezicht is) en herkenning (zien dat het mijn lelijke kop is:-)). Voor de laatste wordt dacht ik recognition gebruikt. Zie r. 221",
       "parentUuid": "5a5ae5dd_59dd536f",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_2de27fd6",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:58:02Z",
+      "side": 1,
+      "message": "Gezichtsdetectie krijgt bijna geen hits op Google, in ieder geval niet iets dat met Android te maken heeft.",
+      "parentUuid": "5a5ae5dd_dfcfe3b1",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -1121,6 +1175,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_0d04637c",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:58:02Z",
+      "side": 1,
+      "message": "Het gaat niet om de lengte, maar idd om de resolutie. \nHet gaat hier over een foto die uit het video gemaakt wordt.",
+      "parentUuid": "5a5ae5dd_1f6c9b9b",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_796fef92",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -1471,6 +1543,24 @@
     },
     {
       "key": {
+        "uuid": "5a5ae5dd_4d49fbcf",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:58:02Z",
+      "side": 1,
+      "message": "http://en.wikipedia.org/wiki/Image_stabilization#Digital_image_stabilization",
+      "parentUuid": "5a5ae5dd_7fe4af0c",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a5ae5dd_d9d2a334",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 2
@@ -1797,6 +1887,24 @@
       "side": 1,
       "message": "CAF staat in het Engels toch?",
       "parentUuid": "5a5ae5dd_19c83b74",
+      "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_0d1223b5",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2014-01-16T14:58:02Z",
+      "side": 1,
+      "message": "CAF \u003d Continuous Auto Focus",
+      "parentUuid": "5a5ae5dd_9fb3ab0a",
       "revId": "6aac874461c3a54e8281cae71ab509f7d6457796",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

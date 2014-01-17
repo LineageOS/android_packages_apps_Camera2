@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_3c607235",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2014-01-17T14:19:29Z",
+      "side": 1,
+      "message": "Missing space after 2",
+      "revId": "68b2c1bf73055bd07f33792253708a6bb83f1d94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

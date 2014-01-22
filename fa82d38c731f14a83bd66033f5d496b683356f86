@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a57f1b5_a7b8e4e6",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-22T12:02:13Z",
+      "side": 1,
+      "message": "1 sec.",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_87b3680a",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-22T12:02:13Z",
+      "side": 1,
+      "message": "2 sec.",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_c7d2c034",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-22T12:02:13Z",
+      "side": 1,
+      "message": "\u0027AEB-opnamen worden ...\u0027",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_07f1b8cd",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-22T12:02:13Z",
+      "side": 1,
+      "message": "\u0027de video\u0027",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_27ee34ed",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-22T12:02:13Z",
+      "side": 1,
+      "message": "\u0027de video\u0027",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_c7b960ee",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-01-22T12:02:13Z",
+      "side": 1,
+      "message": "\u0027de video\u0027",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

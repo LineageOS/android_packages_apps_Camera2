@@ -16,6 +16,24 @@
       "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_c7c64016",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 5681
+      },
+      "writtenOn": "2014-01-22T14:09:23Z",
+      "side": 1,
+      "message": "Würde nur verwirren wenn man es nicht Makro nennt.\n\nNahaufnahmen mit kompakten Digitalkameras\n\nKompakte Digitalkameras verfügen über einen „Makro“- oder „Super-Makro“-Modus.",
+      "parentUuid": "3a57f1b5_47549053",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

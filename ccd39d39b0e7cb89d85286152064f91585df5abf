@@ -106,6 +106,41 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_87c928af",
+        "filename": "res/values-de/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2014-01-22T11:08:53Z",
+      "side": 1,
+      "message": "Das klingt nicht nur komisch, sondern ich habe das auch falsch übersetzt. Ich habe gedacht, dass es sich um diesen Kasten handelt, der im Sucher eingeblendet wird. In Wirklichkeit handelt es sich aber um eine Belichtungsreihe.\n\nhttp://de.wikipedia.org/wiki/Belichtungsreihe\n\nMan lernt halt nie aus :-)",
+      "parentUuid": "3a57f1b5_a7a9c4e1",
+      "revId": "ccd39d39b0e7cb89d85286152064f91585df5abf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_e7d49c48",
+        "filename": "res/values-de/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2014-01-22T11:08:53Z",
+      "side": 1,
+      "message": "Raw-Format",
+      "revId": "ccd39d39b0e7cb89d85286152064f91585df5abf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_47afb0e3",
         "filename": "res/values-de/qcomstrings.xml",
         "patchSetId": 2

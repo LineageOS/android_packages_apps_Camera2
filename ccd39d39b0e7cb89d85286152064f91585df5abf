@@ -71,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_e7ed7c26",
+        "filename": "res/values-de/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2014-01-22T10:49:01Z",
+      "side": 1,
+      "message": "ja, definitiv übersetzen - hatte keinen plan, was zsl ist ;)",
+      "parentUuid": "3a57f1b5_87a4c808",
+      "revId": "ccd39d39b0e7cb89d85286152064f91585df5abf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_a7a9c4e1",
         "filename": "res/values-de/qcomstrings.xml",
         "patchSetId": 2

@@ -34,6 +34,381 @@
       "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_8a0e0fe4",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "+1 Makro",
+      "parentUuid": "3a57f1b5_c7c64016",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_aa13cb0c",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Belichtungsautomatik",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_4af9f7c7",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Integral",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_6af633d9",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Mittenbetont",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_0a03ffb9",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Spot",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_2a003baa",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "An",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_ca2ba732",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Aus",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_ea30e3a0",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Autofokus",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_8a25af5d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Spot",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_aa2aeb2a",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Mittenbetont",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_4a20174a",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Integral",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_6a1dd30e",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Rot(e)augen?",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_0a1a1f18",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "An",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_2a17dbee",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Aus",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_cad2c734",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Die gewaehlte Aufloesung wird von d(ies)em Encoder...",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_ead78321",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "konform zu 167: wird der HDR-Modus",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_8adccf47",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "klingt etwas seltsam",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_aae18b00",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Evtl. Strings \"gruppieren\" -\u003e Titel, Werte",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_4ae7b712",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "(Bild)Format",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_6ae4f30c",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Qualität",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_0af1bfcd",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "An",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_2aeefbec",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T22:31:48Z",
+      "side": 1,
+      "message": "Aus",
+      "revId": "79ec90992d4e949608006518b9a45fbb14e20f98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

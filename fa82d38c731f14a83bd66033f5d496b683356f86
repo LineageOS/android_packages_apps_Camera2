@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_e7ba5cc0",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-22T12:18:00Z",
+      "side": 1,
+      "message": "Sorry snap ik niet en de volgende ook niet..",
+      "parentUuid": "3a57f1b5_a7b8e4e6",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_87b3680a",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 5
@@ -53,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_a7b464d1",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-22T12:18:00Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "3a57f1b5_c7d2c034",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_07f1b8cd",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 5
@@ -64,6 +100,24 @@
       "writtenOn": "2014-01-22T12:02:13Z",
       "side": 1,
       "message": "\u0027de video\u0027",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_67c74c46",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-22T12:18:00Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "3a57f1b5_07f1b8cd",
       "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -87,6 +141,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_07c4583e",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-22T12:18:00Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "3a57f1b5_27ee34ed",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_c7b960ee",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 5
@@ -98,6 +170,24 @@
       "writtenOn": "2014-01-22T12:02:13Z",
       "side": 1,
       "message": "\u0027de video\u0027",
+      "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_c7dc001b",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-22T12:18:00Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "3a57f1b5_c7b960ee",
       "revId": "fa82d38c731f14a83bd66033f5d496b683356f86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

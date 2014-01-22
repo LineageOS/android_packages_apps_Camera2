@@ -50,6 +50,58 @@
       "revId": "ccd39d39b0e7cb89d85286152064f91585df5abf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_87a4c808",
+        "filename": "res/values-de/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T10:14:21Z",
+      "side": 1,
+      "message": "Schnellausloeser (ZSL)?",
+      "parentUuid": "3a57f1b5_2748745b",
+      "revId": "ccd39d39b0e7cb89d85286152064f91585df5abf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_a7a9c4e1",
+        "filename": "res/values-de/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T10:14:21Z",
+      "side": 1,
+      "message": "Das klingt seltsam. Ich habe aber keine Idee.",
+      "revId": "ccd39d39b0e7cb89d85286152064f91585df5abf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_47afb0e3",
+        "filename": "res/values-de/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-22T10:14:21Z",
+      "side": 1,
+      "message": "Das (Ver)aendern der Bildgroesse wird im Energiesparmodus nicht unterstuetzt. Wechseln Sie den Energiemodus, um ...",
+      "revId": "ccd39d39b0e7cb89d85286152064f91585df5abf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

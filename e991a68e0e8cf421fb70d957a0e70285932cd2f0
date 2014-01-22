@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a57f1b5_8457e6c9",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2014-01-22T00:48:50Z",
+      "side": 1,
+      "message": "I just realized we shouldn\u0027t make this untranslatable. \"Entries\" require something else except the number, in this case, \"60 fps\" (and \"fps\" is translatable)",
+      "revId": "e991a68e0e8cf421fb70d957a0e70285932cd2f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

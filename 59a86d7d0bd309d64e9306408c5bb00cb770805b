@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a57f1b5_2d69358c",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-23T11:33:22Z",
+      "side": 1,
+      "message": "AUTO-SCÈNE",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_cd0421c8",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-23T11:33:22Z",
+      "side": 1,
+      "message": "Ik denk dat \u0027codec\u0027 hier gepaster is. Zie ook r. 137 en 138.",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_ed09ddde",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-23T11:33:22Z",
+      "side": 1,
+      "message": "\u0027Geen sluitervertraging\u0027? \u0027Zonder\u0027 klinkt alsof het toegevoegd wordt.\n\nMoet wel zeggen dat ik niet weet wat deze functie precies doet.",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_6df64dd9",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-23T11:33:22Z",
+      "side": 1,
+      "message": "Ff officieel doen: http://www.itu.int/rec/T-REC-H.264\n\n- Alleen H.264-videocodec ondersteund bij HFR",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_cd2bc132",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-23T11:33:22Z",
+      "side": 1,
+      "message": "- Ongecodeerd opnemen niet ondersteund met ZSL?",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_ed30fda0",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-23T11:33:22Z",
+      "side": 1,
+      "message": "in ZSL-stand \u003e\u003e met ZSL",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_8d25c95d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-23T11:33:22Z",
+      "side": 1,
+      "message": "automatische \u003e\u003e autom.",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_4d20314a",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-23T11:33:22Z",
+      "side": 1,
+      "message": "lage-energieverbuik-stand \u003e\u003e laag-energieverbruikstand",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_6d1ded0e",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-23T11:33:22Z",
+      "side": 1,
+      "message": "Ik zou gewoon \u00271080p\u0027 (en hieronder \u0027720p\u0027) zeggen.",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_0d1a3918",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-23T11:33:22Z",
+      "side": 1,
+      "message": "scènedetectie",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

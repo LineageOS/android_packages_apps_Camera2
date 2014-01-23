@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_cdb981ee",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T12:06:02Z",
+      "side": 1,
+      "message": "+1 De puntjes op de i, ehh de streepjes op de e :-)",
+      "parentUuid": "3a57f1b5_2d69358c",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_cd0421c8",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2014-01-23T11:33:22Z",
       "side": 1,
       "message": "Ik denk dat \u0027codec\u0027 hier gepaster is. Zie ook r. 137 en 138.",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_4dcef184",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T12:06:02Z",
+      "side": 1,
+      "message": "-1 \nIk weet het niet want codec staat volgens mij voor co(der) en dec(oder), encoder gaat volgens mij alleen over het coderen. Zie http://en.wikipedia.org/wiki/Codec\nDe stringnaam lijkt alleen over coderen te gaan.",
+      "parentUuid": "3a57f1b5_cd0421c8",
       "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_6d796d2f",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T12:06:02Z",
+      "side": 1,
+      "message": "+1 Zie patch 2 had Eddy uitgezocht: Zero Shutter Lag\nAlhoewel zero volgens de tabel niet bestaat: http://en.wikipedia.org/wiki/ZSL\nMaar wat mij betreft Geen is beter dan Zonder",
+      "parentUuid": "3a57f1b5_ed09ddde",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_6df64dd9",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 6
@@ -64,6 +118,24 @@
       "writtenOn": "2014-01-23T11:33:22Z",
       "side": 1,
       "message": "Ff officieel doen: http://www.itu.int/rec/T-REC-H.264\n\n- Alleen H.264-videocodec ondersteund bij HFR",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_ed931d4e",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T12:06:02Z",
+      "side": 1,
+      "message": "+1 Ik wil niet lullig doen maar in het artikel wordt alleen over codering gesproken, niet over decoderen, zie regel 136, maar hier heet de string hfr_codec, dus laten we daar maar van uit gaan :-) En in Transifex staat H264 i.p.v. H.264, maar is mij om het even.",
+      "parentUuid": "3a57f1b5_6df64dd9",
       "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_6da08d91",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T12:06:02Z",
+      "side": 1,
+      "message": "-1 Volgens mij is in de fotowereld raw een bekend begrip, en ondersteuning is niet met ZSL maar bij ZSL, omdat het geen toevoeging is. \u0027Bij\u0027 is misschien nog beter.",
+      "parentUuid": "3a57f1b5_cd2bc132",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_ed30fda0",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 6
@@ -98,6 +188,24 @@
       "writtenOn": "2014-01-23T11:33:22Z",
       "side": 1,
       "message": "in ZSL-stand \u003e\u003e met ZSL",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_edba3dc0",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T12:06:02Z",
+      "side": 1,
+      "message": "-1 bij :-) of in ZSL-stand",
+      "parentUuid": "3a57f1b5_ed30fda0",
       "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_adb445d1",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T12:06:02Z",
+      "side": 1,
+      "message": "+1 zal wel te lang zijn?",
+      "parentUuid": "3a57f1b5_8d25c95d",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_4d20314a",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 6
@@ -132,6 +258,24 @@
       "writtenOn": "2014-01-23T11:33:22Z",
       "side": 1,
       "message": "lage-energieverbuik-stand \u003e\u003e laag-energieverbruikstand",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_0dc4793e",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T12:06:02Z",
+      "side": 1,
+      "message": "-1 ehh dan moet normale toch ook normaal zijn?",
+      "parentUuid": "3a57f1b5_4d20314a",
       "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_cddc211b",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T12:06:02Z",
+      "side": 1,
+      "message": "+1 Ik heb het nagekeken in Transifex, staat inderdaad zonder HD ervoor.",
+      "parentUuid": "3a57f1b5_6d1ded0e",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_0d1a3918",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 6
@@ -166,6 +328,24 @@
       "writtenOn": "2014-01-23T11:33:22Z",
       "side": 1,
       "message": "scènedetectie",
+      "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_2dc1352f",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 7630
+      },
+      "writtenOn": "2014-01-23T12:06:02Z",
+      "side": 1,
+      "message": "+1 weer die puntjes :-)",
+      "parentUuid": "3a57f1b5_0d1a3918",
       "revId": "59a86d7d0bd309d64e9306408c5bb00cb770805b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

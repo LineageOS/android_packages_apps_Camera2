@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a57f1b5_131a5618",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2014-01-24T07:33:12Z",
+      "side": 1,
+      "message": "Klingt immer noch seltsam, aber mir fällt einfach nichts passendes ein.\nAEC steht wohl für \"Automatic Exposure Control\"",
+      "revId": "30a3836eac1821f7484ff1c40268a3abc1bef580",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

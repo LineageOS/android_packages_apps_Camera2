@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "3a57f1b5_b3e10201",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 5681
+      },
+      "writtenOn": "2014-01-24T07:53:49Z",
+      "side": 1,
+      "message": "AR/Erweiterte Realität\nin vielen Kameras heisst der Modus AR\n\noder Erweiterte Realität (AR)",
+      "revId": "30a3836eac1821f7484ff1c40268a3abc1bef580",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_73e4ea0c",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 5681
+      },
+      "writtenOn": "2014-01-24T07:53:49Z",
+      "side": 1,
+      "message": "ASD ist  Automatic Scene Detection\nALSO Automatik oder Automatischer Modus",
+      "revId": "30a3836eac1821f7484ff1c40268a3abc1bef580",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_131a5618",
         "filename": "res/values-de/cm_strings.xml",
         "patchSetId": 4
@@ -13,6 +47,24 @@
       "writtenOn": "2014-01-24T07:33:12Z",
       "side": 1,
       "message": "Klingt immer noch seltsam, aber mir fällt einfach nichts passendes ein.\nAEC steht wohl für \"Automatic Exposure Control\"",
+      "revId": "30a3836eac1821f7484ff1c40268a3abc1bef580",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_f3be9ad3",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 5681
+      },
+      "writtenOn": "2014-01-24T07:53:49Z",
+      "side": 1,
+      "message": "Jo\nAEC ist \nAutomatische Belichtungskontrolle",
+      "parentUuid": "3a57f1b5_131a5618",
       "revId": "30a3836eac1821f7484ff1c40268a3abc1bef580",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

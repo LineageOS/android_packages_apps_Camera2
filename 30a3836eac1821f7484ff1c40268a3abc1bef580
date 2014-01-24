@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "3a57f1b5_99aae784",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-24T23:32:52Z",
+      "side": 1,
+      "message": "automatisch beste aufnahme :P Spass.\n\nDa der Szenenmodus eine optional zu aktivierende Funktion ist, faende ich Automatik eher verwirrend und nichts-sagend. Ja, ASD ist richtig, doch \u0027best shot\u0027 sagt eben mehr aus.\n\n+1 fuer Beste Aufnahme.",
+      "parentUuid": "3a57f1b5_f3e1bad1",
+      "revId": "30a3836eac1821f7484ff1c40268a3abc1bef580",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a57f1b5_131a5618",
         "filename": "res/values-de/cm_strings.xml",
         "patchSetId": 4
@@ -101,6 +119,24 @@
       "side": 1,
       "message": "Jo\nAEC ist \nAutomatische Belichtungskontrolle",
       "parentUuid": "3a57f1b5_131a5618",
+      "revId": "30a3836eac1821f7484ff1c40268a3abc1bef580",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a57f1b5_f9a51bb5",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2014-01-24T23:32:52Z",
+      "side": 1,
+      "message": "bis uns etwas besseres einfaellt, koennen wir es so lassen.",
+      "parentUuid": "3a57f1b5_f3be9ad3",
       "revId": "30a3836eac1821f7484ff1c40268a3abc1bef580",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

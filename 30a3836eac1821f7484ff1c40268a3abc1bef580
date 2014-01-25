@@ -140,6 +140,24 @@
       "revId": "30a3836eac1821f7484ff1c40268a3abc1bef580",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a54edaf_633e62ba",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2014-01-25T09:23:10Z",
+      "side": 1,
+      "message": "Benutz denn jemand von euch Camera2 und hat ne Ahnung wie viele Zeichen der String lang sein darf?",
+      "parentUuid": "3a57f1b5_f9a51bb5",
+      "revId": "30a3836eac1821f7484ff1c40268a3abc1bef580",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a54edaf_03f1aecd",
+        "filename": "res/values-ca/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-25T12:54:48Z",
+      "side": 1,
+      "message": "Please revert the changes you made here.",
+      "revId": "8dbfced68504e5d691b6d106bb209e1cb64904e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fade3982_a2c0fee1",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1112,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-01-30T15:17:58Z",
+      "side": 1,
+      "message": "Not right, still getting 3 animations...\nI need to find where the animation happens",
+      "revId": "acf2863431c4fecad32c239b6d9de12f8be594cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

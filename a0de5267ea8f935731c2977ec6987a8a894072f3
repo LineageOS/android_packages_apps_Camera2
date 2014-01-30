@@ -16,6 +16,24 @@
       "revId": "a0de5267ea8f935731c2977ec6987a8a894072f3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_42cad250",
+        "filename": "res/values-de/cm_translations.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 272,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2014-01-30T10:13:34Z",
+      "side": 1,
+      "message": "Danke! Werde das in Transifex gleich korrigieren.\n\nhttps://www.transifex.com/projects/p/cmtx_11/language/de/",
+      "parentUuid": "fade3982_a28c7e36",
+      "revId": "a0de5267ea8f935731c2977ec6987a8a894072f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

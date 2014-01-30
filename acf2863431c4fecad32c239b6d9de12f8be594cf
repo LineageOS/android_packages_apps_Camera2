@@ -34,6 +34,24 @@
       "revId": "acf2863431c4fecad32c239b6d9de12f8be594cf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fade3982_02128a62",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1112,
+      "author": {
+        "id": 401
+      },
+      "writtenOn": "2014-01-30T16:52:58Z",
+      "side": 1,
+      "message": "leave this, and also patch animateAfterShutter() the same way. worksforme",
+      "parentUuid": "fade3982_c2626216",
+      "revId": "acf2863431c4fecad32c239b6d9de12f8be594cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

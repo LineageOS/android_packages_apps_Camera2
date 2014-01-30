@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fade3982_22922e58",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2014-01-30T09:47:38Z",
+      "side": 1,
+      "message": "- beelden/sec.\n- Liever in kleine letters. \u0027FPS\u0027 is dan wel Engels, maar veel Engelse zaken die in het Nederlands zijn overgenomen, worden weer met kleine letters geschreven (wifi).",
+      "revId": "4270e657326d70e643ad0c7eaf40fb3dd37f937a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_83c7a344",
+        "filename": "src/com/android/camera/CameraSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 4785
+      },
+      "writtenOn": "2014-03-17T00:36:25Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be \u0027version\u0027 instead of \u0027CURRENT_VERSION\u0027",
+      "revId": "801ec5cc54afc9c83e531b486010099087c498fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

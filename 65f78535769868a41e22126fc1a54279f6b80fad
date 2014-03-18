@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_9e6d3835",
+        "filename": "res/values-es/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-03-18T05:30:32Z",
+      "side": 1,
+      "message": "JPEG is not needed, we removed it long time ago\n\nhttps://github.com/CyanogenMod/android_packages_apps_Camera2/commit/e991a68e0e8cf421fb70d957a0e70285932cd2f0#diff-b2ba26f4eb2c40130f2c311d9d93f888L545",
+      "revId": "65f78535769868a41e22126fc1a54279f6b80fad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

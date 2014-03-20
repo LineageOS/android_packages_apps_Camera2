@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_7f14aff4",
+        "filename": "res/values-nl/qcomstrings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 7221
+      },
+      "writtenOn": "2014-03-20T09:13:27Z",
+      "side": 1,
+      "message": "spatie te veel na )",
+      "revId": "2bba42406d98be21e056c488eceab3b823a1bb50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

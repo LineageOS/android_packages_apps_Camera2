@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_b7ce5358",
+        "filename": "res/values-da/qcomstrings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-03-27T11:25:02Z",
+      "side": 0,
+      "message": "Please check http://review.cyanogenmod.org/#/c/60677/3/res/values/qcomstrings.xml\nYou need to modify some more strings below (65,75,85%) :)",
+      "revId": "4bd7e750a922cee2073ce05fe183fd4e4464d5dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

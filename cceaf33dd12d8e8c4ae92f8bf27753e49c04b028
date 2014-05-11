@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_02a57003",
+        "filename": "src/com/android/camera/VideoUI.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2014-05-11T03:22:39Z",
+      "side": 1,
+      "message": "whitespace!",
+      "revId": "cceaf33dd12d8e8c4ae92f8bf27753e49c04b028",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

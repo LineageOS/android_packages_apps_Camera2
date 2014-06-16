@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_bf0938e0",
+        "filename": "src/com/android/camera/CameraActivity.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-16T23:43:02Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "4c8ad9bd71c8b86b833baa53369723cd2fb3b996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_1f0f84e2",
+        "filename": "src/com/android/camera/PhotoMenu.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-16T23:43:02Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "4c8ad9bd71c8b86b833baa53369723cd2fb3b996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_ff13b00b",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 2700,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-16T23:43:02Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "4c8ad9bd71c8b86b833baa53369723cd2fb3b996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_5ff9fcc7",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 2770,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-16T23:43:02Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "4c8ad9bd71c8b86b833baa53369723cd2fb3b996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_3ff6c8d7",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 2918,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-16T23:43:02Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "4c8ad9bd71c8b86b833baa53369723cd2fb3b996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_9f0394b8",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 2927,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-16T23:43:02Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "4c8ad9bd71c8b86b833baa53369723cd2fb3b996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_7f0040ab",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 2946,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-16T23:43:02Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "4c8ad9bd71c8b86b833baa53369723cd2fb3b996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_df2b4c32",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 3025,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-16T23:43:02Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "4c8ad9bd71c8b86b833baa53369723cd2fb3b996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_bf3018a0",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 3032,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-16T23:43:02Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "4c8ad9bd71c8b86b833baa53369723cd2fb3b996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_1f266468",
+        "filename": "src/com/android/camera/ui/FilmStripView.java",
+        "patchSetId": 23
+      },
+      "lineNbr": 1957,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-06-16T23:43:02Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "4c8ad9bd71c8b86b833baa53369723cd2fb3b996",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

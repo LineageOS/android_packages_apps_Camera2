@@ -34,6 +34,24 @@
       "revId": "f580497677dd1bcf2ae323f41cc6ebef12dbccae",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_9fdb86ed",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2014-09-01T09:30:55Z",
+      "side": 1,
+      "message": "Thanks for explanation Michael",
+      "parentUuid": "7a1b2928_bf1da2bf",
+      "revId": "f580497677dd1bcf2ae323f41cc6ebef12dbccae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_3ea69110",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 2057,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-09-21T10:00:20Z",
+      "side": 1,
+      "message": "Missing colon",
+      "revId": "12af0e4939d049ee02d198a06fbbe5241cf1e378",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

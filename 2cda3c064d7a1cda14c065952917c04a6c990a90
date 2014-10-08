@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_c0d04456",
+        "filename": "src/com/android/camera/VideoModule.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1529,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-10-08T10:44:43Z",
+      "side": 1,
+      "message": "if (!(\"off\".equals(hfr))) {\n    try\n    {\n       int hfrFps \u003d Integer.parseInt(hfr);\n       hfrRatio \u003d hfrFps / defaultFps;\n    } catch (Exception ex) {\n        // Do nothing here\n    }\n}",
+      "revId": "2cda3c064d7a1cda14c065952917c04a6c990a90",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

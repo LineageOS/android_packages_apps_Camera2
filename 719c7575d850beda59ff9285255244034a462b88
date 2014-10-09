@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_7be645b5",
+        "filename": "res/values/qcomarrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-10-09T14:57:44Z",
+      "side": 1,
+      "message": "Missed 6400 here.",
+      "revId": "719c7575d850beda59ff9285255244034a462b88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_5be1c999",
+        "filename": "res/values/qcomarrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 410,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-10-09T14:57:44Z",
+      "side": 1,
+      "message": "Might wanna add 12800 too, for Z3 (no idea if it\u0027ll work on CM, but no harm in adding it anyways.)",
+      "revId": "719c7575d850beda59ff9285255244034a462b88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_bbee1d89",
+        "filename": "res/values/qcomstrings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-10-09T14:57:44Z",
+      "side": 1,
+      "message": "Missing 6400 here.",
+      "revId": "719c7575d850beda59ff9285255244034a462b88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

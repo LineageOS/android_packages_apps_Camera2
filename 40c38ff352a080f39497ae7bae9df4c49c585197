@@ -16,6 +16,24 @@
       "revId": "40c38ff352a080f39497ae7bae9df4c49c585197",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a18252c_b8cf95b2",
+        "filename": "res/values/qcomarrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 534,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-10-17T09:34:54Z",
+      "side": 1,
+      "message": "It\u0027s still there but can be easily removed https://support.google.com/youtube/answer/71673?hl\u003den",
+      "parentUuid": "5a18252c_18da0979",
+      "revId": "40c38ff352a080f39497ae7bae9df4c49c585197",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

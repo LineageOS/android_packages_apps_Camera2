@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a122d0e_286a0f1b",
+        "filename": "src/com/android/camera/PhotoModule.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 545,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-11-12T13:58:03Z",
+      "side": 1,
+      "message": "wrap at 100 chars",
+      "revId": "790eb0576ffa34e1ad685ee5d0d5215fa54a8558",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_4a4c8670",
+        "filename": "src/com/android/camera/VideoModule.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 602,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-06T00:00:52Z",
+      "side": 1,
+      "message": "Would prefer this check was inverted here.",
+      "revId": "a81aa9178c7d4ba6b4d6ce39d21ae1b964f7f73f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -16,6 +16,24 @@
       "revId": "481fdc4dd2a153dbcaa92c90c9deedb6314e51ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_6a3ce293",
+        "filename": "src/com/android/camera/CameraActivity.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2015-01-06T00:21:40Z",
+      "side": 0,
+      "message": "Yes, it is intentional, all it does is check is set in database (Google didn\u0027t see the need for checking it every time). There is benefit if the software changes (or hardwsre changes) doesn\u0027t support this routine like my implementation of Samsung4k and it is better to redo the value. What if we swap camera from flash to no flash and vice versa in the near future like with project ara?",
+      "parentUuid": "7aa08908_8a74ae9c",
+      "revId": "481fdc4dd2a153dbcaa92c90c9deedb6314e51ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

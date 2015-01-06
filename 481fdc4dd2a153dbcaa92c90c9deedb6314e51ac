@@ -34,6 +34,24 @@
       "revId": "481fdc4dd2a153dbcaa92c90c9deedb6314e51ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_c00fb5df",
+        "filename": "src/com/android/camera/CameraActivity.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-06T11:49:46Z",
+      "side": 0,
+      "message": "Let\u0027s not worry about a hypothetical future case. If this is not directly related to the Samsung 4K change, then make it a separate patchset.",
+      "parentUuid": "7aa08908_6a3ce293",
+      "revId": "481fdc4dd2a153dbcaa92c90c9deedb6314e51ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

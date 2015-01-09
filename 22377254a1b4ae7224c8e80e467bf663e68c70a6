@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_00bd3268",
+        "filename": "src/com/android/camera/VideoModule.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 812,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2015-01-09T17:17:57Z",
+      "side": 1,
+      "message": "if (isSamsung4k() || capabilities.getSupportedVideoSizes().size() \u003d\u003d 0) {\n\nNo need for that hack below",
+      "revId": "22377254a1b4ae7224c8e80e467bf663e68c70a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

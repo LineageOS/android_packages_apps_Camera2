@@ -175,7 +175,8 @@ import java.util.List;
 
 public class CameraActivity extends QuickActivity
         implements AppController, CameraAgent.CameraOpenCallback,
-        ShareActionProvider.OnShareTargetSelectedListener {
+        ShareActionProvider.OnShareTargetSelectedListener,
+        SettingsManager.OnSettingChangedListener {
 
     private static final Log.Tag TAG = new Log.Tag("CameraActivity");
 
@@ -291,6 +292,9 @@ public class CameraActivity extends QuickActivity
 
     /** First run dialog */
     private FirstRunDialog mFirstRunDialog;
+
+    // Keep track of powershutter state
+    public boolean mPowerShutter;
 
     @Override
     public CameraAppUI getCameraAppUI() {
@@ -562,6 +566,13 @@ public class CameraActivity extends QuickActivity
     public void onReconnectionFailure(CameraAgent mgr, String info) {
         Log.w(TAG, "Camera reconnection failure:" + info);
         mFatalErrorHandler.onCameraReconnectFailure();
+    }
+
+    @Override
+    public void onSettingChanged(SettingsManager settingsManager, String key) {
+        if (key.equals(Keys.KEY_POWER_SHUTTER)) {
+            initPowerShutter();
+        }
     }
 
     private static class MainHandler extends Handler {
@@ -1496,6 +1507,10 @@ public class CameraActivity extends QuickActivity
 
         ModulesInfo.setupModules(mAppContext, mModuleManager, mFeatureConfig);
 
+        mSettingsManager.addListener(this);
+
+        initPowerShutter();
+
         AppUpgrader appUpgrader = new AppUpgrader(this);
         appUpgrader.upgrade(mSettingsManager);
 
@@ -2251,9 +2266,25 @@ public class CameraActivity extends QuickActivity
         }
     }
 
+    protected void initPowerShutter() {
+        mPowerShutter = Keys.isPowerShutterOn(mSettingsManager);
+        if (mPowerShutter) {
+            getWindow().addPrivateFlags(
+                    WindowManager.LayoutParams.PRIVATE_FLAG_PREVENT_POWER_KEY);
+        } else {
+            getWindow().clearPrivateFlags(
+                    WindowManager.LayoutParams.PRIVATE_FLAG_PREVENT_POWER_KEY);
+        }
+    }
+
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (!mFilmstripVisible) {
+            if (mPowerShutter && keyCode == KeyEvent.KEYCODE_POWER &&
+                    event.getRepeatCount() == 0) {
+                mCurrentModule.onShutterButtonFocus(true);
+                return true;
+            }
             if (mCurrentModule.onKeyDown(keyCode, event)) {
                 return true;
             }
@@ -2272,6 +2303,10 @@ public class CameraActivity extends QuickActivity
     @Override
     public boolean onKeyUp(int keyCode, KeyEvent event) {
         if (!mFilmstripVisible) {
+            if (mPowerShutter && keyCode == KeyEvent.KEYCODE_POWER) {
+                mCurrentModule.onShutterButtonClick();
+                return true;
+            }
             // If a module is in the middle of capture, it should
             // consume the key event.
             if (mCurrentModule.onKeyUp(keyCode, event)) {

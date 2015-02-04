@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bacf61ea_afbe1ad2",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-02-04T20:19:23Z",
+      "side": 1,
+      "message": "I remember this had issues in kitkat and was randomly not working, then we changed the power key permission level as \u0027dangerous\u0027 and removed the platform marking",
+      "revId": "8c4c4b33963849ea0966b0398201c458fa19e826",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

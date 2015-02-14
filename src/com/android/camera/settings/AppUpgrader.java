@@ -86,9 +86,14 @@ public class AppUpgrader extends SettingsUpgrader {
      */
     public static final int NEEDS_N5_16by9_RESOLUTION_SWAP = 7;
     /**
+     * With this version, port over max brightness settings.
+     */
+    private static final int CAMERA_SETTINGS_MAX_BRIGHTNESS = 9;
+
+    /**
      * Increment this value whenever new AOSP UpgradeSteps need to be executed.
      */
-    public static final int APP_UPGRADE_VERSION = 7;
+    public static final int APP_UPGRADE_VERSION = 9;
 
     private final AppController mAppController;
 
@@ -160,6 +165,10 @@ public class AppUpgrader extends SettingsUpgrader {
 
         if (lastVersion < NEEDS_N5_16by9_RESOLUTION_SWAP) {
             updateN516by9ResolutionIfNeeded(settingsManager);
+        }
+
+        if (lastVersion < CAMERA_SETTINGS_MAX_BRIGHTNESS) {
+            upgradeMaxBrightness(settingsManager);
         }
     }
 
@@ -428,6 +437,18 @@ public class AppUpgrader extends SettingsUpgrader {
 
                     copyPreferences(oldModulePreferences, newModulePreferences);
                 }
+            }
+        }
+    }
+
+    private void upgradeMaxBrightness(SettingsManager settingsManager) {
+        SharedPreferences oldGlobalPreferences =
+                settingsManager.openPreferences(OLD_GLOBAL_PREFERENCES_FILENAME);
+        if (oldGlobalPreferences.contains(Keys.KEY_MAX_BRIGHTNESS)) {
+            String maxBrightness = removeString(oldGlobalPreferences, Keys.KEY_MAX_BRIGHTNESS);
+            if (OLD_SETTINGS_VALUE_ON.equals(maxBrightness)) {
+                settingsManager.set(SettingsManager.SCOPE_GLOBAL, Keys.KEY_MAX_BRIGHTNESS,
+                        true);
             }
         }
     }

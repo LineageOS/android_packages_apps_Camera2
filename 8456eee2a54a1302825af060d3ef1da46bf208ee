@@ -16,6 +16,24 @@
       "revId": "8456eee2a54a1302825af060d3ef1da46bf208ee",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_45880fe8",
+        "filename": "src/com/android/camera/app/DevicePluginBase.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-03-10T23:10:52Z",
+      "side": 1,
+      "message": "IMHO no. The main reason for the change from interface (I had it like that in PS1) to a base class is that subclasses should be able to implement any of those methods without being required to implement all of them. That way, we can add new methods as required later without breaking all the implementation classes in the device trees.",
+      "parentUuid": "9ad45d7e_65fef36c",
+      "revId": "8456eee2a54a1302825af060d3ef1da46bf208ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

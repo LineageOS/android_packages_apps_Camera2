@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_65fef36c",
+        "filename": "src/com/android/camera/app/DevicePluginBase.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2015-03-10T23:04:24Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be an interface or an abstract class?",
+      "revId": "8456eee2a54a1302825af060d3ef1da46bf208ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

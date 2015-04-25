@@ -18,6 +18,8 @@ package com.android.camera.settings;
 
 import android.content.Context;
 
+import android.os.Environment;
+
 import com.android.camera.app.LocationManager;
 import com.android.camera.util.ApiHelper;
 import com.android.camera2.R;
@@ -81,6 +83,7 @@ public class Keys {
     public static final String KEY_SHOULD_SHOW_SETTINGS_BUTTON_CLING =
             "pref_should_show_settings_button_cling";
     public static final String KEY_HAS_SEEN_PERMISSIONS_DIALOGS = "pref_has_seen_permissions_dialogs";
+    public static final String KEY_STORAGE = "pref_camera_storage_key";
 
     /**
      * Set some number of defaults for the defined keys.
@@ -179,6 +182,12 @@ public class Keys {
                 R.array.pref_camera_hdr_plus_flashmode_entryvalues));
 
         settingsManager.setDefaults(KEY_SHOULD_SHOW_SETTINGS_BUTTON_CLING, true);
+
+        settingsManager.setDefaults(KEY_STORAGE,
+                Environment.getExternalStorageDirectory().toString(), null);
+        if (!settingsManager.isSet(SettingsManager.SCOPE_GLOBAL, KEY_STORAGE)) {
+            settingsManager.setToDefault(SettingsManager.SCOPE_GLOBAL, KEY_STORAGE);
+        }
 
     }
 

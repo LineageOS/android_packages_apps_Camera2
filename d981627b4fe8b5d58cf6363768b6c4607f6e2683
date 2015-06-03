@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_8fc41a41",
+        "filename": "src/com/android/camera/settings/CameraSettingsActivity.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2015-06-03T22:49:46Z",
+      "side": 1,
+      "message": "Needs to check storagePreference !\u003d null before removing.",
+      "revId": "d981627b4fe8b5d58cf6363768b6c4607f6e2683",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

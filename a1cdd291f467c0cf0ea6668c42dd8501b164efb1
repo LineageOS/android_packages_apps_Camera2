@@ -16,6 +16,24 @@
       "revId": "a1cdd291f467c0cf0ea6668c42dd8501b164efb1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_0f83aacd",
+        "filename": "src/com/android/camera/settings/CameraSettingsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-06-04T03:56:56Z",
+      "side": 1,
+      "message": "I don\u0027t really see a reason for that",
+      "parentUuid": "7a8ec9b2_4f269217",
+      "revId": "a1cdd291f467c0cf0ea6668c42dd8501b164efb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

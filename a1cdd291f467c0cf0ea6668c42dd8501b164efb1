@@ -34,6 +34,24 @@
       "revId": "a1cdd291f467c0cf0ea6668c42dd8501b164efb1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_6c4b592c",
+        "filename": "src/com/android/camera/settings/CameraSettingsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 12876
+      },
+      "writtenOn": "2015-06-04T20:39:17Z",
+      "side": 1,
+      "message": "So the else branch will always have storagePreference !\u003d null?",
+      "parentUuid": "7a8ec9b2_0f83aacd",
+      "revId": "a1cdd291f467c0cf0ea6668c42dd8501b164efb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

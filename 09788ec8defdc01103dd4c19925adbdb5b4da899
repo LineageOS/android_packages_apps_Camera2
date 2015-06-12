@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a3905b3_8d30a109",
+        "filename": "src/com/android/camera/CameraActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1307,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-12T07:34:14Z",
+      "side": 0,
+      "message": "This logic looks correct to me though, if there is more than 1 item left, don\u0027t show delete. The underlying assumption here is that the camera preview counts towards this number.",
+      "revId": "09788ec8defdc01103dd4c19925adbdb5b4da899",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

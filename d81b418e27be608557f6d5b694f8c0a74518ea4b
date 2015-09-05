@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_a1138766",
+        "filename": "src/com/android/camera/exif/ExifOutputStream.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 487,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-09-05T22:21:28Z",
+      "side": 1,
+      "message": "All this can fit in 1 line",
+      "revId": "d81b418e27be608557f6d5b694f8c0a74518ea4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

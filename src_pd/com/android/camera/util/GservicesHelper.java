@@ -18,6 +18,7 @@ package com.android.camera.util;
 
 import android.content.ContentResolver;
 import android.content.Context;
+import android.os.SystemProperties;
 
 public class GservicesHelper {
 
@@ -38,11 +39,11 @@ public class GservicesHelper {
     }
 
     public static int getCaptureSupportLevelOverrideBack(ContentResolver contentResolver) {
-        return -1;
+        return SystemProperties.getInt("persist.camera.cap_sup_back",-1);
     }
 
     public static int getCaptureSupportLevelOverrideFront(ContentResolver contentResolver) {
-        return -1;
+        return SystemProperties.getInt("persist.camera.cap_sup_front",-1); 
     }
 
     public static int getMaxAllowedNativeMemoryMb(ContentResolver contentResolver) {

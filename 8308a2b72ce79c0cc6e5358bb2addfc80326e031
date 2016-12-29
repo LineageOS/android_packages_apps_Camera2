@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a23299d_5cc155e3",
+        "filename": "src_pd/com/android/camera/util/GservicesHelper.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-12-29T05:27:44Z",
+      "side": 1,
+      "message": "Trailing whitespace, use a space after commas.",
+      "range": {
+        "startLine": 46,
+        "startChar": 74,
+        "endLine": 46,
+        "endChar": 75
+      },
+      "revId": "8308a2b72ce79c0cc6e5358bb2addfc80326e031",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

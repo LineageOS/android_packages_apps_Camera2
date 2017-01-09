@@ -214,7 +214,7 @@ public class SimpleOneCameraFactory implements OneCameraFactory {
                     pictureTaker = PictureTakerFactory.create(Loggers.tagFactory(), mainExecutor,
                             cameraCommandExecutor, imageSaverBuilder,
                             frameServerComponent.provideFrameServer(),
-                            meteredZoomedRequestBuilder, managedImageReader, flashSetting)
+                            meteredZoomedRequestBuilder, managedImageReader, flashSetting, characteristics.getCameraDirection())
                             .providePictureTaker();
                 }
 

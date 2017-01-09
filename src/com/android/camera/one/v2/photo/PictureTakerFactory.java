@@ -43,20 +43,21 @@ public final class PictureTakerFactory {
             FrameServer frameServer,
             RequestBuilder.Factory rootRequestBuilder,
             ManagedImageReader sharedImageReader,
-            Supplier<OneCamera.PhotoCaptureParameters.Flash> flashMode) {
+            Supplier<OneCamera.PhotoCaptureParameters.Flash> flashMode,
+            OneCamera.Facing direction) {
         // When flash is ON, always use the ConvergedImageCaptureCommand which
         // performs the AF & AE precapture sequence.
         ImageCaptureCommand flashOnCommand = new ConvergedImageCaptureCommand(
                 sharedImageReader, frameServer, rootRequestBuilder,
                 CameraDevice.TEMPLATE_ZERO_SHUTTER_LAG, CameraDevice.TEMPLATE_ZERO_SHUTTER_LAG,
-                Arrays.asList(rootRequestBuilder), true /* ae */, true /* af */);
+                Arrays.asList(rootRequestBuilder), true /* ae */, direction == OneCamera.Facing.BACK ? true : false /* af */);
 
         // When flash is OFF, wait for AF convergence, but not AE convergence
         // (which can be very slow).
         ImageCaptureCommand flashOffCommand = new ConvergedImageCaptureCommand(
                 sharedImageReader, frameServer, rootRequestBuilder,
                 CameraDevice.TEMPLATE_ZERO_SHUTTER_LAG, CameraDevice.TEMPLATE_ZERO_SHUTTER_LAG,
-                Arrays.asList(rootRequestBuilder), false /* ae */, true /* af */);
+                Arrays.asList(rootRequestBuilder), false /* ae */, direction == OneCamera.Facing.BACK ? true : false /* af */);
 
         // When flash is AUTO, wait for AF & AE.
         // TODO OPTIMIZE If the last converged-AE state indicates that flash is
@@ -64,7 +65,7 @@ public final class PictureTakerFactory {
         ImageCaptureCommand flashAutoCommand = new ConvergedImageCaptureCommand(
                 sharedImageReader, frameServer, rootRequestBuilder,
                 CameraDevice.TEMPLATE_ZERO_SHUTTER_LAG, CameraDevice.TEMPLATE_ZERO_SHUTTER_LAG,
-                Arrays.asList(rootRequestBuilder), true /* ae */, true /* af */);
+                Arrays.asList(rootRequestBuilder), true /* ae */, direction == OneCamera.Facing.BACK ? true : false /* af */);
 
         ImageCaptureCommand flashBasedCommand = new FlashBasedPhotoCommand(logFactory, flashMode,
                 flashOnCommand, flashAutoCommand, flashOffCommand);

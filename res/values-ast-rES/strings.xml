@@ -382,6 +382,7 @@
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT=50]-->
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT=60]-->
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=50] -->
+  <string name="remember_location_title">¿Recordar allugamientos de semeyes?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=None] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->

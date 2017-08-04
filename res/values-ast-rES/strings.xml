@@ -237,7 +237,9 @@
   <string name="pref_camera_countdown_label_fifteen">15 SEGUNDOS</string>
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <!-- Exposure settings in preference -->
+  <string name="pref_exposure_title">Esposición</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
+  <string name="pref_exposure_label">ESPOSICIÓN</string>
   <!-- Default HDR entry value -->
   <string name="pref_camera_hdr_default">@string/setting_off_value</string>
   <!-- Default HDR+ entry value -->
@@ -252,7 +254,9 @@
   <string name="dialog_ok">ACEUTAR</string>
   <string name="dialog_cancel">Encaboxar</string>
   <!-- Dialog "Report" button. Opens Google Feedback screen [CHAR LIMIT=12] -->
+  <string name="dialog_report">Informar</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
+  <string name="dialog_dismiss">Escartar</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
@@ -326,27 +330,47 @@
   <!-- Content description of the button that toggles the filmstrip. [CHAR LIMIT=NONE] -->
   <!-- Text on the button that toggles the filmstrip. [CHAR LIMIT=20] -->
   <!-- Content description of the button that zooms in. [CHAR LIMIT=NONE] -->
+  <string name="accessibility_mode_zoom_plus">Averar</string>
   <!-- Text on the button that zooms in [CHAR LIMIT=20] -->
+  <string name="btn_zoom_plus">Z+</string>
   <!-- Content description of the button that zooms out. [CHAR LIMIT=NONE] -->
+  <string name="accessibility_mode_zoom_minus">Alloñar</string>
   <!-- Text on the button that zooms out [CHAR LIMIT=20] -->
+  <string name="btn_zoom_minus">Z-</string>
   <!-- Accessibility message spoken by TalkBack informing user of the current zoom value [CHAR LIMIT=NONE] -->
+  <string name="accessibility_zoom_announcement">El valor del zoom ye de %.1f</string>
   <!-- Default text for a button that can be toggled on and off. -->
+  <string name="capital_on">SÍ</string>
   <!-- Default text for a button that can be toggled on and off. -->
+  <string name="capital_off">NON</string>
   <!-- Describes button on top of a video in filmstrip that is a play icon, pressing starts external video player [CHAR LIMIT=NONE] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_500">0,5 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_1000">1 segundu</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_1500">1,5 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_2000">2 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_2500">2,5 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_3000">3 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_4000">4 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_5000">5 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_6000">6 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_10000">10 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_12000">12 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_15000">15 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_24000">24 segundos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
   <string name="pref_video_time_lapse_frame_interval_30000">0,5 minutos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
@@ -374,7 +398,9 @@
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
   <string name="pref_video_time_lapse_frame_interval_1440000">24 minutos</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_1800000">0,5 hores</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_3600000">1 hora</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
@@ -391,6 +417,7 @@
   <string name="time_lapse_minutes">minutos</string>
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT=20] -->
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT=20] -->
+  <string name="time_lapse_interval_set">Fecho</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT=30]-->
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT=180]-->
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT=50]-->
@@ -409,6 +436,7 @@
   <!-- Button to press for creating a tiny planet image. [CHAR LIMIT=30] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT=30] -->
   <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT=15] -->
+  <string name="tiny_planet_zoom">Zoom</string>
   <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT=15] -->
   <!-- Label for menu item that starts a photo editor. [CHAR LIMIT=30] -->
   <!-- Crop -->
@@ -445,12 +473,17 @@
   <!-- Accessibility text for cancel button [CHAR_LIMIT=NONE] -->
   <string name="cancel_button_description">Encaboxar</string>
   <!-- Accessibility text for done button [CHAR_LIMIT=NONE] -->
+  <string name="done_button_description">Fecho</string>
   <!-- Accessibility text for retake button [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for video review button [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for filmstrip share button [CHAR_LIMIT=NONE] -->
+  <string name="share_button_description">Compartir</string>
   <!-- Accessibility text for filmstrip view button used to open special image viewers, like 3d photosphere [CHAR_LIMIT=NONE] -->
+  <string name="view_button_description">Ver</string>
   <!-- Accessibility text for filmstrip edit button [CHAR_LIMIT=NONE] -->
+  <string name="edit_button_description">Editar</string>
   <!-- Accessibility text for filmstrip delete button [CHAR_LIMIT=NONE] -->
+  <string name="delete_button_description">Desaniciar</string>
   <!-- Accessibility text for manual exposure compensation button [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for exposure compensation -2 button [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for exposure compensation -1 button [CHAR_LIMIT=NONE] -->
@@ -482,7 +515,9 @@
   <!-- Video quality setting entry. Videos will be recorded in the lowest quality available on the device. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in the highest quality available on the device. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in quarter CIF quality. Details on CIF: http://goo.gl/3jDK [CHAR LIMIT=24] -->
+  <string name="pref_video_quality_entry_qcif">QCIF</string>
   <!-- Video quality setting entry. Videos will be recorded in CIF quality. Details on CIF: http://goo.gl/3jDK [CHAR LIMIT=24] -->
+  <string name="pref_video_quality_entry_cif">CIF</string>
   <!-- Video quality setting entry. Videos will be recorded in 480p quality. [CHAR LIMIT=24] -->
   <string name="pref_video_quality_entry_480p">SD 480p</string>
   <!-- Video quality setting entry. Videos will be recorded in 720p quality. [CHAR LIMIT=24] -->
@@ -490,10 +525,14 @@
   <!-- Video quality setting entry. Videos will be recorded in 1080p quality. [CHAR LIMIT=24] -->
   <string name="pref_video_quality_entry_1080p">HD 1080p</string>
   <!-- Video quality setting entry. Videos will be recorded in quarter VGA quality. [CHAR LIMIT=24] -->
+  <string name="pref_video_quality_entry_qvga">QVGA</string>
   <!-- Video quality setting entry. Videos will be recorded in 2160p quality. [CHAR LIMIT=24] -->
+  <string name="pref_video_quality_entry_2160p">UHD 4K</string>
   <!--  The strings below will not be translated. We're using them until the above translations are sane. -->
   <!-- Message shown in the settings summary for how many megapixels have been selected. [CHAR LIMIT=24]-->
+  <string name="setting_summary_x_megapixels">%1$s megapíxeles</string>
   <!-- Message shown in the settings summary that includes the the aspect ratio of the selected resolution i.e. (4:3) and the size of the selected resolution in megapixels. [CHAR LIMIT=24]-->
+  <string name="setting_summary_aspect_ratio_and_megapixels">(%1$d:%2$d) %3$s megapíxeles</string>
   <!-- Text shown above the button that opens to editor for images created from lens blur mode. [CHAR LIMIT=60] -->
   <!-- Title of a preference group for advanced preferences. [CHAR LIMIT=30] -->
   <string name="pref_category_advanced">Avanzao</string>
@@ -505,6 +544,7 @@
   <!-- Shown above the intent chooser when the user is about to share an item. [CHAR LIMIT=20] -->
   <!-- Shown above the intent chooser when the user is about to edit an item. [CHAR LIMIT=20] -->
   <!-- Text on the button to take user to the next page of the on-screen instructions. [CHAR LIMIT=20] -->
+  <string name="startup_dialog_button_next">SIGUIENTE</string>
   <!-- Text on the button to confirm that user understands the on-screen instructions. [CHAR LIMIT=20] -->
   <!-- Selection for a 4:3 picture size where the sensor provides 4:3 so the result is not cropped. [CHAR LIMIT=30] -->
   <!-- Selection for a 16:9 picture size where the sensor provides 4:3 so the result will be cropped. [CHAR LIMIT=30] -->

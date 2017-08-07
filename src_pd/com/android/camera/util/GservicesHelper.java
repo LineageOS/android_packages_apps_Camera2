@@ -18,6 +18,7 @@ package com.android.camera.util;
 
 import android.content.ContentResolver;
 import android.content.Context;
+import android.os.SystemProperties;
 
 public class GservicesHelper {
 
@@ -54,8 +55,12 @@ public class GservicesHelper {
     }
 
     public static boolean useCamera2ApiThroughPortabilityLayer(ContentResolver contentResolver) {
-        // Use the camera2 API by default. This only affects PhotoModule on L.
-        return true;
+		// Use the camera2 API by default. This only affects PhotoModule on L.
+        final boolean mUseLegacy = SystemProperties.getBoolean("camera2.portability.legacy", false);
+        if (mUseLegacy)
+            return false;
+        else
+            return true;
     }
 
     public static boolean isGcamEnabled(ContentResolver contentResolver) {

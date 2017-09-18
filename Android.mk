@@ -44,6 +44,10 @@ LOCAL_JAVA_LIBRARIES += org.apache.http.legacy
 
 LOCAL_JNI_SHARED_LIBRARIES := libjni_tinyplanet libjni_jpegutil
 
+ifeq ($(TARGET_COMPILE_WITH_MSM_KERNEL),true)
+LOCAL_REQUIRED_MODULES := Antibanding
+endif
+
 include $(BUILD_PACKAGE)
 
 include $(call all-makefiles-under, $(LOCAL_PATH))

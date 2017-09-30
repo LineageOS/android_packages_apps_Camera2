@@ -47,10 +47,12 @@ public class DisableCameraReceiver extends BroadcastReceiver {
             for (int i = 0; i < ACTIVITIES.length; i++) {
                 disableComponent(context, ACTIVITIES[i]);
             }
+        } else {
+            Log.i(TAG, "enable all camera activities");
+            for (int i = 0; i < ACTIVITIES.length; i++) {
+                enableComponent(context, ACTIVITIES[i]);
+            }
         }
-
-        // Disable this receiver so it won't run again.
-        disableComponent(context, "com.android.camera.DisableCameraReceiver");
     }
 
     private boolean hasCamera() {
@@ -81,6 +83,15 @@ public class DisableCameraReceiver extends BroadcastReceiver {
         // immediately because we are in the same app.
         pm.setComponentEnabledSetting(name,
             PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+            PackageManager.DONT_KILL_APP);
+    }
+
+    private void enableComponent(Context context, String klass) {
+        ComponentName name = new ComponentName(context, klass);
+        PackageManager pm = context.getPackageManager();
+
+        pm.setComponentEnabledSetting(name,
+            PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
             PackageManager.DONT_KILL_APP);
     }
 }

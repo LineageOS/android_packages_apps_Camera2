@@ -86,7 +86,6 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT=24]-->
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
-  <string name="setting_on">Ymlaen</string>
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
   <!-- The value of a camera preference indicating the setting is none. -->
@@ -118,7 +117,6 @@
   <!-- flash label [CHAR LIMIT=50] -->
   <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
   <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
-  <string name="pref_camera_flashmode_entry_on">Ymlaen</string>
   <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
   <!-- Default white balance setting. -->
@@ -158,7 +156,6 @@
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">Iawn</string>
   <!-- Dialog "Report" button. Opens Google Feedback screen [CHAR LIMIT=12] -->
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
@@ -230,7 +227,6 @@
   <!-- Text on the button that zooms out [CHAR LIMIT=20] -->
   <!-- Accessibility message spoken by TalkBack informing user of the current zoom value [CHAR LIMIT=NONE] -->
   <!-- Default text for a button that can be toggled on and off. -->
-  <string name="capital_on">YMLAEN</string>
   <!-- Default text for a button that can be toggled on and off. -->
   <!-- Describes button on top of a video in filmstrip that is a play icon, pressing starts external video player [CHAR LIMIT=NONE] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->

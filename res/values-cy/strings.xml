@@ -24,17 +24,20 @@
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
+  <string name="close">Cau</string>
   <!-- String indicating timestamp of photo or video -->
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
+  <string name="set_as">Gosod fel</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+  <string name="location">Lleoliad</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
@@ -77,11 +80,13 @@
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
   <!-- Named indexes into the array of camera facing entries -->
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+  <string name="pref_camera_id_entry_back">Nôl</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <!-- In select camera setting, back facing camera value. [CHAR LIMIT=14] -->
   <!-- In select camera setting, front-facing camera value. [CHAR LIMIT=14] -->
   <!-- Settings screen, location setting text. [CHAR LIMIT=20]-->
   <!--  Label for record location preference [CHAR LIMIT=50] -->
+  <string name="pref_camera_location_label">LLEOLIAD</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT=24]-->
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
@@ -97,7 +102,9 @@
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
   <!-- Settings screen, Camera setting category title -->
+  <string name="pref_camera_settings_category">Gosodiadau camera</string>
   <!-- Settings screen, Camcorder setting category title -->
+  <string name="pref_camcorder_settings_category">Gosodiadau fideo</string>
   <!-- Settings screen, Picture size title -->
   <!-- Settings screen, dialog choice for "large" picture size [CHAR LIMIT=20] -->
   <!-- Settings screen, dialog choice for "medium" picture size [CHAR LIMIT=20] -->
@@ -150,16 +157,21 @@
   <!-- Settings menu countdown timer 10 seconds [CHAR LIMIT=50] -->
   <!-- Settings menu countdown timer 15 seconds [CHAR LIMIT=50] -->
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
+  <string name="not_selectable_in_scene_mode">Nid yw\'n bosib ei ddewis mewn modd golygfa.</string>
   <!-- Exposure settings in preference -->
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
   <!-- Default HDR entry value -->
   <!-- Default HDR+ entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
   <!-- switch camera label back [CHAR LIMIT=60] -->
+  <string name="pref_camera_id_label_back">CAMERA BLAEN</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
+  <string name="pref_camera_id_label_front">CAMERA CEFN</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
   <string name="dialog_ok">Iawn</string>
+  <string name="dialog_cancel">Diddymu</string>
   <!-- Dialog "Report" button. Opens Google Feedback screen [CHAR LIMIT=12] -->
+  <string name="dialog_report">Rhoi Adborth</string>
   <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
@@ -186,15 +198,19 @@
   <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
   <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
   <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=16] -->
+  <string name="effect_backdropper_sunset">Machlud</string>
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=16] -->
+  <string name="effect_backdropper_gallery">Dy fideo</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
   <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
   <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
+  <string name="effect_background">CEFNDIR</string>
   <!-- The shutter button. [CHAR LIMIT=NONE] -->
   <!-- The cancel button. Used to cancel an in progress shot [CHAR LIMIT=NONE] -->
+  <string name="accessibility_cancel_button">Diddymu</string>
   <!-- The menu button. [CHAR LIMIT=NONE] -->
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT=NONE] -->
   <!-- The button to switch to Camera mode. [CHAR LIMIT=NONE] -->
@@ -282,12 +298,14 @@
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT=50]-->
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT=60]-->
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=50] -->
+  <string name="remember_location_title">Cofio lleoliadau cymryd lluniau?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=None] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <!-- settings label [CHAR LIMIT=50] -->
+  <string name="camera_menu_settings_label">GOSODIADAU</string>
   <!--  Tiny Planet -->
   <!-- Button to press for creating a tiny planet image. [CHAR LIMIT=30] -->
   <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT=30] -->
@@ -300,6 +318,7 @@
   <!-- Label for album filmstrip button -->
   <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <!-- Camera settings. [CHAR LIMIT=25] -->
+  <string name="mode_settings">Gosodiadau</string>
   <!-- Text shown in the camera mode options list for normal camera mode [CHAR LIMIT=25] -->
   <!-- Text shown in the camera mode options list for putting camera in video recording mode [CHAR LIMIT=25] -->
   <!-- Text shown in the camera mode options list for putting camera in photo sphere mode. 'Photo sphere' is a product name. [CHAR LIMIT=25] -->
@@ -313,16 +332,20 @@
   <!-- Accessibility text for switching to panorama mode [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for switching to refocus mode [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for settings toggle button states [CHAR_LIMIT=NONE] -->
+  <string name="settings_open_desc">Agor gosodiadau</string>
+  <string name="settings_close_desc">Cau gosodiadau</string>
   <!-- Accessibility text for HDR+ toggle button states [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for HDR toggle button states [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for camera flash toggle button states [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for HDR+ flash toggle button states [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for vide torch (flash) toggle button states [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for camera switch toggle button states [CHAR_LIMIT=NONE] -->
+  <string name="camera_id_back_desc">Camera cefn</string>
   <!-- Accessibility text for grid lines toggle button states [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for countdown timer toggle button states [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for More Options button [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for cancel button [CHAR_LIMIT=NONE] -->
+  <string name="cancel_button_description">Diddymu</string>
   <!-- Accessibility text for done button [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for retake button [CHAR_LIMIT=NONE] -->
   <!-- Accessibility text for video review button [CHAR_LIMIT=NONE] -->
@@ -338,20 +361,26 @@
   <!-- Accessibility text for exposure compensation +2 button [CHAR_LIMIT=NONE] -->
   <!-- Accessibility announcement when option button changes on screen after tap, e.g. from flash auto to flash off [CHAR_LIMIT=NONE] -->
   <!-- Text shown in camera settings list for toggling photo location on or off [CHAR LIMIT=25] -->
+  <string name="setting_location">Lleoliad</string>
   <!-- Camera settings title for back camera photo resolution. [CHAR LIMIT=25] -->
+  <string name="setting_back_camera_photo">Lluniau camera cefn</string>
   <!-- Camera settings title for back camera video resolution. [CHAR LIMIT=25] -->
+  <string name="setting_back_camera_video">Fideos camera cefn</string>
   <!-- Camera settings title for front camera photo resolution. [CHAR LIMIT=25] -->
   <!-- Camera settings title for front camera video resolution. [CHAR LIMIT=25] -->
   <!-- Text shown in camera settings list for selecting the camera mode that will be used by default when the app starts [CHAR LIMIT=25] -->
   <!-- Text shown in camera settings list for launching Google Help [CHAR LIMIT=25] -->
+  <string name="setting_google_help_and_feedback">Cymorth ac adborth</string>
   <!-- TODO: don't ship with these. -->
   <!-- camera jpeg quality settings -->
   <!-- Default for camera startup module index -->
   <!-- Default number of times to play shimmy. -->
   <!-- A message shown to the user, indicating that an HDR+ photo is being processed. [CHAR LIMIT=25] -->
+  <string name="processing_hdr_plus">Yn prosesu HDR+ &#8230;</string>
   <!-- Title of a dialog showing open source licenses used in the app. [CHAR LIMIT=30] -->
   <!-- Default number of times to play peek animation. -->
   <!--  Title of a preference group which contains general settings. [CHAR LIMIT=30]  -->
+  <string name="pref_category_general">Gosodiadau Cyffredinol</string>
   <!--  Title of a preference group which contains settings for changing capture resolution and quality. [CHAR LIMIT=30]  -->
   <!--  Title of a preference group which contains information about the app. [CHAR LIMIT=30]  -->
   <!--  Title of a preference which shows the build version of the app. [CHAR LIMIT=30]  -->
@@ -376,6 +405,7 @@
   <!-- Shown above the intent chooser when the user is about to share an item. [CHAR LIMIT=20] -->
   <!-- Shown above the intent chooser when the user is about to edit an item. [CHAR LIMIT=20] -->
   <!-- Text on the button to take user to the next page of the on-screen instructions. [CHAR LIMIT=20] -->
+  <string name="startup_dialog_button_next">NESAF</string>
   <!-- Text on the button to confirm that user understands the on-screen instructions. [CHAR LIMIT=20] -->
   <!-- Selection for a 4:3 picture size where the sensor provides 4:3 so the result is not cropped. [CHAR LIMIT=30] -->
   <!-- Selection for a 16:9 picture size where the sensor provides 4:3 so the result will be cropped. [CHAR LIMIT=30] -->

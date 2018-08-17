@@ -90,7 +90,9 @@ public class CameraController implements CameraAgent.CameraOpenCallback, CameraP
         // CameraAgentFactory decided this device doesn't support the new API.
         mCameraAgentNg = cameraManagerNg != cameraManager ? cameraManagerNg : null;
         mActiveCameraDeviceTracker = activeCameraDeviceTracker;
-        mInfo = mCameraAgent.getCameraDeviceInfo();
+        mInfo = mCameraAgentNg != null
+                ? mCameraAgentNg.getCameraDeviceInfo()
+                : mCameraAgent.getCameraDeviceInfo();
         if (mInfo == null && mCallbackReceiver != null) {
             mCallbackReceiver.onDeviceOpenFailure(-1, "GETTING_CAMERA_INFO");
         }

@@ -1941,7 +1941,7 @@ public class CameraActivity extends QuickActivity
             mHasCriticalPermissions = false;
         }
 
-        if ((checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
+        if ((checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
                 !mSettingsManager.getBoolean(SettingsManager.SCOPE_GLOBAL, Keys.KEY_HAS_SEEN_PERMISSIONS_DIALOGS)) ||
                 !mHasCriticalPermissions) {
             Intent intent = new Intent(this, PermissionsActivity.class);

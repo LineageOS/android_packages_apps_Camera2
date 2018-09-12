@@ -210,11 +210,11 @@ public class FirstRunDialog {
     }
 
     private void checkLocationPermission() {
-        if (mContext.checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION)
+        if (mContext.checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {
             Activity activity = (Activity) mContext;
             activity.requestPermissions(
-                new String[] {Manifest.permission.ACCESS_COARSE_LOCATION},
+                new String[] {Manifest.permission.ACCESS_FINE_LOCATION},
                 PERMISSION_REQUEST_CODE);
             mSettingsManager.set(SettingsManager.SCOPE_GLOBAL,
                 Keys.KEY_HAS_SEEN_PERMISSIONS_DIALOGS, true);

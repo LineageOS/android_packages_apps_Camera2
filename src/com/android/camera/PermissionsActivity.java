@@ -137,7 +137,7 @@ public class PermissionsActivity extends QuickActivity {
 
         if (mSettingsManager.getBoolean(SettingsManager.SCOPE_GLOBAL,
             Keys.KEY_RECORD_LOCATION)
-                && (checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION)
+                && (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED)) {
             mNumPermissionsToRequest++;
             mShouldRequestLocationPermission = true;
@@ -182,7 +182,7 @@ public class PermissionsActivity extends QuickActivity {
             permissionsRequestIndex++;
         }
         if (mShouldRequestLocationPermission) {
-            permissionsToRequest[permissionsRequestIndex] = Manifest.permission.ACCESS_COARSE_LOCATION;
+            permissionsToRequest[permissionsRequestIndex] = Manifest.permission.ACCESS_FINE_LOCATION;
             mIndexPermissionRequestLocation = permissionsRequestIndex;
         }
 

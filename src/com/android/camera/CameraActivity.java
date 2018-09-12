@@ -1955,7 +1955,7 @@ public class CameraActivity extends QuickActivity
         }
         if (!mHasCriticalPermissions || (mSettingsManager.getBoolean(
                 SettingsManager.SCOPE_GLOBAL, Keys.KEY_RECORD_LOCATION) &&
-                (checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION)
+                (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION)
                    != PackageManager.PERMISSION_GRANTED) &&
                 !mSettingsManager.getBoolean(SettingsManager.SCOPE_GLOBAL,
                     Keys.KEY_HAS_SEEN_PERMISSIONS_DIALOGS))) {

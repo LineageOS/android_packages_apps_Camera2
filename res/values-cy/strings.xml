@@ -126,7 +126,7 @@
     <!-- alert to the user that the camera fails to read or write the SD card. -->
     <string name="access_sd_fail" product="default">Methwyd â chael at y cerdyn SD.</string>
     <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
-    <string name="time_lapse_title">Yn recrodio treigl amser</string>
+    <string name="time_lapse_title">Yn recordio treigl amser</string>
     <!-- Default feedback that is entered in the Feedback textview for issues related to camera access. [CHAR LIMIT=NONE] -->
     <string name="feedback_description_camera_access">Methodd yr ap hwn â chysylltu â\'r camera.</string>
     <!-- Default feedback that is entered in the Feedback textview for issues related to saving photos. [CHAR LIMIT=NONE] -->

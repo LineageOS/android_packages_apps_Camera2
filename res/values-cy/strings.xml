@@ -18,8 +18,11 @@
     <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
     <string name="app_name">Camera</string>
     <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
+    <string name="video_camera_label">Camera Fideo</string>
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+    <string name="details_ms">%1$02d:%2$02d</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <string name="set_image">Gosod y llun fel</string>
@@ -48,7 +51,7 @@
     <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
     <string name="set_as">Gosod fel</string>
     <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
-    <string name="video_err">Methu â chware\'r fideo.</string>
+    <string name="video_err">Methu â chwarae\'r fideo.</string>
     <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
     <string name="title">Teitl</string>
     <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
@@ -89,7 +92,7 @@
     <string name="iso">ISO</string>
     <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
     <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-    <string name="unit_mm">me</string>
+    <string name="unit_mm">mm</string>
     <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
     <string name="manual">Â llaw</string>
     <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
@@ -148,7 +151,9 @@
     <string name="pref_camera_location_label">LLEOLIAD</string>
     <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
     <string name="pref_camera_timer_title">Amserydd cyfrif i lawr</string>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT=24]-->
+    <string name="pref_camera_timer_sound_title">Bipio wrth gyfrif i lawr</string>
     <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
     <string name="setting_off">I ffwrdd</string>
     <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
@@ -278,7 +283,9 @@
     <!--  menu label exposure compensation [CHAR LIMIT=50] -->
     <string name="pref_exposure_label">GOLEUNI</string>
     <!-- Default HDR entry value -->
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
     <!-- Default HDR+ entry value -->
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <!-- HDR label ON [CHAR LIMIT=60] -->
     <string name="pref_camera_hdr_label">HDR</string>
     <!-- switch camera label back [CHAR LIMIT=60] -->
@@ -298,6 +305,7 @@
     <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
     <!-- Filename prefix for panorama output. -->
     <!-- The message shown when video record reaches size limit. -->
+    <string name="video_reach_size_limit">Wedi cyrraedd y terfyn maint.</string>
     <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=16] -->
     <string name="pano_too_fast_prompt">Rhy gyflym</string>
     <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
@@ -372,13 +380,19 @@
     <!-- The button to switch to the Re-Focus mode. [CHAR LIMIT=NONE] -->
     <string name="accessibility_switch_to_refocus">Newid i Ailffocysu</string>
     <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT=NONE] -->
+    <string name="accessibility_review_cancel">Diddymu adolygu</string>
     <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=NONE] -->
+    <string name="accessibility_review_ok">Wedi gorffen adolygu</string>
     <!-- button in review mode indicate the user want to retake another photo/video for attachment [CHAR LIMIT=NONE] -->
+    <string name="accessibility_review_retake">Adolygu eto</string>
     <!-- The button that opens up mode options, shown as '...' on screen [CHAR LIMIT=NONE] -->
     <string name="accessibility_mode_options">Dewisiadau</string>
     <!-- Announcement when the mode list becomes hidden off screen [CHAR LIMIT=NONE] -->
+    <string name="accessibility_mode_list_hidden">Rhestr moddau wedi\'i chau</string>
     <!-- Announcement when the mode list becomes shown on screen [CHAR LIMIT=NONE] -->
+    <string name="accessibility_mode_list_shown">Rhestr moddau wedi\'i agor</string>
     <!-- Announcement when a general media capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
+    <string name="media_accessibility_peek">Wedi cipio delwedd</string>
     <!-- Announcement when a video capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
     <string name="photo_accessibility_peek">Cymerwyd llun</string>
     <!-- Announcement when a video capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
@@ -400,7 +414,9 @@
     <!-- Content description for media items in filmstrip which are still in the middle of processing [CHAR LIMIT=NONE] -->
     <string name="media_processing_content_description">Yn prosesu cyfryngau</string>
     <!-- Content description of the button that toggles the on screen list of camera mode. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_mode_list_toggle">Toglo rhestr moddau</string>
     <!-- Text on the button that toggles the on screen list of camera mode. [CHAR LIMIT=20] -->
+    <string name="btn_mode_list_toggle">Rhestr moddau</string>
     <!-- Content description of the button that toggles the filmstrip. [CHAR LIMIT=NONE] -->
     <string name="accessibility_filmstrip_toggle">Toglo stribed ffilm</string>
     <!-- Text on the button that toggles the filmstrip. [CHAR LIMIT=20] -->
@@ -524,6 +540,7 @@
     <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
     <string name="remember_location_no">Dim diolch</string>
     <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
+    <string name="remember_location_yes">Iawn</string>
     <!-- Camera menu labels -->
     <!-- more options label [CHAR LIMIT=50] -->
     <string name="camera_menu_more_label">RHAGOR O DDEWISIADAU</string>
@@ -560,6 +577,7 @@
     <!-- Text shown in the camera mode options list for putting camera in time lapse mode [CHAR LIMIT=25] -->
     <string name="mode_timelapse">Treigl Amser</string>
     <!-- Text shown in the camera mode options list for putting camera in wide angle panorama mode [CHAR LIMIT=25] -->
+    <string name="mode_wideangle">Modd Panorama</string>
     <!-- Text shown in the camera mode options list for putting camera in panorama mode [CHAR LIMIT=25] -->
     <string name="mode_panorama">Panorama</string>
     <!-- Text shown in the camera mode options list for putting camera in refocus mode [CHAR LIMIT=25] -->
@@ -592,6 +610,8 @@
     <string name="hdr_plus_flash_auto_desc">HDR+ fflach awto</string>
     <string name="hdr_plus_flash_on_desc">HDR+ fflach ymlaen</string>
     <!-- Accessibility text for vide torch (flash) toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="torch_on_desc">Golau ymlaen</string>
+    <string name="torch_off_desc">Golau i ffwrdd</string>
     <!-- Accessibility text for camera switch toggle button states [CHAR_LIMIT=NONE] -->
     <string name="camera_id_back_desc">Camera cefn</string>
     <string name="camera_id_front_desc">Camera blaen</string>
@@ -633,6 +653,7 @@
     <!-- Accessibility text for exposure compensation +2 button [CHAR_LIMIT=NONE] -->
     <string name="exposure_compensation_desc_p2">Cyfadferiad Goleuni +2</string>
     <!-- Accessibility announcement when option button changes on screen after tap, e.g. from flash auto to flash off [CHAR_LIMIT=NONE] -->
+    <string name="button_change_announcement">Mae\'r botwm nawr %s</string>
     <!-- Text shown in camera settings list for toggling photo location on or off [CHAR LIMIT=25] -->
     <string name="setting_location">Lleoliad</string>
     <!-- Camera settings title for back camera photo resolution. [CHAR LIMIT=25] -->

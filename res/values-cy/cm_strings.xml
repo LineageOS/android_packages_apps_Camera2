@@ -18,5 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- More Settings screen, power button title -->
     <!-- More Settings screen, max brightness title -->
+    <string name="pref_camera_max_brightness_title">Sgrin disglair</string>
     <!-- More Settings screen, storage title -->
 </resources>

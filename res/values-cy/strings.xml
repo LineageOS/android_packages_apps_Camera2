@@ -298,7 +298,7 @@
     <!-- Dialog "Report" button. Opens Google Feedback screen [CHAR LIMIT=12] -->
     <string name="dialog_report">Rhoi Adborth</string>
     <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
-    <string name="dialog_dismiss">Wfftio</string>
+    <string name="dialog_dismiss">Diysytyru</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <string name="spaceIsLow_content" product="default">Mae dy gerdyn SD yn rhedeg yn brin o le. Newidia\'r gosodiad ansawdd neu ddileu rhai delweddau neu ffeiliau eraill.</string>
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->

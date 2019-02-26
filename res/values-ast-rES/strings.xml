@@ -18,6 +18,7 @@
     <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
     <string name="app_name">Cámara</string>
     <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
+    <string name="video_camera_label">Videocámara</string>
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
     <string name="details_ms">%1$02d:%2$02d</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
@@ -118,6 +119,7 @@
     <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
     <string name="error_permissions">L\'aplicación nun tien los permisos críticos precisos pa executase. Comprueba los axustes de permisos.</string>
     <!-- Reason used for session failure which is visible in UI [CHAR LIMIT=NONE] -->
+    <string name="reason_storage_failure">Fallu d\'almacenaxe de semeya.</string>
     <!-- alert to the user to wait for some operation to complete -->
     <string name="wait">Espera, por favor\u2026</string>
     <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -127,6 +129,7 @@
     <!-- alert to the user that the camera fails to read or write the SD card. -->
     <string name="access_sd_fail" product="default">Nun pudo accedese a la tarxeta SD.</string>
     <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
+    <string name="time_lapse_title">Grabación a intervalos de tiempu</string>
     <!-- Default feedback that is entered in the Feedback textview for issues related to camera access. [CHAR LIMIT=NONE] -->
     <string name="feedback_description_camera_access">L\'aplicación nun pudo coneutase cola cámara</string>
     <!-- Default feedback that is entered in the Feedback textview for issues related to saving photos. [CHAR LIMIT=NONE] -->
@@ -377,25 +380,45 @@
     <!-- The button to switch to the Re-Focus mode. [CHAR LIMIT=NONE] -->
     <string name="accessibility_switch_to_refocus">Camudar a Reenfoque</string>
     <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT=NONE] -->
+    <string name="accessibility_review_cancel">Revisar encaboxar</string>
     <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=NONE] -->
+    <string name="accessibility_review_ok">Revisar fecho</string>
     <!-- button in review mode indicate the user want to retake another photo/video for attachment [CHAR LIMIT=NONE] -->
+    <string name="accessibility_review_retake">Revisar repetición</string>
     <!-- The button that opens up mode options, shown as '...' on screen [CHAR LIMIT=NONE] -->
+    <string name="accessibility_mode_options">Opciones</string>
     <!-- Announcement when the mode list becomes hidden off screen [CHAR LIMIT=NONE] -->
+    <string name="accessibility_mode_list_hidden">Llista moos zarrada</string>
     <!-- Announcement when the mode list becomes shown on screen [CHAR LIMIT=NONE] -->
+    <string name="accessibility_mode_list_shown">Llista moos abierta</string>
     <!-- Announcement when a general media capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
+    <string name="media_accessibility_peek">Captura fecha</string>
     <!-- Announcement when a video capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
+    <string name="photo_accessibility_peek">Semeya fecha</string>
     <!-- Announcement when a video capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
+    <string name="video_accessibility_peek">Videu fechu</string>
     <!-- Description for the lock icon in Secure Camera filmstrip that when clicked, brings user to lock screen then full Camera [CHAR LIMIT=NONE] -->
+    <string name="accessibility_unlock_to_camera">Desbloquia cámara</string>
     <!-- Content description for general media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="media_date_content_description">Media fecha en %s</string>
     <!-- Content description for photo media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="photo_date_content_description">Semeya fecha en %s</string>
     <!-- Content description for video media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="video_date_content_description">Videu fechu en %s</string>
     <!-- Content description for panorama media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="panorama_date_content_description">Panorama fechu en %s</string>
     <!-- Content description for photosphere media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="photosphere_date_content_description">Photo Sphere fecha en %s</string>
     <!-- Content description for refocus media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
+    <string name="refocus_date_content_description">Desenfoque de lente fechu en %s</string>
     <!-- Content description for media items in filmstrip which are still in the middle of processing [CHAR LIMIT=NONE] -->
+    <string name="media_processing_content_description">Procesando mediu</string>
     <!-- Content description of the button that toggles the on screen list of camera mode. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_mode_list_toggle">Activar llista de mou</string>
     <!-- Text on the button that toggles the on screen list of camera mode. [CHAR LIMIT=20] -->
+    <string name="btn_mode_list_toggle">Llista de moos</string>
     <!-- Content description of the button that toggles the filmstrip. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_filmstrip_toggle">Activar tira de película</string>
     <!-- Text on the button that toggles the filmstrip. [CHAR LIMIT=20] -->
     <string name="btn_filmstrip_toggle">Tira de película</string>
     <!-- Content description of the button that zooms in. [CHAR LIMIT=NONE] -->
@@ -503,12 +526,17 @@
     <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT=20] -->
     <string name="time_lapse_interval_set">Fecho</string>
     <!-- Title in time interval picker for setting time interval. [CHAR LIMIT=30]-->
+    <string name="set_time_interval">Afita intervalu de tiempu</string>
     <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT=180]-->
+    <string name="set_time_interval_help">L\'intervalu de tiempu ta desactiváu. Activa esta función p\'afitar un intervalu.</string>
     <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT=50]-->
+    <string name="set_duration">Definir duración en segundos</string>
     <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT=60]-->
+    <string name="count_down_title_text">Cuenta atrás pa facer una semeya</string>
     <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=50] -->
     <string name="remember_location_title">¿Recordar allugamientos de semeyes?</string>
     <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=None] -->
+    <string name="remember_location_prompt">Etiqueta les tos semeyes y vídeos colos allugamientos u se fixeron.</string>
     <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
     <string name="remember_location_no">Non, gracies</string>
     <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
@@ -520,10 +548,13 @@
     <string name="camera_menu_settings_label">AXUSTES</string>
     <!--  Tiny Planet -->
     <!-- Button to press for creating a tiny planet image. [CHAR LIMIT=30] -->
+    <string name="create_tiny_planet">Crear Planeta nanu</string>
     <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT=30] -->
+    <string name="saving_tiny_planet">Guardar Planeta nanu …</string>
     <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT=15] -->
     <string name="tiny_planet_zoom">Zoom</string>
     <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT=15] -->
+    <string name="tiny_planet_rotate">Xirar</string>
     <!-- Label for menu item that starts a photo editor. [CHAR LIMIT=30] -->
     <string name="photo_editor">Editor de semeyes</string>
     <!-- Crop -->
@@ -532,7 +563,9 @@
     <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
     <string name="cannot_load_image">¡Nun pue cargase la imaxe!</string>
     <!-- Label for album filmstrip button -->
+    <string name="switch_photo_filmstrip">Vista de tira de película</string>
     <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
+    <string name="setting_wallpaper">Afitando fondu de pantalla</string>
     <!-- Camera settings. [CHAR LIMIT=25] -->
     <string name="mode_settings">Axustes</string>
     <!-- Text shown in the camera mode options list for normal camera mode [CHAR LIMIT=25] -->
@@ -542,20 +575,40 @@
     <!-- Text shown in the camera mode options list for putting camera in photo sphere mode. 'Photo sphere' is a product name. [CHAR LIMIT=25] -->
     <string name="mode_photosphere">Photo Sphere</string>
     <!-- Text shown in the camera mode options list for putting camera in time lapse mode [CHAR LIMIT=25] -->
+    <string name="mode_timelapse">Intervalu de tiempu</string>
     <!-- Text shown in the camera mode options list for putting camera in wide angle panorama mode [CHAR LIMIT=25] -->
+    <string name="mode_wideangle">Gran angular</string>
     <!-- Text shown in the camera mode options list for putting camera in panorama mode [CHAR LIMIT=25] -->
+    <string name="mode_panorama">Panorámicu</string>
     <!-- Text shown in the camera mode options list for putting camera in refocus mode [CHAR LIMIT=25] -->
+    <string name="mode_refocus">Efeutu d\'enfoque</string>
     <!-- Accessibility text for switching to normal camera mode [CHAR_LIMIT=NONE] -->
+    <string name="mode_camera_desc">Cambiar al mou cámara</string>
     <!-- Accessibility text for switching to video mode [CHAR_LIMIT=NONE] -->
+    <string name="mode_video_desc">Cambiar a cámara de videu</string>
     <!-- Accessibility text for switching to photo sphere mode. 'Photo sphere' is a product name. [CHAR_LIMIT=NONE] -->
     <string name="mode_photosphere_desc">Cambiar a mou Photo Sphere</string>
     <!-- Accessibility text for switching to panorama mode [CHAR_LIMIT=NONE] -->
+    <string name="mode_panorama_desc">Cambiar a mou panorámicu</string>
     <!-- Accessibility text for switching to refocus mode [CHAR_LIMIT=NONE] -->
+    <string name="mode_refocus_desc">Cambiar a mou Efeutu d\'enfoque</string>
     <!-- Accessibility text for settings toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="settings_open_desc">Abrir axustes</string>
+    <string name="settings_close_desc">Zarrar axustes</string>
     <!-- Accessibility text for HDR+ toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="hdr_plus_off_desc">HDR Plus off</string>
+    <string name="hdr_plus_on_desc">HDR Plus on</string>
     <!-- Accessibility text for HDR toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="hdr_off_desc">HDR off</string>
+    <string name="hdr_on_desc">HDR on</string>
     <!-- Accessibility text for camera flash toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="flash_off_desc">Flax off</string>
+    <string name="flash_auto_desc">Flax auto</string>
+    <string name="flash_on_desc">Flax on</string>
     <!-- Accessibility text for HDR+ flash toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="hdr_plus_flash_off_desc">HDR+ flax off</string>
+    <string name="hdr_plus_flash_auto_desc">HDR+ flax auto</string>
+    <string name="hdr_plus_flash_on_desc">HDR+ flax on</string>
     <!-- Accessibility text for vide torch (flash) toggle button states [CHAR_LIMIT=NONE] -->
     <string name="torch_on_desc">Llinterna encesa</string>
     <string name="torch_off_desc">Llinterna apagada</string>
@@ -563,7 +616,12 @@
     <string name="camera_id_back_desc">Cámara trasera</string>
     <string name="camera_id_front_desc">Cámara frontal</string>
     <!-- Accessibility text for grid lines toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="grid_lines_off_desc">Llinies de cuadrícula desactivaes</string>
+    <string name="grid_lines_on_desc">Llinies de cuadrícula activaes</string>
     <!-- Accessibility text for countdown timer toggle button states [CHAR_LIMIT=NONE] -->
+    <string name="countdown_timer_off">Temporizador de cuenta atrás desactiváu</string>
+    <string name="countdown_timer_duration_3s">Temporizador cuenta atrás afitáu a 3 segundos</string>
+    <string name="countdown_timer_duration_10s">Temporizador cuenta atrás afitáu a 10 segundos</string>
     <!-- Accessibility text for More Options button [CHAR_LIMIT=NONE] -->
     <string name="more_options_desc">Más opciones</string>
     <!-- Accessibility text for cancel button [CHAR_LIMIT=NONE] -->
@@ -585,19 +643,31 @@
     <!-- Accessibility text for manual exposure compensation button [CHAR_LIMIT=NONE] -->
     <string name="manual_exposure_compensation_desc">Compensación d\'esposición manual</string>
     <!-- Accessibility text for exposure compensation -2 button [CHAR_LIMIT=NONE] -->
+    <string name="exposure_compensation_desc_n2">Exposure Compensation -2</string>
     <!-- Accessibility text for exposure compensation -1 button [CHAR_LIMIT=NONE] -->
+    <string name="exposure_compensation_desc_n1">Exposure Compensation -1</string>
     <!-- Accessibility text for exposure compensation 0 button [CHAR_LIMIT=NONE] -->
+    <string name="exposure_compensation_desc_0">Exposure Compensation 0</string>
     <!-- Accessibility text for exposure compensation +1 button [CHAR_LIMIT=NONE] -->
+    <string name="exposure_compensation_desc_p1">Exposure Compensation +1</string>
     <!-- Accessibility text for exposure compensation +2 button [CHAR_LIMIT=NONE] -->
+    <string name="exposure_compensation_desc_p2">Exposure Compensation +2</string>
     <!-- Accessibility announcement when option button changes on screen after tap, e.g. from flash auto to flash off [CHAR_LIMIT=NONE] -->
+    <string name="button_change_announcement">Botón ye agora %s</string>
     <!-- Text shown in camera settings list for toggling photo location on or off [CHAR LIMIT=25] -->
     <string name="setting_location">Allugamientu</string>
     <!-- Camera settings title for back camera photo resolution. [CHAR LIMIT=25] -->
+    <string name="setting_back_camera_photo">Semeya cámara d\'atrás</string>
     <!-- Camera settings title for back camera video resolution. [CHAR LIMIT=25] -->
+    <string name="setting_back_camera_video">Vídeu cámara d\'atrás</string>
     <!-- Camera settings title for front camera photo resolution. [CHAR LIMIT=25] -->
+    <string name="setting_front_camera_photo">Semeya cámara frontal</string>
     <!-- Camera settings title for front camera video resolution. [CHAR LIMIT=25] -->
+    <string name="setting_front_camera_video">Videu cámara frontal</string>
     <!-- Text shown in camera settings list for selecting the camera mode that will be used by default when the app starts [CHAR LIMIT=25] -->
+    <string name="setting_default_camera">Cámara por defeutu</string>
     <!-- Text shown in camera settings list for launching Google Help [CHAR LIMIT=25] -->
+    <string name="setting_google_help_and_feedback">Ayuda &amp; comentarios</string>
     <!-- TODO: don't ship with these. -->
     <!-- camera jpeg quality settings -->
     <!-- Default for camera startup module index -->
@@ -615,7 +685,9 @@
     <!--  Title of a preference which shows the build version of the app. [CHAR LIMIT=30]  -->
     <string name="pref_title_build_version">Versión de compilación</string>
     <!-- Video quality setting entry. Videos will be recorded in the lowest quality available on the device. [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_low">Baxa</string>
     <!-- Video quality setting entry. Videos will be recorded in the highest quality available on the device. [CHAR LIMIT=24] -->
+    <string name="pref_video_quality_entry_high">Alta</string>
     <!-- Video quality setting entry. Videos will be recorded in quarter CIF quality. Details on CIF: http://goo.gl/3jDK [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_qcif">QCIF</string>
     <!-- Video quality setting entry. Videos will be recorded in CIF quality. Details on CIF: http://goo.gl/3jDK [CHAR LIMIT=24] -->
@@ -636,12 +708,15 @@
     <!-- Message shown in the settings summary that includes the the aspect ratio of the selected resolution i.e. (4:3) and the size of the selected resolution in megapixels. [CHAR LIMIT=24]-->
     <string name="setting_summary_aspect_ratio_and_megapixels">(%1$d:%2$d) %3$s megapíxeles</string>
     <!-- Text shown above the button that opens to editor for images created from lens blur mode. [CHAR LIMIT=60] -->
+    <string name="cling_text_for_refocus_editor_button">Pa reenfoque, tocar equí</string>
     <!-- Title of a preference group for advanced preferences. [CHAR LIMIT=30] -->
     <string name="pref_category_advanced">Avanzao</string>
     <!-- Title of a preference for enabling manual exposure compensation. [CHAR LIMIT=20] -->
     <string name="pref_camera_exposure_compensation">Esposición manual</string>
     <!-- Text shown next to the settings button to explain what is in settings menu. [CHAR LIMIT=120] !-->
+    <string name="settings_cling_text">N\'axustes, cambiar resolución y calidá, o opciones avanzaes.</string>
     <!-- Title on the startup screen that lets user select photo aspect ratio. [CHAR LIMIT=40]-->
+    <string name="photo_size_selection_title">Escueyi tamañu semeya</string>
     <!-- Text on the photo aspect ratio selection screen. [CHAR LIMIT=120] -->
     <string name="photo_aspect_ratio_selection_content">Pues camudar esto más sero n\'Axustes.</string>
     <!-- Shown above the intent chooser when the user is about to share an item. [CHAR LIMIT=20] -->
@@ -651,6 +726,7 @@
     <!-- Text on the button to take user to the next page of the on-screen instructions. [CHAR LIMIT=20] -->
     <string name="startup_dialog_button_next">SIGUIENTE</string>
     <!-- Text on the button to confirm that user understands the on-screen instructions. [CHAR LIMIT=20] -->
+    <string name="confirm_button_text">SÍ, FACER</string>
     <!-- Selection for a 4:3 picture size where the sensor provides 4:3 so the result is not cropped. [CHAR LIMIT=30] -->
     <string name="full_sensor_4x3_aspect_ratio">Sensor completu \n(4:3)</string>
     <!-- Selection for a 16:9 picture size where the sensor provides 4:3 so the result will be cropped. [CHAR LIMIT=30] -->

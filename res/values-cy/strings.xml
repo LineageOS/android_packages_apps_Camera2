@@ -53,7 +53,7 @@
     <string name="aperture">Agorfa</string>
     <string name="focal_length">Hyd Ffocal</string>
     <string name="white_balance">Cydbwysedd Gwyn</string>
-    <string name="exposure_time">Amser goleuni</string>
+    <string name="exposure_time">Amser amlygiad</string>
     <string name="iso">ISO</string>
     <string name="unit_mm">mm</string>
     <string name="manual">Â llaw</string>
@@ -145,8 +145,8 @@
     <string name="pref_camera_countdown_label_ten">10 EILIAD</string>
     <string name="pref_camera_countdown_label_fifteen">15 EILIAD</string>
     <string name="not_selectable_in_scene_mode">Nid yw\'n bosib ei ddewis mewn modd golygfa.</string>
-    <string name="pref_exposure_title">Goleuni</string>
-    <string name="pref_exposure_label">GOLEUNI</string>
+    <string name="pref_exposure_title">Amlygiad</string>
+    <string name="pref_exposure_label">AMLYGIAD</string>
     <string name="pref_camera_hdr_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <string name="pref_camera_hdr_label">HDR</string>
@@ -155,7 +155,7 @@
     <string name="dialog_ok">Iawn</string>
     <string name="dialog_cancel">Diddymu</string>
     <string name="dialog_report">Rhoi Adborth</string>
-    <string name="dialog_dismiss">Diysytyru</string>
+    <string name="dialog_dismiss">Diystyru</string>
     <string name="spaceIsLow_content" product="default">Mae dy gerdyn SD yn rhedeg yn brin o le. Newidia\'r gosodiad ansawdd neu ddileu rhai delweddau neu ffeiliau eraill.</string>
     <string name="video_reach_size_limit">Wedi cyrraedd y terfyn maint.</string>
     <string name="pano_too_fast_prompt">Rhy gyflym</string>
@@ -329,12 +329,12 @@
     <string name="view_button_description">Golwg</string>
     <string name="edit_button_description">Golygu</string>
     <string name="delete_button_description">Dileu</string>
-    <string name="manual_exposure_compensation_desc">Cyfadfer Goleuni â Llaw</string>
-    <string name="exposure_compensation_desc_n2">Cyfadferiad Goleuni -2</string>
-    <string name="exposure_compensation_desc_n1">Cyfadferiad Goleuni -1</string>
-    <string name="exposure_compensation_desc_0">Cyfadferiad Goleuni 0</string>
-    <string name="exposure_compensation_desc_p1">Cyfadferiad Goleuni +1</string>
-    <string name="exposure_compensation_desc_p2">Cyfadferiad Goleuni +2</string>
+    <string name="manual_exposure_compensation_desc">Cyfadfer Amlygiad â Llaw</string>
+    <string name="exposure_compensation_desc_n2">Cyfadferiad Amlygiad -2</string>
+    <string name="exposure_compensation_desc_n1">Cyfadferiad Amlygiad -1</string>
+    <string name="exposure_compensation_desc_0">Cyfadferiad Amlygiad 0</string>
+    <string name="exposure_compensation_desc_p1">Cyfadferiad Amlygiad +1</string>
+    <string name="exposure_compensation_desc_p2">Cyfadferiad Amlygiad +2</string>
     <string name="button_change_announcement">Mae\'r botwm nawr %s</string>
     <string name="setting_location">Lleoliad</string>
     <string name="setting_back_camera_photo">Lluniau camera cefn</string>
@@ -362,7 +362,7 @@
     <string name="setting_summary_aspect_ratio_and_megapixels">(%1$d:%2$d) %3$s megapicsel</string>
     <string name="cling_text_for_refocus_editor_button">Cyffyrdda yma i ail-ffocysu</string>
     <string name="pref_category_advanced">Uwch</string>
-    <string name="pref_camera_exposure_compensation">Goleuni â llaw</string>
+    <string name="pref_camera_exposure_compensation">Amlygiad â llaw</string>
     <string name="settings_cling_text">Yng Ngosodiadau, newidia’r gymhareb agwedd a\'r ansawdd neu addasu nodweddion uwch.</string>
     <string name="photo_size_selection_title">Dewis maint llun</string>
     <string name="photo_aspect_ratio_selection_content">Gellir newid hyn yn hwyrach yng Ngosodiadau.</string>

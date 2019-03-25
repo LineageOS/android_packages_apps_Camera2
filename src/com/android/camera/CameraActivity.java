@@ -144,6 +144,7 @@ import com.android.camera.ui.PreviewStatusListener;
 import com.android.camera.util.ApiHelper;
 import com.android.camera.util.Callback;
 import com.android.camera.util.CameraUtil;
+import com.android.camera.util.FeatureHelper;
 import com.android.camera.util.GalleryHelper;
 import com.android.camera.util.GcamHelper;
 import com.android.camera.util.GoogleHelpHelper;
@@ -2243,6 +2244,10 @@ public class CameraActivity extends QuickActivity
     }
 
     protected void initPowerShutter() {
+        if (!FeatureHelper.isPowerShutterSupported(this)) {
+            return;
+        }
+
         mPowerShutter = Keys.isPowerShutterOn(mSettingsManager);
         if (mPowerShutter) {
             getWindow().addPrivateFlags(

@@ -1851,6 +1851,11 @@ public class CameraActivity extends QuickActivity
         mCameraAppUI.hideCaptureIndicator();
         mFirstRunDialog.dismiss();
 
+        if (mStorageHint != null) {
+            mStorageHint.cancel();
+            mStorageHint = null;
+        }
+
         // Delete photos that are pending deletion
         performDeletion();
         mCurrentModule.pause();

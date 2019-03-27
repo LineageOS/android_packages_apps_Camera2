@@ -1,5 +1,26 @@
 buildscript {
     ext {
+        // SIGNING START
+        commonSignPrefix = project.findProperty("sign_prefix") ?: ""
+        if (commonSignPrefix != "") {
+            logger.quiet("Using sign prefix: " + commonSignPrefix)
+        }
+
+        commonKeystore = project.findProperty(commonSignPrefix + "sign_store") ?: "debug.keystore"
+
+        if ("debug.keystore" == commonKeystore) {
+            logger.quiet('Not signing the build!')
+            commonKeystorePass = null
+            commonKeystoreAlias = null
+            commonKeystorePassword = null
+        } else {
+            logger.quiet('Signing the build!')
+            commonKeystorePass = project.property(commonSignPrefix + "sign_store_pass")
+            commonKeystoreAlias = project.property(commonSignPrefix + "sign_key_alias")
+            commonKeystorePassword = project.property(commonSignPrefix + "sign_key_pass")
+        }
+        // SIGNING END
+
         commonGradlePlugin = "3.3.2"
     }
 
@@ -49,6 +70,23 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    signingConfigs {
+        debug {
+            storeFile file(commonKeystore)
+
+            storePassword commonKeystorePass
+            keyAlias commonKeystoreAlias
+            keyPassword commonKeystorePassword
+        }
+        release {
+            storeFile file(commonKeystore)
+
+            storePassword commonKeystorePass
+            keyAlias commonKeystoreAlias
+            keyPassword commonKeystorePassword
+        }
+    }
+
     defaultConfig {
         applicationId "com.android.camera2"
 
@@ -67,6 +105,8 @@ android {
             minifyEnabled false
             shrinkResources false
             zipAlignEnabled false
+
+            signingConfig signingConfigs.debug
         }
         debugProguard {
             applicationIdSuffix ".dev"
@@ -77,6 +117,8 @@ android {
             shrinkResources true
             zipAlignEnabled true
 
+            signingConfig signingConfigs.debug
+
             matchingFallbacks = ['debug']
         }
         release {
@@ -85,6 +127,8 @@ android {
             minifyEnabled true
             shrinkResources true
             zipAlignEnabled true
+
+            signingConfig signingConfigs.release
         }
     }
 

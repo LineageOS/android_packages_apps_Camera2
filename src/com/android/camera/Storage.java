@@ -170,7 +170,7 @@ public class Storage {
             // The picture is still safe and MediaScanner will find it and
             // insert it into MediaProvider. The only problem is that the user
             // cannot click the thumbnail to review the picture.
-            Log.e(TAG, "Failed to write MediaStore" + th);
+            Log.e(TAG, "Failed to write MediaStore", th);
         }
         return uri;
     }
@@ -517,12 +517,13 @@ public class Storage {
         File dir = new File(generateDirectory());
         dir.mkdirs();
         if (!dir.isDirectory() || !dir.canWrite()) {
+            Log.w(TAG, dir.getAbsolutePath() + " is not writable, returning unavailable");
             return UNAVAILABLE;
         }
 
         try {
-            StatFs stat = new StatFs(generateDirectory());
-            return stat.getAvailableBlocks() * (long) stat.getBlockSize();
+            final StatFs stat = new StatFs(generateDirectory());
+            return stat.getAvailableBlocksLong() * stat.getBlockSizeLong();
         } catch (Exception e) {
             Log.i(TAG, "Fail to access external storage", e);
         }

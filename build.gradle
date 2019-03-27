@@ -1,0 +1,145 @@
+buildscript {
+    ext {
+        commonGradlePlugin = "3.3.2"
+    }
+
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:${commonGradlePlugin}"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    // we need to add our system_libs/ jars to the boot classpath
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs.add('-Xbootclasspath/p:system_libs/framework.jar')
+        }
+    }
+}
+
+tasks.register("updateGradleWrapper", Wrapper) {
+    // https://docs.gradle.org/current/release-notes.html
+    // https://github.com/gradle/gradle/releases
+    gradleVersion = '5.2.1'
+    distributionUrl = "https://services.gradle.org/distributions/gradle-${gradleVersion}-all.zip"
+}
+
+//==================================================================================================
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.android.camera2"
+
+        minSdkVersion 26
+        targetSdkVersion 28
+
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix ".dev"
+
+            debuggable true
+            minifyEnabled false
+            shrinkResources false
+            zipAlignEnabled false
+        }
+        debugProguard {
+            applicationIdSuffix ".dev"
+
+            debuggable true
+            proguardFiles 'proguard.cfg', 'proguard-debug.cfg'
+            minifyEnabled true
+            shrinkResources true
+            zipAlignEnabled true
+
+            matchingFallbacks = ['debug']
+        }
+        release {
+            debuggable false
+            proguardFiles 'proguard.cfg'
+            minifyEnabled true
+            shrinkResources true
+            zipAlignEnabled true
+        }
+    }
+
+    dexOptions {
+        dexInProcess true
+        preDexLibraries true
+    }
+
+    lintOptions {
+        baseline file("lint-baseline.xml")
+
+        abortOnError true
+        checkAllWarnings true
+        showAll true
+
+        warningsAsErrors true
+
+        // HTML report is enough (can be found inside build/reports/)
+        xmlReport false
+
+        // do not warn about translations
+        disable 'MissingTranslation', 'ExtraTranslation'
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude '.readme'
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest-gradle.xml'
+
+            assets.srcDirs = ['assets']
+            java.srcDirs = ['src', 'src_pd', 'src_pd_gcam']
+            res.srcDirs = ['res', 'res_p']
+            resources.srcDirs = ['res', 'res_p']
+        }
+    }
+}
+
+dependencies {
+    /*
+     * Used to be able to compile and develop in Android Studio using framework symbols.
+     * Run "make GenerateStudioFiles-Camera2" in an Android Source tree before.
+     */
+    compileOnly fileTree(dir: 'system_libs/', include: ['*.jar'])
+
+    implementation project(":android_ex_camera2")
+    implementation project(":xmp_toolkit")
+
+    implementation "com.android.support:support-v13:28.0.0"
+    implementation "com.github.bumptech.glide:glide:3.4.0"
+    implementation "com.google.code.findbugs:jsr305:1.3.9"
+    implementation "com.google.guava:guava:14.0.1"
+}

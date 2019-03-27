@@ -5,9 +5,16 @@
 **/*.iml
 .settings/
 bin/
+build/
 libs/
 gen/
 .idea/
+local.properties
+project.properties
+.gradle/
 
 # ignore OS X metadata
 .DS_Store
+
+# ignore prebuilt framework libraries
+/system_libs/

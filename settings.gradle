@@ -1,0 +1,7 @@
+include ":"
+
+include ':android_ex_camera2'
+project(':android_ex_camera2').projectDir = new File(settingsDir, './modules/android_ex_camera2')
+
+include ':xmp_toolkit'
+project(':xmp_toolkit').projectDir = new File(settingsDir, './modules/xmp_toolkit')

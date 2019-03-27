@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 26
+        targetSdkVersion 28
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = [
+                    'src/main/src_portability',
+                    'src/main/src_public',
+                    'src/main/src_utils'
+            ]
+        }
+    }
+}
+
+dependencies {
+    // empty
+}

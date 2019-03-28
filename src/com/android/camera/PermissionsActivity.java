@@ -1,10 +1,8 @@
 package com.android.camera;
 
 import android.Manifest;
-import android.app.Activity;
-import android.app.Dialog;
 import android.app.AlertDialog;
-import android.app.KeyguardManager;
+import android.app.Dialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -15,6 +13,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
+
 import com.android.camera.app.CameraServicesImpl;
 import com.android.camera.debug.Log;
 import com.android.camera.settings.Keys;
@@ -96,33 +95,34 @@ public class PermissionsActivity extends QuickActivity {
         unregisterReceiver(mShutdownReceiver);
     }
 
+    private boolean isPermissionGranted(final String permission) {
+        return checkSelfPermission(permission) == PackageManager.PERMISSION_GRANTED;
+    }
+
     private void checkPermissions() {
-        if (checkSelfPermission(Manifest.permission.CAMERA)
-                != PackageManager.PERMISSION_GRANTED) {
+        if (!isPermissionGranted(Manifest.permission.CAMERA)) {
             mNumPermissionsToRequest++;
             mShouldRequestCameraPermission = true;
         } else {
             mFlagHasCameraPermission = true;
         }
 
-        if (checkSelfPermission(Manifest.permission.RECORD_AUDIO)
-                != PackageManager.PERMISSION_GRANTED) {
+        if (!isPermissionGranted(Manifest.permission.RECORD_AUDIO)) {
             mNumPermissionsToRequest++;
             mShouldRequestMicrophonePermission = true;
         } else {
             mFlagHasMicrophonePermission = true;
         }
 
-        if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
-                != PackageManager.PERMISSION_GRANTED) {
-            mNumPermissionsToRequest++;
+        if (!isPermissionGranted(Manifest.permission.READ_EXTERNAL_STORAGE) ||
+                !isPermissionGranted(Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+            mNumPermissionsToRequest += 2;
             mShouldRequestStoragePermission = true;
         } else {
             mFlagHasStoragePermission = true;
         }
 
-        if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED) {
+        if (!isPermissionGranted(Manifest.permission.ACCESS_FINE_LOCATION)) {
             mNumPermissionsToRequest++;
             mShouldRequestLocationPermission = true;
         }
@@ -157,6 +157,10 @@ public class PermissionsActivity extends QuickActivity {
         }
         if (mShouldRequestStoragePermission) {
             permissionsToRequest[permissionsRequestIndex] = Manifest.permission.READ_EXTERNAL_STORAGE;
+            mIndexPermissionRequestStorage = permissionsRequestIndex;
+            permissionsRequestIndex++;
+
+            permissionsToRequest[permissionsRequestIndex] = Manifest.permission.WRITE_EXTERNAL_STORAGE;
             mIndexPermissionRequestStorage = permissionsRequestIndex;
             permissionsRequestIndex++;
         }
@@ -195,8 +199,9 @@ public class PermissionsActivity extends QuickActivity {
             }
         }
         if (mShouldRequestStoragePermission) {
-            if (grantResults.length > 0 && grantResults[mIndexPermissionRequestStorage] ==
-                    PackageManager.PERMISSION_GRANTED) {
+            if (grantResults.length >= 2 &&
+                    grantResults[mIndexPermissionRequestStorage - 1] == PackageManager.PERMISSION_GRANTED &&
+                    grantResults[mIndexPermissionRequestStorage] == PackageManager.PERMISSION_GRANTED) {
                 mFlagHasStoragePermission = true;
             } else {
                 handlePermissionsFailure();

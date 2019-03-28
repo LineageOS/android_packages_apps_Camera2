@@ -3,6 +3,7 @@
 .project
 *.iml
 **/*.iml
+.externalNativeBuild/
 .settings/
 bin/
 build/

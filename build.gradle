@@ -95,6 +95,19 @@ android {
 
         versionCode 1
         versionName '1.0.0'
+
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a"
+        }
+
+        externalNativeBuild {
+            cmake {
+                arguments '-DANDROID_STL=c++_static',
+                        '-DANDROID_PLATFORM=android-26',
+                        '-DANDROID_ARM_MODE=arm',
+                        '-DANDROID_ARM_NEON=true'
+            }
+        }
     }
 
     buildTypes {
@@ -168,6 +181,12 @@ android {
             java.srcDirs = ['src', 'src_pd', 'src_pd_gcam']
             res.srcDirs = ['res', 'res_p']
             resources.srcDirs = ['res', 'res_p']
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "jni/CMakeLists.txt"
         }
     }
 }

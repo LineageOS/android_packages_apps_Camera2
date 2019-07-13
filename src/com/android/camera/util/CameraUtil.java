@@ -83,7 +83,7 @@ public class CameraUtil {
 
     // For calculate the best fps range for still image capture.
     private final static int MAX_PREVIEW_FPS_TIMES_1000 = 400000;
-    private final static int PREFERRED_PREVIEW_FPS_TIMES_1000 = 30000;
+    private final static int PREFERRED_PREVIEW_FPS_TIMES_1000 = 5000;
 
     // For creating crop intents.
     public static final String KEY_RETURN_DATA = "return-data";

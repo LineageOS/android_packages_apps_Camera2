@@ -81,10 +81,6 @@ public class CameraUtil {
         return Singleton.INSTANCE;
     }
 
-    // For calculate the best fps range for still image capture.
-    private final static int MAX_PREVIEW_FPS_TIMES_1000 = 400000;
-    private final static int PREFERRED_PREVIEW_FPS_TIMES_1000 = 30000;
-
     // For creating crop intents.
     public static final String KEY_RETURN_DATA = "return-data";
     public static final String KEY_SHOW_WHEN_LOCKED = "showWhenLocked";
@@ -795,58 +791,6 @@ public class CameraUtil {
                     (utcTimeSeconds != 0 ? utcTimeSeconds : System.currentTimeMillis()),
                     loc.getProvider().toUpperCase()));
         }
-    }
-
-    /**
-     * For still image capture, we need to get the right fps range such that the
-     * camera can slow down the framerate to allow for less-noisy/dark
-     * viewfinder output in dark conditions.
-     *
-     * @param capabilities Camera's capabilities.
-     * @return null if no appropiate fps range can't be found. Otherwise, return
-     *         the right range.
-     */
-    public static int[] getPhotoPreviewFpsRange(CameraCapabilities capabilities) {
-        return getPhotoPreviewFpsRange(capabilities.getSupportedPreviewFpsRange());
-    }
-
-    public static int[] getPhotoPreviewFpsRange(List<int[]> frameRates) {
-        if (frameRates.size() == 0) {
-            Log.e(TAG, "No suppoted frame rates returned!");
-            return null;
-        }
-
-        // Find the lowest min rate in supported ranges who can cover 30fps.
-        int lowestMinRate = MAX_PREVIEW_FPS_TIMES_1000;
-        for (int[] rate : frameRates) {
-            int minFps = rate[0];
-            int maxFps = rate[1];
-            if (maxFps >= PREFERRED_PREVIEW_FPS_TIMES_1000 &&
-                    minFps <= PREFERRED_PREVIEW_FPS_TIMES_1000 &&
-                    minFps < lowestMinRate) {
-                lowestMinRate = minFps;
-            }
-        }
-
-        // Find all the modes with the lowest min rate found above, the pick the
-        // one with highest max rate.
-        int resultIndex = -1;
-        int highestMaxRate = 0;
-        for (int i = 0; i < frameRates.size(); i++) {
-            int[] rate = frameRates.get(i);
-            int minFps = rate[0];
-            int maxFps = rate[1];
-            if (minFps == lowestMinRate && highestMaxRate < maxFps) {
-                highestMaxRate = maxFps;
-                resultIndex = i;
-            }
-        }
-
-        if (resultIndex >= 0) {
-            return frameRates.get(resultIndex);
-        }
-        Log.e(TAG, "Can't find an appropiate frame rate range!");
-        return null;
     }
 
     public static int[] getMaxPreviewFpsRange(List<int[]> frameRates) {

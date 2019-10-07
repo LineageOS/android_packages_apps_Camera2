@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0137c3f5_5971ab3c",
+        "filename": "src/android/util/Pools.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2019-10-07T12:47:24Z",
+      "side": 0,
+      "message": "why removed?",
+      "revId": "ffd19c1f707118ca9baf9c5b85259ff1a9ac6480",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}

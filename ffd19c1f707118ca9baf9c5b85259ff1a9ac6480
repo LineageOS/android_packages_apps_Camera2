@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "c6f9e67a_5dfab943",
+        "filename": "src/com/android/camera/settings/CameraSettingsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2019-10-07T12:34:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "36aaee26_3e14a2ff",
+      "revId": "ffd19c1f707118ca9baf9c5b85259ff1a9ac6480",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f84330ac_bdd55404",
         "filename": "src/com/android/camera/settings/CameraSettingsActivity.java",
         "patchSetId": 1
@@ -33,6 +51,24 @@
       "revId": "ffd19c1f707118ca9baf9c5b85259ff1a9ac6480",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "757819f7_131eb29a",
+        "filename": "src/com/android/camera/settings/CameraSettingsActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2019-10-07T12:34:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f84330ac_bdd55404",
+      "revId": "ffd19c1f707118ca9baf9c5b85259ff1a9ac6480",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

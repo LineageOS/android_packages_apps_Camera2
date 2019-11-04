@@ -1354,7 +1354,8 @@ public class CaptureModule extends CameraModule implements
         // Only enable GCam on the back camera
         boolean useHdr = mHdrPlusEnabled && mCameraFacing == Facing.BACK;
 
-        CameraId cameraId = mOneCameraManager.findFirstCameraFacing(mCameraFacing);
+        CameraId cameraId = CameraId.from(mSettingsManager.getString(
+                mAppController.getModuleScope(), Keys.KEY_CAMERA_ID));
         final String settingScope = SettingsManager.getCameraSettingScope(cameraId.getValue());
 
         OneCameraCaptureSetting captureSetting;

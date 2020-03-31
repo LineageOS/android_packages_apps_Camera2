@@ -55,6 +55,7 @@
             android:launchMode="singleTask"
             android:taskAffinity="com.android.camera.CameraActivity"
             android:theme="@style/Theme.Camera"
+            android:exported="true"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
             <intent-filter>
                 <action android:name="android.media.action.STILL_IMAGE_CAMERA" />
@@ -83,6 +84,7 @@
         <activity-alias
             android:name="com.android.camera.CameraLauncher"
             android:label="@string/app_name"
+            android:exported="true"
             android:targetActivity="com.android.camera.CameraActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -98,6 +100,7 @@
             android:theme="@style/Theme.Camera"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+            android:exported="true"
             android:visibleToInstantApps="true">
             <intent-filter>
                 <action android:name="android.media.action.IMAGE_CAPTURE" />
@@ -109,6 +112,7 @@
         <activity-alias
             android:name="com.android.camera.VideoCamera"
             android:label="@string/video_camera_label"
+            android:exported="true"
             android:targetActivity="com.android.camera.CaptureActivity">
             <intent-filter>
                 <action android:name="android.media.action.VIDEO_CAMERA" />
@@ -128,6 +132,7 @@
             android:label="@string/app_name"
             android:taskAffinity="com.android.camera.SecureCameraActivity"
             android:theme="@style/Theme.SecureCamera"
+            android:exported="true"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
             <intent-filter>
                 <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE" />
@@ -152,7 +157,8 @@
             android:configChanges="keyboardHidden|orientation|screenSize">
         </activity>
 
-        <receiver android:name="com.android.camera.DisableCameraReceiver">
+        <receiver android:name="com.android.camera.DisableCameraReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>

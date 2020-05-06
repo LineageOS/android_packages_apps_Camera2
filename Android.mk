@@ -47,6 +47,17 @@ LOCAL_JAVA_LIBRARIES += org.apache.http.legacy
 
 LOCAL_JNI_SHARED_LIBRARIES := libjni_tinyplanet libjni_jpegutil
 
+LOCAL_REQUIRED_MODULES := privapp_whitelist_com.android.camera2.xml
+
 include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := privapp_whitelist_com.android.camera2.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT_ETC)/permissions
+LOCAL_PRODUCT_MODULE := true
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
 
 include $(call all-makefiles-under, $(LOCAL_PATH))

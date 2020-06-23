@@ -17,6 +17,8 @@
 package com.android.camera.session;
 
 import android.content.ContentResolver;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Location;
 import android.net.Uri;
 
@@ -66,13 +68,14 @@ public class StackSaverImpl implements StackSaver {
                 title, mimeType);
         Log.d(TAG, "Saving using stack image saver: " + filePath);
         File outputImagePath = new File(filePath);
+        Bitmap bitmap = BitmapFactory.decodeFile(filePath);
 
         if (Storage.instance().renameFile(inputImagePath, outputImagePath)) {
             long fileLength = outputImagePath.length();
             if (fileLength > 0) {
                 return Storage.instance().addImageToMediaStore(mContentResolver, title,
-                        captureTimeEpoch, mGpsLocation, imageOrientation, fileLength, filePath,
-                        width, height, mimeType);
+                        captureTimeEpoch, mGpsLocation, imageOrientation, fileLength, bitmap,
+                        width, height, mimeType, null);
             }
         }
 

@@ -20,30 +20,28 @@ import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Point;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Environment;
 import android.os.StatFs;
-import android.provider.MediaStore.Images;
-import android.provider.MediaStore.Images.ImageColumns;
-import android.provider.MediaStore.MediaColumns;
+import android.provider.MediaStore.Images.Media;
 import android.util.LruCache;
 
 import com.android.camera.data.FilmstripItemData;
 import com.android.camera.debug.Log;
 import com.android.camera.exif.ExifInterface;
 import com.android.camera.util.AndroidContext;
-import com.android.camera.util.ApiHelper;
 import com.android.camera.util.Size;
 import com.google.common.base.Optional;
 
 import java.io.File;
-import java.io.FileOutputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.UUID;
-import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Nonnull;
 
@@ -81,7 +79,7 @@ public class Storage {
     }
 
     private Storage(Context context) {
-        DIRECTORY = context.getExternalFilesDir(null).getPath();
+        DIRECTORY = context.getExternalFilesDir(Environment.DIRECTORY_PICTURES).getPath();
     }
 
     /**
@@ -132,11 +130,10 @@ public class Storage {
             Location location, int orientation, ExifInterface exif, byte[] data, int width,
             int height, String mimeType) throws IOException {
 
-        String path = generateFilepath(title, mimeType);
-        long fileLength = writeFile(path, data, exif);
-        if (fileLength >= 0) {
-            return addImageToMediaStore(resolver, title, date, location, orientation, fileLength,
-                    path, width, height, mimeType);
+        if (data.length >= 0) {
+            Bitmap bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
+            return addImageToMediaStore(resolver, title, date, location, orientation, data.length,
+                    bitmap, width, height, mimeType, exif);
         }
         return null;
     }
@@ -149,25 +146,26 @@ public class Storage {
      * @param date The date for the media file.
      * @param location The location of the media file.
      * @param orientation The orientation of the media file.
+     * @param bitmap The bitmap representation of the media to store.
      * @param width The width of the media file after the orientation is
      *            applied.
      * @param height The height of the media file after the orientation is
      *            applied.
      * @param mimeType The MIME type of the data.
+     * @param exif The exif of the image.
      * @return The content URI of the inserted media file or null, if the image
      *         could not be added.
      */
     public Uri addImageToMediaStore(ContentResolver resolver, String title, long date,
-            Location location, int orientation, long jpegLength, String path, int width, int height,
-            String mimeType) {
+            Location location, int orientation, long jpegLength, Bitmap bitmap, int width,
+            int height, String mimeType, ExifInterface exif) {
         // Insert into MediaStore.
-        ContentValues values =
-                getContentValuesForData(title, date, location, orientation, jpegLength, path, width,
-                        height, mimeType);
+        ContentValues values = getContentValuesForData(title, date, location, mimeType, true);
 
         Uri uri = null;
         try {
-            uri = resolver.insert(Images.Media.EXTERNAL_CONTENT_URI, values);
+            uri = resolver.insert(Media.EXTERNAL_CONTENT_URI, values);
+            writeBitmap(uri, exif, bitmap, resolver);
         } catch (Throwable th)  {
             // This can happen when the external volume is already mounted, but
             // MediaScanner has not notify MediaProvider to add that volume.
@@ -175,34 +173,44 @@ public class Storage {
             // insert it into MediaProvider. The only problem is that the user
             // cannot click the thumbnail to review the picture.
             Log.e(TAG, "Failed to write MediaStore" + th);
+            if (uri != null) {
+                resolver.delete(uri, null, null);
+            }
         }
         return uri;
     }
 
-    // Get a ContentValues object for the given photo data
-    public ContentValues getContentValuesForData(String title,
-            long date, Location location, int orientation, long jpegLength,
-            String path, int width, int height, String mimeType) {
+    private void writeBitmap(Uri uri, ExifInterface exif, Bitmap bitmap, ContentResolver resolver)
+            throws FileNotFoundException, IOException {
+        OutputStream os = resolver.openOutputStream(uri);
+        if (exif != null) {
+            exif.writeExif(bitmap, os);
+        } else {
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 90, os);
+        }
 
-        File file = new File(path);
-        long dateModifiedSeconds = TimeUnit.MILLISECONDS.toSeconds(file.lastModified());
+        ContentValues publishValues = new ContentValues();
+        publishValues.put(Media.IS_PENDING, 0);
+        resolver.update(uri, publishValues, null, null);
+    }
+
+    // Get a ContentValues object for the given photo data
+    public ContentValues getContentValuesForData(String title, long date, Location location,
+                                                 String mimeType, boolean isPending) {
 
         ContentValues values = new ContentValues(11);
-        values.put(ImageColumns.TITLE, title);
-        values.put(ImageColumns.DISPLAY_NAME, title + JPEG_POSTFIX);
-        values.put(ImageColumns.DATE_TAKEN, date);
-        values.put(ImageColumns.MIME_TYPE, mimeType);
-        values.put(ImageColumns.DATE_MODIFIED, dateModifiedSeconds);
-        // Clockwise rotation in degrees. 0, 90, 180, or 270.
-        values.put(ImageColumns.ORIENTATION, orientation);
-        values.put(ImageColumns.DATA, path);
-        values.put(ImageColumns.SIZE, jpegLength);
+        values.put(Media.TITLE, title);
+        values.put(Media.DISPLAY_NAME, title + JPEG_POSTFIX);
+        values.put(Media.DATE_TAKEN, date);
+        values.put(Media.MIME_TYPE, mimeType);
 
-        setImageSize(values, width, height);
+        if (isPending) {
+            values.put(Media.IS_PENDING, 1);
+        }
 
         if (location != null) {
-            values.put(ImageColumns.LATITUDE, location.getLatitude());
-            values.put(ImageColumns.LONGITUDE, location.getLongitude());
+            values.put(Media.LATITUDE, location.getLatitude());
+            values.put(Media.LONGITUDE, location.getLongitude());
         }
         return values;
     }
@@ -280,10 +288,9 @@ public class Storage {
     public Uri updateImage(Uri imageUri, ContentResolver resolver, String title, long date,
            Location location, int orientation, ExifInterface exif,
            byte[] jpeg, int width, int height, String mimeType) throws IOException {
-        String path = generateFilepath(title, mimeType);
-        writeFile(path, jpeg, exif);
-        return updateImage(imageUri, resolver, title, date, location, orientation, jpeg.length, path,
-                width, height, mimeType);
+        Bitmap bitmap = BitmapFactory.decodeByteArray(jpeg, 0, jpeg.length);
+        return updateImage(imageUri, resolver, title, date, location, orientation, jpeg.length,
+                bitmap, width, height, mimeType, exif);
     }
 
     private Uri generateUniquePlaceholderUri() {
@@ -291,39 +298,6 @@ public class Storage {
         String uuid = UUID.randomUUID().toString();
         builder.scheme(CAMERA_SESSION_SCHEME).authority(GOOGLE_COM).appendPath(uuid);
         return builder.build();
-    }
-
-    private void setImageSize(ContentValues values, int width, int height) {
-        // The two fields are available since ICS but got published in JB
-        if (ApiHelper.HAS_MEDIA_COLUMNS_WIDTH_AND_HEIGHT) {
-            values.put(MediaColumns.WIDTH, width);
-            values.put(MediaColumns.HEIGHT, height);
-        }
-    }
-
-    /**
-     * Writes the JPEG data to a file. If there's EXIF info, the EXIF header
-     * will be added.
-     *
-     * @param path The path to the target file.
-     * @param jpeg The JPEG data.
-     * @param exif The EXIF info. Can be {@code null}.
-     *
-     * @return The size of the file. -1 if failed.
-     */
-    public long writeFile(String path, byte[] jpeg, ExifInterface exif) throws IOException {
-        if (!createDirectoryIfNeeded(path)) {
-            Log.e(TAG, "Failed to create parent directory for file: " + path);
-            return -1;
-        }
-        if (exif != null) {
-                exif.writeExif(jpeg, path);
-                File f = new File(path);
-                return f.length();
-        } else {
-            return writeFile(path, jpeg);
-        }
-//        return -1;
     }
 
     /**
@@ -354,32 +328,6 @@ public class Storage {
     }
 
     /**
-     * Writes the data to a file.
-     *
-     * @param path The path to the target file.
-     * @param data The data to save.
-     *
-     * @return The size of the file. -1 if failed.
-     */
-    private long writeFile(String path, byte[] data) {
-        FileOutputStream out = null;
-        try {
-            out = new FileOutputStream(path);
-            out.write(data);
-            return data.length;
-        } catch (Exception e) {
-            Log.e(TAG, "Failed to write data", e);
-        } finally {
-            try {
-                out.close();
-            } catch (Exception e) {
-                Log.e(TAG, "Failed to close file after write", e);
-            }
-        }
-        return -1;
-    }
-
-    /**
      * Given a file path, makes sure the directory it's in exists, and if not
      * that it is created.
      *
@@ -405,22 +353,18 @@ public class Storage {
     /** Updates the image values in MediaStore. */
     private Uri updateImage(Uri imageUri, ContentResolver resolver, String title,
             long date, Location location, int orientation, int jpegLength,
-            String path, int width, int height, String mimeType) {
-
-        ContentValues values =
-                getContentValuesForData(title, date, location, orientation, jpegLength, path,
-                        width, height, mimeType);
-
+            Bitmap bitmap, int width, int height, String mimeType, ExifInterface exif) {
 
         Uri resultUri = imageUri;
         if (isSessionUri(imageUri)) {
             // If this is a session uri, then we need to add the image
             resultUri = addImageToMediaStore(resolver, title, date, location, orientation,
-                    jpegLength, path, width, height, mimeType);
+                    jpegLength, bitmap, width, height, mimeType, exif);
             sSessionsToContentUris.put(imageUri, resultUri);
             sContentUrisToSessions.put(resultUri, imageUri);
         } else {
             // Update the MediaStore
+            ContentValues values = getContentValuesForData(title, date, location, mimeType, false);
             resolver.update(imageUri, values, null, null);
         }
         return resultUri;

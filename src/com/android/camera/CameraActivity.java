@@ -889,7 +889,7 @@ public class CameraActivity extends QuickActivity
                 @Override
                 public void onSessionQueued(final Uri uri) {
                     Log.v(TAG, "onSessionQueued: " + uri);
-                    if (!Storage.instance().isSessionUri(uri)) {
+                    if (!Storage.isSessionUri(uri)) {
                         return;
                     }
                     Optional<SessionItem> newData = SessionItem.create(getApplicationContext(), uri);
@@ -907,7 +907,7 @@ public class CameraActivity extends QuickActivity
                 @Override
                 public void onSessionDone(final Uri sessionUri) {
                     Log.v(TAG, "onSessionDone:" + sessionUri);
-                    Uri contentUri = Storage.instance().getContentUriForSessionUri(sessionUri);
+                    Uri contentUri = Storage.getContentUriForSessionUri(sessionUri);
                     if (contentUri == null) {
                         mDataAdapter.refresh(sessionUri);
                         return;
@@ -936,7 +936,7 @@ public class CameraActivity extends QuickActivity
                                 && mFilmstripController.isVisible(oldSessionData)) {
                             Log.v(TAG, "session item visible, setting transition placeholder");
                             newData.setSessionPlaceholderBitmap(
-                                    Storage.instance().getPlaceholderForSession(sessionUri));
+                                    Storage.getPlaceholderForSession(sessionUri));
                         }
                         mDataAdapter.updateItemAt(pos, newData);
                     }
@@ -1932,7 +1932,8 @@ public class CameraActivity extends QuickActivity
         }
 
         if (checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED &&
-                checkSelfPermission(Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) {
+                checkSelfPermission(Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED &&
+                checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
             mHasCriticalPermissions = true;
         } else {
             mHasCriticalPermissions = false;
@@ -2380,7 +2381,7 @@ public class CameraActivity extends QuickActivity
             @Override
             protected Long doInBackground(Void ... arg) {
                 synchronized (mStorageSpaceLock) {
-                    mStorageSpaceBytes = Storage.instance().getAvailableSpace();
+                    mStorageSpaceBytes = Storage.getAvailableSpace();
                     return mStorageSpaceBytes;
                 }
             }

@@ -3002,21 +3002,7 @@ public class CameraActivity extends QuickActivity
             showProcessError(sessionManager.getErrorMessageId(contentUri));
         } else {
             filmstripBottomPanel.hideProgressError();
-            CaptureSession session = sessionManager.getSession(contentUri);
-
-            if (session != null) {
-                int sessionProgress = session.getProgress();
-
-                if (sessionProgress < 0) {
-                    hideSessionProgress();
-                } else {
-                    int progressMessageId = session.getProgressMessageId();
-                    showSessionProgress(progressMessageId);
-                    updateSessionProgress(sessionProgress);
-                }
-            } else {
-                hideSessionProgress();
-            }
+            hideSessionProgress();
         }
 
         /* View button */

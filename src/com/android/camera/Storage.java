@@ -188,10 +188,12 @@ public class Storage {
         } else {
             bitmap.compress(Bitmap.CompressFormat.JPEG, 90, os);
         }
+        os.close();
 
         ContentValues publishValues = new ContentValues();
         publishValues.put(Media.IS_PENDING, 0);
         resolver.update(uri, publishValues, null, null);
+        Log.i(TAG, "Image with uri: " + uri + " was published to the MediaStore");
     }
 
     // Get a ContentValues object for the given photo data
@@ -206,6 +208,8 @@ public class Storage {
 
         if (isPending) {
             values.put(Media.IS_PENDING, 1);
+        } else {
+            values.put(Media.IS_PENDING, 0);
         }
 
         if (location != null) {
@@ -366,6 +370,7 @@ public class Storage {
             // Update the MediaStore
             ContentValues values = getContentValuesForData(title, date, location, mimeType, false);
             resolver.update(imageUri, values, null, null);
+            Log.i(TAG, "Image with uri: " + imageUri + " was updated in the MediaStore");
         }
         return resultUri;
     }

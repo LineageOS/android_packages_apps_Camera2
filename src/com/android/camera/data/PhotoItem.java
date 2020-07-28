@@ -246,9 +246,9 @@ public class PhotoItem extends FilmstripItemBase<FilmstripItemData> {
 
             // If the orientation is not vertical
             if (orientation % 180 != 0) {
-                int dummy = dim.x;
+                int temp = dim.x;
                 dim.x = dim.y;
-                dim.y = dummy;
+                dim.y = temp;
             }
 
             bitmap = FilmstripItemUtils

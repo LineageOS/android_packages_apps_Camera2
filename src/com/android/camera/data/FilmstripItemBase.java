@@ -141,7 +141,8 @@ public abstract class FilmstripItemBase<T extends FilmstripItemData> implements 
 
     private void deleteIfEmptyCameraSubDir(File directory) {
         // Make sure 'directory' refers to a valid existing empty directory.
-        if (!directory.exists() || !directory.isDirectory() || directory.list().length != 0) {
+        if (!directory.exists() || !directory.isDirectory()
+                || directory.list() == null || directory.list().length != 0) {
             return;
         }
 

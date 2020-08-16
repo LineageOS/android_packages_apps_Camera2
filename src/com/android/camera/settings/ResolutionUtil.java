@@ -16,8 +16,10 @@
 
 package com.android.camera.settings;
 
+import android.app.Activity;
 import android.content.Context;
 import android.util.DisplayMetrics;
+import android.view.Display;
 import android.view.WindowManager;
 
 import com.android.camera.exif.Rational;
@@ -405,11 +407,11 @@ public class ResolutionUtil {
         return maxSize;
     }
 
-    public static DisplayMetrics getDisplayMetrics(Context context) {
+    public static DisplayMetrics getDisplayMetrics(Activity context) {
         DisplayMetrics displayMetrics = new DisplayMetrics();
-        WindowManager wm = AndroidServices.instance().provideWindowManager();
-        if (wm != null) {
-            wm.getDefaultDisplay().getMetrics(displayMetrics);
+        Display d = context.getDisplay();
+        if (d != null) {
+            d.getMetrics(displayMetrics);
         }
         return displayMetrics;
     }

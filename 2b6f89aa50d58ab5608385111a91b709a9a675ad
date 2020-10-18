@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "28b2cc1c_59546a4a",
+        "filename": "src/com/android/camera/util/QuickActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-10-18T13:12:48Z",
+      "side": 1,
+      "message": "} else {",
+      "range": {
+        "startLine": 231,
+        "startChar": 8,
+        "endLine": 232,
+        "endChar": 39
+      },
+      "revId": "2b6f89aa50d58ab5608385111a91b709a9a675ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}

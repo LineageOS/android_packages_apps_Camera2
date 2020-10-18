@@ -22,6 +22,30 @@
       "revId": "2b6f89aa50d58ab5608385111a91b709a9a675ad",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "69d54fdf_12995cb3",
+        "filename": "src/com/android/camera/util/QuickActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2020-10-18T13:14:02Z",
+      "side": 1,
+      "message": "This is from AOSP",
+      "parentUuid": "28b2cc1c_59546a4a",
+      "range": {
+        "startLine": 231,
+        "startChar": 8,
+        "endLine": 232,
+        "endChar": 39
+      },
+      "revId": "2b6f89aa50d58ab5608385111a91b709a9a675ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }

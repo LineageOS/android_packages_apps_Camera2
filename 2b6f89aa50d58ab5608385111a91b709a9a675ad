@@ -46,6 +46,30 @@
       "revId": "2b6f89aa50d58ab5608385111a91b709a9a675ad",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "78cfd13b_e3d03f0f",
+        "filename": "src/com/android/camera/util/QuickActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-10-18T13:16:07Z",
+      "side": 1,
+      "message": "Oh, ok.",
+      "parentUuid": "69d54fdf_12995cb3",
+      "range": {
+        "startLine": 231,
+        "startChar": 8,
+        "endLine": 232,
+        "endChar": 39
+      },
+      "revId": "2b6f89aa50d58ab5608385111a91b709a9a675ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }

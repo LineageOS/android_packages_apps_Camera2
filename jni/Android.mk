@@ -19,7 +19,6 @@ include $(BUILD_SHARED_LIBRARY)
 # JpegUtil
 include $(CLEAR_VARS)
 
-LOCAL_NDK_STL_VARIANT := c++_static
 LOCAL_LDFLAGS   := -llog -ldl -ljnigraphics
 LOCAL_SDK_VERSION := 17
 LOCAL_MODULE    := libjni_jpegutil

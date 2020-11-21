@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "761dd05b_29302079",
+        "filename": "Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 7202
+      },
+      "writtenOn": "2020-11-21T17:41:52Z",
+      "side": 1,
+      "message": "SYSTEM_EXT.... Device doesn\u0027t boot due to missing permissions.",
+      "range": {
+        "startLine": 58,
+        "startChar": 34,
+        "endLine": 58,
+        "endChar": 41
+      },
+      "revId": "36fc8db3c54705cd59fa3069be176b3e06b3b4e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}

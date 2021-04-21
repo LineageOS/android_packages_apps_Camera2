@@ -35,6 +35,8 @@ LOCAL_AAPT_FLAGS := \
 LOCAL_USE_AAPT2 := true
 
 LOCAL_PACKAGE_NAME := Camera2
+LOCAL_LICENSE_KINDS := SPDX-license-identifier-Apache-2.0
+LOCAL_LICENSE_CONDITIONS := notice
 
 LOCAL_SDK_VERSION := current
 

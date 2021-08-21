@@ -57,7 +57,7 @@
     <string name="unit_mm">mm</string>
     <string name="manual">A làimh</string>
     <string name="auto">Fèin-obrachail</string>
-    <string name="flash_on">Bhoillsg solas</string>
+    <string name="flash_on">Solas-boillsgidh air</string>
     <string name="flash_off">Gun bhoillsgeadh</string>
     <string name="unknown">Neo-aithnichte</string>
     <string name="try_to_set_local_album_available_offline">        Tha an rud seo ann an stòras ionadail is ri làimh far loidhne.</string>
@@ -77,8 +77,8 @@
     <string name="feedback_description_save_photo">Cha deach an dealbh no video a shàbhaladh dhan uidheam.</string>
     <string name="capturing">’Ga ghlacadh</string>
     <string name="pref_camera_id_title">Tagh camara</string>
-    <string name="pref_camera_id_entry_back">Cùlaibh</string>
-    <string name="pref_camera_id_entry_front">Beulaibh</string>
+    <string name="pref_camera_id_entry_back">Cùl</string>
+    <string name="pref_camera_id_entry_front">Beul</string>
     <string name="pref_camera_save_location_title">Sàbhail an t-ionad</string>
     <string name="pref_camera_location_label">IONAD</string>
     <string name="pref_camera_timer_title">Tìmear cunntaidh sìos</string>
@@ -178,7 +178,7 @@
     <string name="effect_backdropper_sunset">Laighe na grèine</string>
     <string name="effect_backdropper_gallery">A’ video agad</string>
     <string name="video_snapshot_hint">Suath ris airson dealbh a thogail rè a’ chlàraidh.</string>
-    <string name="video_recording_started">Tòisich clàradh a’ video.</string>
+    <string name="video_recording_started">Thòisich clàradh a’ video.</string>
     <string name="video_recording_stopped">Stad clàradh a’ video.</string>
     <string name="clear_effects">Falamhaich na h-èifeachdan</string>
     <string name="effect_silly_faces">AODANNAN GÒRACH</string>
@@ -270,10 +270,10 @@
     <string name="set_time_interval_help">Tha gleus an fhilm luathaichte dheth. Cuir air e mus suidhich thu eadaramh ama.</string>
     <string name="set_duration">Suidhich an fhaid ann an diogan</string>
     <string name="count_down_title_text">A’ cunntadh sìos a thogail dealbh</string>
-    <string name="remember_location_title">A bheil thu airson ionadan nan dealbhan a chur an cuimhne?</string>
+    <string name="remember_location_title">An cuimhnich sinn ionadan nan dealbh dhut?</string>
     <string name="remember_location_prompt">Tagaich na dealbhan is videothan agad leis na h-ionadan far an deach an togail.</string>
-    <string name="remember_location_no">Chan eil, mòran taing</string>
-    <string name="remember_location_yes">Tha</string>
+    <string name="remember_location_no">Cha chuimhnich</string>
+    <string name="remember_location_yes">Cuimhnichidh</string>
     <string name="camera_menu_more_label">BARRACHD ROGHAINNEAN</string>
     <string name="camera_menu_settings_label">ROGHAINNEAN</string>
     <string name="create_tiny_planet">Cruthaich planaid bhìodach</string>
@@ -312,8 +312,8 @@
     <string name="hdr_plus_flash_on_desc">Tha an solas-boillsgidh HDR+ air</string>
     <string name="torch_on_desc">Tha an leus air</string>
     <string name="torch_off_desc">Tha an leus dheth</string>
-    <string name="camera_id_back_desc">An camara cùil</string>
-    <string name="camera_id_front_desc">An camara beòil</string>
+    <string name="camera_id_back_desc">Camara cùil</string>
+    <string name="camera_id_front_desc">Camara beòil</string>
     <string name="grid_lines_off_desc">Tha loidhnichean a’ ghriod dheth</string>
     <string name="grid_lines_on_desc">Tha loidhnichean a’ ghriod air</string>
     <string name="countdown_timer_off">Tha an tìmear cunntaidh sìos dheth</string>
@@ -340,8 +340,9 @@
     <string name="setting_back_camera_video">Video a’ chamara cùil</string>
     <string name="setting_front_camera_photo">Dealbh a’ chamara beòil</string>
     <string name="setting_front_camera_video">Video a’ chamara beòil</string>
-    <string name="setting_default_camera">An camara tùsail</string>
+    <string name="setting_default_camera">An camara bunaiteach</string>
     <string name="setting_google_help_and_feedback">Cobhair ⁊ beachdan thugainn</string>
+    <string name="processing_hdr_plus">A’ pròiseasadh HDR+ …</string>
     <string name="open_source_licenses">Ceadachasan Open Source</string>
     <string name="pref_category_general">Roghainnean coitcheann</string>
     <string name="pref_category_resolution_quality">Dùmhlachd-bhreacaidh ⁊ càileachd</string>
@@ -372,5 +373,5 @@
     <string name="cropped_sensor_16x9_aspect_ratio">Mothaichear beàrrte\n(16:9)</string>
     <string name="pref_boolean_false">0</string>
     <string name="pref_boolean_true">1</string>
-    <string name="session_saving_image">’Ga shàbhaladh…</string>
+    <string name="session_saving_image">’Ga shàbhaladh\u2026</string>
 </resources>

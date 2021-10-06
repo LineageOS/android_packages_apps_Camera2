@@ -17,7 +17,7 @@
 package com.android.camera.one.v2;
 
 import android.annotation.TargetApi;
-import android.content.Context;
+import android.app.Activity;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
@@ -719,7 +719,7 @@ public class OneCameraImpl extends AbstractOneCamera {
     }
 
     @Override
-    public Size pickPreviewSize(Size pictureSize, Context context) {
+    public Size pickPreviewSize(Size pictureSize, Activity context) {
         if (pictureSize == null) {
             // TODO The default should be selected by the caller, and
             // pictureSize should never be null.
@@ -732,7 +732,7 @@ public class OneCameraImpl extends AbstractOneCamera {
         // flexible for selecting a matching preview resolution.
         Double aspectRatioTolerance = sCaptureImageFormat == ImageFormat.RAW_SENSOR ? 10d : null;
         Size size = CaptureModuleUtil.getOptimalPreviewSize(supportedSizes,
-                pictureAspectRatio, aspectRatioTolerance);
+                pictureAspectRatio, aspectRatioTolerance, context);
         Log.d(TAG, "Selected preview size: " + size);
         return size;
     }

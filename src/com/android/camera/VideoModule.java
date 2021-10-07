@@ -253,7 +253,7 @@ public class VideoModule extends CameraModule
                     // down and camera app is opened. Rotation animation will
                     // take some time and the rotation value we have got may be
                     // wrong. Framework does not have a callback for this now.
-                    if ((CameraUtil.getDisplayRotation() != mDisplayRotation)
+                    if ((CameraUtil.getDisplayRotation(mActivity) != mDisplayRotation)
                             && !mMediaRecorderRecording && !mSwitchingCamera) {
                         startPreview();
                     }
@@ -780,7 +780,7 @@ public class VideoModule extends CameraModule
 
         mCameraSettings = mCameraDevice.getSettings();
         Point desiredPreviewSize = getDesiredPreviewSize(
-              mCameraCapabilities, mProfile, mUI.getPreviewScreenSize());
+                mCameraCapabilities, mProfile, mUI.getPreviewScreenSize(), mActivity);
         mDesiredPreviewWidth = desiredPreviewSize.x;
         mDesiredPreviewHeight = desiredPreviewSize.y;
         mUI.setPreviewSize(mDesiredPreviewWidth, mDesiredPreviewHeight);
@@ -804,7 +804,7 @@ public class VideoModule extends CameraModule
      *         opened yet.
      */
     private static Point getDesiredPreviewSize(CameraCapabilities capabilities,
-          CamcorderProfile profile, Point previewScreenSize) {
+            CamcorderProfile profile, Point previewScreenSize, Activity context) {
         if (capabilities.getSupportedVideoSizes() == null ||
             capabilities.getSupportedVideoSizes().isEmpty()) {
             // Driver doesn't support separate outputs for preview and video.
@@ -843,7 +843,7 @@ public class VideoModule extends CameraModule
         }
 
         Size optimalSize = CameraUtil.getOptimalPreviewSize(sizes,
-                (double) profile.videoFrameWidth / profile.videoFrameHeight);
+                (double) profile.videoFrameWidth / profile.videoFrameHeight, context);
         return new Point(optimalSize.width(), optimalSize.height());
     }
 
@@ -862,7 +862,7 @@ public class VideoModule extends CameraModule
     }
 
     private void setDisplayOrientation() {
-        mDisplayRotation = CameraUtil.getDisplayRotation();
+        mDisplayRotation = CameraUtil.getDisplayRotation(mActivity);
         Characteristics info =
                 mActivity.getCameraProvider().getCharacteristics(mCameraId);
         mCameraDisplayOrientation = info.getPreviewOrientation(mDisplayRotation);
@@ -880,7 +880,7 @@ public class VideoModule extends CameraModule
         if (mMediaRecorderRecording) {
             return;
         }
-        if (mDisplayRotation != CameraUtil.getDisplayRotation()) {
+        if (mDisplayRotation != CameraUtil.getDisplayRotation(mActivity)) {
             setDisplayOrientation();
         }
     }

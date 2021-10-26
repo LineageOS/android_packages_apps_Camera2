@@ -347,7 +347,7 @@
     <string name="pref_category_general">Roghainnean coitcheann</string>
     <string name="pref_category_resolution_quality">Dùmhlachd-bhreacaidh ⁊ càileachd</string>
     <string name="pref_category_about">Mu dhèidhinn</string>
-    <string name="pref_title_build_version">Tionndadh a’ build</string>
+    <string name="pref_title_build_version">Tionndadh na togail</string>
     <string name="pref_video_quality_entry_low">Ìseal</string>
     <string name="pref_video_quality_entry_high">Àrd</string>
     <string name="pref_video_quality_entry_qcif">QCIF</string>

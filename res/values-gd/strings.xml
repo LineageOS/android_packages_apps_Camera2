@@ -14,364 +14,727 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The name of the Android Camera application. [CHAR LIMIT=16] -->
     <string name="app_name">An camara</string>
+    <!-- The label for the Video Camera activity. [CHAR LIMIT=16] -->
     <string name="video_camera_label">Camara video</string>
+    <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
     <string name="details_ms">%1$02d:%2$02d</string>
+    <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <!-- Displayed in the title of the dialog for things to do with a picture
+             that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
     <string name="set_image">Suidhich an dealbh mar</string>
+    <!-- Details dialog "OK" button. Dismisses dialog. -->
     <string name="delete">Sguab às</string>
     <string name="share">Co-roinn</string>
     <string name="share_panorama">Co-roinn an cuairt-shealladh</string>
     <string name="share_as_photo">Co-roinn mar dhealbh</string>
+    <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
     <string name="deleted">Air a sguabadh às</string>
+    <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
     <string name="undo">NEO-DHÈAN</string>
     <string name="details">Mion-fhiosrachadh</string>
     <string name="close">Dùin</string>
+    <!-- String indicating timestamp of photo or video -->
     <string name="show_on_map">Seall air mapa</string>
     <string name="rotate_left">Cuairtich gu tuathail</string>
     <string name="rotate_right">Cuairtich gu deiseil</string>
+    <!-- String used as a menu label. The user can choose to edit the image
+         [CHAR_LIMIT=20]-->
     <string name="edit">Deasaich</string>
+    <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
     <string name="crop_action">Beàrr</string>
+    <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
     <string name="trim_action">Geàrr</string>
+    <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
     <string name="set_as">Suidhich mar</string>
+    <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
     <string name="video_err">Cha ghabh a’ video a chluich.</string>
+    <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
     <string name="title">Tiotal</string>
+    <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
     <string name="description">Tuairisgeul</string>
+    <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
     <string name="time">Àm</string>
+    <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
     <string name="location">Ionad</string>
+    <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
     <string name="path">Slighe</string>
+    <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
     <string name="width">Leud</string>
+    <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
     <string name="height">Àirde</string>
+    <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
     <string name="orientation">Comhair</string>
+    <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=18] -->
     <string name="duration">Faid</string>
+    <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
     <string name="mimetype">Seòrsa MIME</string>
+    <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
     <string name="file_size">Meud an fhaidhle</string>
+    <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
     <string name="maker">Cruthadair</string>
+    <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
     <string name="model">Modail</string>
+    <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
     <string name="flash">Solas-boillsgidh</string>
+    <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
     <string name="aperture">Fosgladh</string>
+    <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
     <string name="focal_length">Faid an fhòcais</string>
+    <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=18] -->
     <string name="white_balance">Am balans geal</string>
+    <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
     <string name="exposure_time">Àm an deisearais</string>
+    <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
     <string name="iso">ISO</string>
+    <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
+    <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
     <string name="unit_mm">mm</string>
+    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12] -->
     <string name="manual">A làimh</string>
+    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=12 -->
     <string name="auto">Fèin-obrachail</string>
+    <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
     <string name="flash_on">Solas-boillsgidh air</string>
+    <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
     <string name="flash_off">Gun bhoillsgeadh</string>
+    <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
     <string name="unknown">Neo-aithnichte</string>
+    <!-- Toast message shown after we try to make a local album available offline
+         [CHAR LIMIT=150] -->
     <string name="try_to_set_local_album_available_offline">        Tha an rud seo ann an stòras ionadail is ri làimh far loidhne.</string>
+    <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
     <string name="please_wait">Fuirich ort</string>
+    <!-- title for the dialog showing the error of camera hardware -->
     <string name="camera_error_title">Mearachd a’ chamara</string>
+    <!-- message for the dialog showing the error of camera hardware -->
     <string name="error_cannot_connect_camera">Chan urrainn dhuinn ceangal ris a’ chamara.</string>
+    <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
     <string name="error_camera_disabled">Chaidh an camara a chur à comas ri linn phoileasaidhean tèarainteachd.</string>
+    <!-- message for the dialog showing that the user's photo could not be saved [CHAR LIMIT=NONE] -->
     <string name="error_media_storage_failure">Bha duilgheadas againn a’ sàbhaladh an deilbh no a’ video agad.</string>
+    <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
     <string name="error_permissions">Chan eil ceadan gu leòr aig an aplacaid is cha ruith e. Thoir sùil air roghainnean nan ceadan.</string>
+    <!-- Reason used for session failure which is visible in UI [CHAR LIMIT=NONE] -->
     <string name="reason_storage_failure">Dh’fhàillig stòras nan dealbhan.</string>
+    <!-- alert to the user to wait for some operation to complete -->
     <string name="wait">Fuirich ort...</string>
+    <!-- alert to the user that an SD card must be installed before using the camera -->
     <string name="no_storage" product="default">Cuir a-steach cairt SD mus cleachd thu an camara.</string>
+    <!-- alert to the user that the SD card is being disk-checked -->
     <string name="preparing_sd" product="default">Ag ullachadh na cairt SD\u2026</string>
+    <!-- alert to the user that the camera fails to read or write the SD card. -->
     <string name="access_sd_fail" product="default">Cha d’fhuair sinn cothrom air a’ chairt SD.</string>
+    <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
     <string name="time_lapse_title">Clàradh film luathaichte</string>
+    <!-- Default feedback that is entered in the Feedback textview for issues related to camera access. [CHAR LIMIT=NONE] -->
     <string name="feedback_description_camera_access">Cha b’ dhan aplacaid ceangal ris a’ chamara</string>
+    <!-- Default feedback that is entered in the Feedback textview for issues related to saving photos. [CHAR LIMIT=NONE] -->
     <string name="feedback_description_save_photo">Cha deach an dealbh no video a shàbhaladh dhan uidheam.</string>
+    <!-- Screen display message during image capture to indicate that the capture is in progress, like during HDR+. [CHAR LIMIT=20] -->
     <string name="capturing">’Ga ghlacadh</string>
+    <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
     <string name="pref_camera_id_title">Tagh camara</string>
+    <!-- Named indexes into the array of camera facing entries -->
+    <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
     <string name="pref_camera_id_entry_back">Cùl</string>
+    <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
     <string name="pref_camera_id_entry_front">Beul</string>
+    <!-- In select camera setting, back facing camera value. [CHAR LIMIT=14] -->
+    <!-- In select camera setting, front-facing camera value. [CHAR LIMIT=14] -->
+    <!-- Settings screen, location setting text. [CHAR LIMIT=20]-->
     <string name="pref_camera_save_location_title">Sàbhail an t-ionad</string>
+    <!--  Label for record location preference [CHAR LIMIT=50] -->
     <string name="pref_camera_location_label">IONAD</string>
+    <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
     <string name="pref_camera_timer_title">Tìmear cunntaidh sìos</string>
     <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
+    <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT=24]-->
     <string name="pref_camera_timer_sound_title">Dèan bìd rè a’ chunntaidh sìos</string>
+    <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
     <string name="setting_off">Dheth</string>
+    <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
     <string name="setting_on">Air</string>
+    <!-- The value of a camera preference indicating the setting is off. -->
+    <!-- The value of a camera preference indicating the setting is on. -->
+    <!-- The value of a camera preference indicating the setting is none. -->
+    <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
     <string name="pref_video_quality_title">Càileachd a’ video</string>
+    <!-- The value of a camera preference indicating the video quality is 'large'. -->
+    <!-- The value of a camera preference indicating the video quality is 'medium'. -->
+    <!-- The value of a camera preference indicating the video quality is 'small'. -->
+    <!-- Describes the preference dialog for choosing interval between frame capture for
+    time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_title">Film luathaichte</string>
+    <!-- Settings screen, Camera setting category title -->
     <string name="pref_camera_settings_category">Roghainnean a’ chamara</string>
+    <!-- Settings screen, Camcorder setting category title -->
     <string name="pref_camcorder_settings_category">Roghainnean a’ chamara video</string>
+    <!-- Settings screen, Picture size title -->
     <string name="pref_camera_picturesize_title">Meud an deilbh</string>
+    <!-- Settings screen, dialog choice for "large" picture size [CHAR LIMIT=20] -->
     <string name="pref_camera_picturesize_entry_large">Mòr</string>
+    <!-- Settings screen, dialog choice for "medium" picture size [CHAR LIMIT=20] -->
     <string name="pref_camera_picturesize_entry_medium">Meadhanach</string>
+    <!-- Settings screen, dialog choice for "small" picture size [CHAR LIMIT=20] -->
     <string name="pref_camera_picturesize_entry_small">Beag</string>
+    <!-- The default photo resolution value. -->
+    <!-- Settings screen, Focus mode title -->
     <string name="pref_camera_focusmode_title">Modh an fhòcais</string>
+    <!-- Settings screen, Focus mode dialog radio button choices -->
     <string name="pref_camera_focusmode_entry_auto">Fèin-obrachail</string>
+    <!-- A setting that lets the camera focus into infinity. [CHAR LIMIT=20] -->
     <string name="pref_camera_focusmode_entry_infinity">Neo-chrìochnachd</string>
+    <!-- A setting that lets the camera operate in macro focus mode for nearby objects. [CHAR LIMIT=20] -->
     <string name="pref_camera_focusmode_entry_macro">Macro</string>
+    <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
     <string name="pref_camera_focusmode_label_auto">FÈIN-OBRACHAIL</string>
     <string name="pref_camera_focusmode_label_infinity">NEO-CHRÌOCHNACHD</string>
     <string name="pref_camera_focusmode_label_macro">MACRO</string>
+    <!-- HDR support mode setting. -->
+    <!-- Default focus mode setting -->
+    <!-- Default flash mode setting. -->
+    <!-- Default videocamera flash mode setting. -->
+    <!-- Default HDR+ flash mode setting. -->
+    <!-- Value for flash off setting -->
+    <!-- Settings screen, Flash mode title -->
     <string name="pref_camera_flashmode_title">Modh an t-solais-bhoillsgidh</string>
+    <!-- flash label [CHAR LIMIT=50] -->
     <string name="pref_camera_flashmode_label">MODH an t-SOLAIS-BHOILLSGIDH</string>
+    <!-- Settings screen, Flash mode 'auto'. [CHAR LIMIT=12] -->
     <string name="pref_camera_flashmode_entry_auto">Fèin-obrachail</string>
+    <!-- Settings screen, Flash mode 'alway on'. [CHAR LIMIT=12] -->
     <string name="pref_camera_flashmode_entry_on">Air</string>
+    <!-- Settings screen, Flash mode 'always off'. [CHAR LIMIT=12] -->
     <string name="pref_camera_flashmode_entry_off">Dheth</string>
+    <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
     <string name="pref_camera_flashmode_label_auto">SOLAS-BOILLSGIDH FÈIN-OBRACHAIL</string>
     <string name="pref_camera_flashmode_label_on">SOLAS-BOILLSGIDH AIR</string>
     <string name="pref_camera_flashmode_label_off">SOLAS-BOILLSGIDH DHETH</string>
+    <!-- Default white balance setting. -->
+    <!-- Settings screen, white balance title -->
     <string name="pref_camera_whitebalance_title">Am balans geal</string>
+    <!-- Menu, white balance label -->
     <string name="pref_camera_whitebalance_label">AM BALANS GEAL</string>
+    <!-- Settings screen, White balance dialog radio button choices -->
     <string name="pref_camera_whitebalance_entry_auto">Fèin-obrachail</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Solas-dealain</string>
     <string name="pref_camera_whitebalance_entry_daylight">Solas an latha</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Fluaraiseach</string>
     <string name="pref_camera_whitebalance_entry_cloudy">Neulach</string>
+    <!-- Menu, White balance labels [CHAR LIMIT=50] -->
     <string name="pref_camera_whitebalance_label_auto">FÈIN-OBRACHAIL</string>
     <string name="pref_camera_whitebalance_label_incandescent">SOLAS-DEALAIN</string>
     <string name="pref_camera_whitebalance_label_daylight">SOLAS an LATHA</string>
     <string name="pref_camera_whitebalance_label_fluorescent">FLUARAISEACH</string>
     <string name="pref_camera_whitebalance_label_cloudy">NEULACH</string>
+    <!-- Default scene mode setting. -->
+    <!-- Settings screen, Select Scene mode -->
     <string name="pref_camera_scenemode_title">Am modh seallaidh</string>
+    <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_auto">Fèin-obrachail</string>
+    <!-- Scene mode that uses HDR plus (better HDR) [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_hdr_plus">HDR+</string>
+    <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_hdr">HDR</string>
+    <!-- Scene mode to turn on HDR (better high dynamic range) [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_on">HDR+ AIR</string>
+    <!-- Scene mode to turn off HDR (better high dynamic range) [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_entry_turn_hdr_plus_off">HDR+ DHETH</string>
+    <!-- Scene mode to turn on HDR (high dynamic range) [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_entry_turn_hdr_on">HDR AIR</string>
+    <!-- Scene mode to turn off HDR (high dynamic range) [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_entry_turn_hdr_off">HDR DHETH</string>
+    <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_action">Gluasad</string>
+    <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_night">Oidhche</string>
+    <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_sunset">Laighe grèine</string>
+    <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_party">Pàrtaidh</string>
+    <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_label_auto">CHAN EIL GIN</string>
+    <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_label_action">GLUASAD</string>
+    <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_label_night">OIDHCHE</string>
+    <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_label_sunset">LAIGHE NA GRÈINE</string>
+    <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=50] -->
     <string name="pref_camera_scenemode_label_party">PÀRTAIDH</string>
+    <!-- Settings menu countdown timer off [CHAR LIMIT=50] -->
     <string name="pref_camera_countdown_label_off">TÌMEAR DHETH</string>
+    <!-- Settings menu countdown timer 1 second [CHAR LIMIT=50] -->
     <string name="pref_camera_countdown_label_one">1 DIOG</string>
+    <!-- Settings menu countdown timer 3 seconds [CHAR LIMIT=50] -->
     <string name="pref_camera_countdown_label_three">3 DIOGAN</string>
+    <!-- Settings menu countdown timer 10 seconds [CHAR LIMIT=50] -->
     <string name="pref_camera_countdown_label_ten">10 DIOGAN</string>
+    <!-- Settings menu countdown timer 15 seconds [CHAR LIMIT=50] -->
     <string name="pref_camera_countdown_label_fifteen">LETH-MIONAID</string>
+    <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
     <string name="not_selectable_in_scene_mode">Cha ghabh seo a thaghadh ann am modh seallaidh.</string>
+    <!-- Exposure settings in preference -->
     <string name="pref_exposure_title">Deisearas</string>
+    <!--  menu label exposure compensation [CHAR LIMIT=50] -->
     <string name="pref_exposure_label">DEISEARAS</string>
+    <!-- Default HDR entry value -->
     <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    <!-- Default HDR+ entry value -->
     <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
+    <!-- HDR label ON [CHAR LIMIT=60] -->
     <string name="pref_camera_hdr_label">HDR</string>
+    <!-- switch camera label back [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_back">CAMARA BEÒIL</string>
+    <!-- switch camera label front [CHAR LIMIT=60] -->
     <string name="pref_camera_id_label_front">CAMARA CÙIL</string>
+    <!-- Dialog "OK" button. Dismisses dialog. -->
     <string name="dialog_ok">Ceart ma-thà</string>
     <string name="dialog_cancel">Sguir dheth</string>
+    <!-- Dialog "Report" button. Opens Google Feedback screen [CHAR LIMIT=12] -->
     <string name="dialog_report">Dèan aithris</string>
+    <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
     <string name="dialog_dismiss">Leig seachad</string>
+    <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <string name="spaceIsLow_content" product="default">Tha an t-àite a’ fàs gann air a’ chairt SD agad. Atharraich roghainn na càileachd no sguab às cuid a dhealbhan no faidhlichean eile.</string>
+    <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
+    <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
+    <!-- Filename prefix for panorama output. -->
+    <!-- The message shown when video record reaches size limit. -->
     <string name="video_reach_size_limit">Ràinig thu crìoch a’ mheud.</string>
+    <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=16] -->
     <string name="pano_too_fast_prompt">Ro luath</string>
+    <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
     <string name="pano_dialog_prepare_preview">Ag ullachadh a’ chuairt-sheallaidh</string>
+    <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
     <string name="pano_dialog_panorama_failed">Cha b’ urrainn dhuinn an cuairt-shealladh a shàbhaladh.</string>
+    <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
     <string name="pano_dialog_title">Cuairt-shealladh</string>
+    <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
     <string name="pano_capture_indication">A’ togail cuairt-shealladh</string>
+    <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
     <string name="pano_dialog_waiting_previous">A’ feitheamh ris a’ chuairt-shealladh roimhe</string>
+    <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
     <string name="pano_review_saving_indication_str">’Ga shàbhaladh…</string>
+    <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
     <string name="pano_review_rendering">A’ reandaradh a’ chuairt-sheallaidh</string>
+    <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
     <string name="tap_to_focus">Suath ris airson fòcas.</string>
+    <!-- Default effect setting that clears the effect. -->
+    <!-- Title of video effect setting popup window -->
     <string name="pref_video_effect_title">Èifeachdan</string>
+    <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
     <string name="effect_none">Chan eil gin</string>
+    <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
     <string name="effect_goofy_face_squeeze">Teannaich</string>
+    <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
     <string name="effect_goofy_face_big_eyes">Sùilean mòra</string>
+    <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
     <string name="effect_goofy_face_big_mouth">Beul mòr</string>
+    <!-- Effect setting item that makes mouth small. [CHAR LIMIT=14] -->
     <string name="effect_goofy_face_small_mouth">Beul beag</string>
+    <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
     <string name="effect_goofy_face_big_nose">Sròn mhòr</string>
+    <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
     <string name="effect_goofy_face_small_eyes">Sùilean beaga</string>
+    <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
     <string name="effect_backdropper_space">San fhànas</string>
+    <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=16] -->
     <string name="effect_backdropper_sunset">Laighe na grèine</string>
+    <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=16] -->
     <string name="effect_backdropper_gallery">A’ video agad</string>
+    <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
     <string name="video_snapshot_hint">Suath ris airson dealbh a thogail rè a’ chlàraidh.</string>
+    <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
     <string name="video_recording_started">Thòisich clàradh a’ video.</string>
+    <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
     <string name="video_recording_stopped">Stad clàradh a’ video.</string>
+    <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
     <string name="clear_effects">Falamhaich na h-èifeachdan</string>
+    <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
     <string name="effect_silly_faces">AODANNAN GÒRACH</string>
+    <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
     <string name="effect_background">CÙLAIBH</string>
+    <!-- The shutter button. [CHAR LIMIT=NONE] -->
     <string name="accessibility_shutter_button">Siutair</string>
+    <!-- The cancel button. Used to cancel an in progress shot [CHAR LIMIT=NONE] -->
     <string name="accessibility_cancel_button">Sguir dheth</string>
+    <!-- The menu button. [CHAR LIMIT=NONE] -->
     <string name="accessibility_menu_button">Putan a’ chlàir-thaice</string>
+    <!-- The check box in camera settings, such as store location. [CHAR LIMIT=NONE] -->
     <string name="accessibility_check_box">Bogsa-cromaige %1$s</string>
+    <!-- The button to switch to Camera mode. [CHAR LIMIT=NONE] -->
     <string name="accessibility_switch_to_camera">Atharraich gu dealbh-camara</string>
+    <!-- The button to switch to Video mode. [CHAR LIMIT=NONE] -->
     <string name="accessibility_switch_to_video">Atharraich gu video</string>
+    <!-- The button to switch to Panorama mode. [CHAR LIMIT=NONE] -->
     <string name="accessibility_switch_to_panorama">Atharraich gu cuairt-shealladh</string>
+    <!-- The button to switch to the Photo Sphere mode. [CHAR LIMIT=NONE] -->
     <string name="accessibility_switch_to_photo_sphere">Atharraich gu Photo Sphere</string>
+    <!-- The button to switch to the high quality mode. [CHAR LIMIT=NONE] -->
     <string name="accessibility_switch_to_gcam">Atharraich gu càileachd àrd</string>
+    <!-- The button to switch to the Re-Focus mode. [CHAR LIMIT=NONE] -->
     <string name="accessibility_switch_to_refocus">Atharraich gu ath-fhòcas</string>
+    <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT=NONE] -->
     <string name="accessibility_review_cancel">Sgrùdadh – Sguir dheth</string>
+    <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=NONE] -->
     <string name="accessibility_review_ok">Sgrùdadh – Deiseil</string>
+    <!-- button in review mode indicate the user want to retake another photo/video for attachment [CHAR LIMIT=NONE] -->
     <string name="accessibility_review_retake">Sgrùdadh – Tog a-rithist e</string>
+    <!-- The button that opens up mode options, shown as '...' on screen [CHAR LIMIT=NONE] -->
     <string name="accessibility_mode_options">Roghainnean</string>
+    <!-- Announcement when the mode list becomes hidden off screen [CHAR LIMIT=NONE] -->
     <string name="accessibility_mode_list_hidden">Chaidh liosta nam modhan a dhùnadh</string>
+    <!-- Announcement when the mode list becomes shown on screen [CHAR LIMIT=NONE] -->
     <string name="accessibility_mode_list_shown">Chaidh liosta nam modhan fhosgladh</string>
+    <!-- Announcement when a general media capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
     <string name="media_accessibility_peek">Chaidh glacadh a thogail</string>
+    <!-- Announcement when a video capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
     <string name="photo_accessibility_peek">Chaidh dealbh a thogail</string>
+    <!-- Announcement when a video capture is performed, and visually the capture 'peeks' from right screen [CHAR LIMIT=NONE] -->
     <string name="video_accessibility_peek">Chaidh video a chlàradh</string>
+    <!-- Description for the lock icon in Secure Camera filmstrip that when clicked, brings user to lock screen then full Camera [CHAR LIMIT=NONE] -->
     <string name="accessibility_unlock_to_camera">Thoir a’ ghlas dheth a dhol dhan chamara</string>
+    <!-- Content description for general media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
     <string name="media_date_content_description">Chaidh am meadhan a chlàradh %s</string>
+    <!-- Content description for photo media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
     <string name="photo_date_content_description">Chaidh an dealbh a thogail %s</string>
+    <!-- Content description for video media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
     <string name="video_date_content_description">Chaidh a’ video a chlàradh %s</string>
+    <!-- Content description for panorama media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
     <string name="panorama_date_content_description">Chaidh an cuairt-shealladh a thogail %s</string>
+    <!-- Content description for photosphere media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
     <string name="photosphere_date_content_description">Chaidh a’ Photo Sphere a thogail %s</string>
+    <!-- Content description for refocus media items in filmstrip based on modified date, template will read a file modified date and time [CHAR LIMIT=NONE] -->
     <string name="refocus_date_content_description">Chaidh an sgleò lionsa a thogail %s</string>
+    <!-- Content description for media items in filmstrip which are still in the middle of processing [CHAR LIMIT=NONE] -->
     <string name="media_processing_content_description">A’ pròiseasadh nam meadhanan</string>
+    <!-- Content description of the button that toggles the on screen list of camera mode. [CHAR LIMIT=NONE] -->
     <string name="accessibility_mode_list_toggle">Toglaich liosta nam modhan</string>
+    <!-- Text on the button that toggles the on screen list of camera mode. [CHAR LIMIT=20] -->
     <string name="btn_mode_list_toggle">Liosta nam modhan</string>
+    <!-- Content description of the button that toggles the filmstrip. [CHAR LIMIT=NONE] -->
     <string name="accessibility_filmstrip_toggle">Toglaich an stiall film</string>
+    <!-- Text on the button that toggles the filmstrip. [CHAR LIMIT=20] -->
     <string name="btn_filmstrip_toggle">Stiall film</string>
+    <!-- Content description of the button that zooms in. [CHAR LIMIT=NONE] -->
     <string name="accessibility_mode_zoom_plus">Sùm a-steach</string>
+    <!-- Text on the button that zooms in [CHAR LIMIT=20] -->
     <string name="btn_zoom_plus">S+</string>
+    <!-- Content description of the button that zooms out. [CHAR LIMIT=NONE] -->
     <string name="accessibility_mode_zoom_minus">Sùm a-mach</string>
+    <!-- Text on the button that zooms out [CHAR LIMIT=20] -->
     <string name="btn_zoom_minus">S-</string>
+    <!-- Accessibility message spoken by TalkBack informing user of the current zoom value [CHAR LIMIT=NONE] -->
     <string name="accessibility_zoom_announcement">Tha an sùm air %.1f</string>
+    <!-- Default text for a button that can be toggled on and off. -->
     <string name="capital_on">AIR</string>
+    <!-- Default text for a button that can be toggled on and off. -->
     <string name="capital_off">DHETH</string>
+    <!-- Describes button on top of a video in filmstrip that is a play icon, pressing starts external video player [CHAR LIMIT=NONE] -->
     <string name="video_control_play">Cluich video</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_off">Dheth</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_500">Leth-dhiog</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_1000">Diog</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_1500">Diog gu leth</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_2000">2 dhiog</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_2500">2 dhiog gu leth</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_3000">3 diogan</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_4000">4 diogan</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_5000">5 diogan</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_6000">6 diogan</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_10000">10 diogan</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_12000">12 dhiog</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_15000">15 diogan</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_24000">24 diog</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_30000">Leth-mhionaid</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_60000">Mionaid</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_90000">Mionaid gu leth</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_120000">2 mhionaid</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_150000">2 mhionaid gu leth</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_180000">3 mionaidean</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_240000">4 mionaidean</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_300000">5 mionaidean</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_360000">6 mionaidean</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_600000">10 mionaidean</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_720000">12 mhionaid</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_900000">Cairteal na h-uarach</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_1440000">24 mionaid</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_1800000">Leth-uair a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_3600000">Uair a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_5400000">Uair gu leth a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_7200000">2 uair a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_9000000">2 uair gu leth a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_10800000">3 uairean a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_14400000">4 uairean a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_18000000">5 uairean a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_21600000">6 uairean a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_36000000">10 uairean a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_43200000">12 uair a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_54000000">15 uairean a thìde</string>
+    <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_86400000">24 uair a thìde</string>
+    <!-- Seconds: a unit of time for time lapse intervals. [CHAR LIMIT=20] -->
     <string name="time_lapse_seconds">diog</string>
+    <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT=20] -->
     <string name="time_lapse_minutes">mionaid</string>
+    <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT=20] -->
     <string name="time_lapse_hours">uair a thìde</string>
+    <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT=20] -->
     <string name="time_lapse_interval_set">Deiseil</string>
+    <!-- Title in time interval picker for setting time interval. [CHAR LIMIT=30]-->
     <string name="set_time_interval">Suidhich eadaramh an ama</string>
+    <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT=180]-->
     <string name="set_time_interval_help">Tha gleus an fhilm luathaichte dheth. Cuir air e mus suidhich thu eadaramh ama.</string>
+    <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT=50]-->
     <string name="set_duration">Suidhich an fhaid ann an diogan</string>
+    <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT=60]-->
     <string name="count_down_title_text">A’ cunntadh sìos a thogail dealbh</string>
+    <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=50] -->
     <string name="remember_location_title">An cuimhnich sinn ionadan nan dealbh dhut?</string>
+    <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=None] -->
     <string name="remember_location_prompt">Tagaich na dealbhan is videothan agad leis na h-ionadan far an deach an togail.</string>
+    <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
     <string name="remember_location_no">Cha chuimhnich</string>
+    <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT=20] -->
     <string name="remember_location_yes">Cuimhnichidh</string>
+    <!-- Camera menu labels -->
+    <!-- more options label [CHAR LIMIT=50] -->
     <string name="camera_menu_more_label">BARRACHD ROGHAINNEAN</string>
+    <!-- settings label [CHAR LIMIT=50] -->
     <string name="camera_menu_settings_label">ROGHAINNEAN</string>
+    <!--  Tiny Planet -->
+    <!-- Button to press for creating a tiny planet image. [CHAR LIMIT=30] -->
     <string name="create_tiny_planet">Cruthaich planaid bhìodach</string>
+    <!-- Message shown while a tiny planet image is being saved. [CHAR LIMIT=30] -->
     <string name="saving_tiny_planet">A’ sàbhaladh planaid bhìodach…</string>
+    <!-- Label above a slider that let's the user set the zoom of a tiny planet image. [CHAR LIMIT=15] -->
     <string name="tiny_planet_zoom">Sùm</string>
+    <!-- Label above a slider that let's the user set the rotation of a tiny planet image. [CHAR LIMIT=15] -->
     <string name="tiny_planet_rotate">Cuairtich</string>
+    <!-- Label for menu item that starts a photo editor. [CHAR LIMIT=30] -->
     <string name="photo_editor">Deasaiche dhealbhan</string>
+    <!-- Crop -->
+    <!-- Label for the save button in the crop activity action bar [CHAR LIMIT=20] -->
     <string name="crop_save">Sàbhail</string>
+    <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
     <string name="cannot_load_image">Chan urrainn dhuinn an dealbh a luchdadh!</string>
+    <!-- Label for album filmstrip button -->
     <string name="switch_photo_filmstrip">Sealladh stiall film</string>
+    <!--  String shown when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">A’ suidheachadh a’ phàipeir-bhalla</string>
+    <!-- Camera settings. [CHAR LIMIT=25] -->
     <string name="mode_settings">Roghainnean</string>
+    <!-- Text shown in the camera mode options list for normal camera mode [CHAR LIMIT=25] -->
     <string name="mode_camera">Camara</string>
+    <!-- Text shown in the camera mode options list for putting camera in video recording mode [CHAR LIMIT=25] -->
     <string name="mode_video">Video</string>
+    <!-- Text shown in the camera mode options list for putting camera in photo sphere mode. 'Photo sphere' is a product name. [CHAR LIMIT=25] -->
     <string name="mode_photosphere">Photo Sphere</string>
+    <!-- Text shown in the camera mode options list for putting camera in time lapse mode [CHAR LIMIT=25] -->
     <string name="mode_timelapse">Film luathaichte</string>
+    <!-- Text shown in the camera mode options list for putting camera in wide angle panorama mode [CHAR LIMIT=25] -->
     <string name="mode_wideangle">Ceàrn leathann</string>
+    <!-- Text shown in the camera mode options list for putting camera in panorama mode [CHAR LIMIT=25] -->
     <string name="mode_panorama">Cuairt-shealladh</string>
+    <!-- Text shown in the camera mode options list for putting camera in refocus mode [CHAR LIMIT=25] -->
     <string name="mode_refocus">Sgleò lionsa</string>
+    <!-- Accessibility text for switching to normal camera mode [CHAR_LIMIT=NONE] -->
     <string name="mode_camera_desc">Atharraich gun mhodh chamara</string>
+    <!-- Accessibility text for switching to video mode [CHAR_LIMIT=NONE] -->
     <string name="mode_video_desc">Atharraich gu camara video</string>
+    <!-- Accessibility text for switching to photo sphere mode. 'Photo sphere' is a product name. [CHAR_LIMIT=NONE] -->
     <string name="mode_photosphere_desc">Atharraich gun mhodh Photo Sphere</string>
+    <!-- Accessibility text for switching to panorama mode [CHAR_LIMIT=NONE] -->
     <string name="mode_panorama_desc">Atharraich gu cuairt-shealladh</string>
+    <!-- Accessibility text for switching to refocus mode [CHAR_LIMIT=NONE] -->
     <string name="mode_refocus_desc">Atharraich gun mhodh sgleò lionsa</string>
+    <!-- Accessibility text for settings toggle button states [CHAR_LIMIT=NONE] -->
     <string name="settings_open_desc">Fosgail na roghainnean</string>
     <string name="settings_close_desc">Dùin na roghainnean</string>
+    <!-- Accessibility text for HDR+ toggle button states [CHAR_LIMIT=NONE] -->
     <string name="hdr_plus_off_desc">Tha HDR Plus dheth</string>
     <string name="hdr_plus_on_desc">Tha HDR Plus air</string>
+    <!-- Accessibility text for HDR toggle button states [CHAR_LIMIT=NONE] -->
     <string name="hdr_off_desc">Tha HDR dheth</string>
     <string name="hdr_on_desc">Tha HDR air</string>
+    <!-- Accessibility text for camera flash toggle button states [CHAR_LIMIT=NONE] -->
     <string name="flash_off_desc">Tha an solas-boillsgidh dheth</string>
     <string name="flash_auto_desc">Solas-boillsgidh fèin-obrachail</string>
     <string name="flash_on_desc">Tha an solas-boillsgidh air</string>
+    <!-- Accessibility text for HDR+ flash toggle button states [CHAR_LIMIT=NONE] -->
     <string name="hdr_plus_flash_off_desc">Tha an solas-boillsgidh HDR+ dheth</string>
     <string name="hdr_plus_flash_auto_desc">Solas-boillsgidh HDR+ fèin-obrachail</string>
     <string name="hdr_plus_flash_on_desc">Tha an solas-boillsgidh HDR+ air</string>
+    <!-- Accessibility text for vide torch (flash) toggle button states [CHAR_LIMIT=NONE] -->
     <string name="torch_on_desc">Tha an leus air</string>
     <string name="torch_off_desc">Tha an leus dheth</string>
+    <!-- Accessibility text for camera switch toggle button states [CHAR_LIMIT=NONE] -->
     <string name="camera_id_back_desc">Camara cùil</string>
     <string name="camera_id_front_desc">Camara beòil</string>
+    <!-- Accessibility text for grid lines toggle button states [CHAR_LIMIT=NONE] -->
     <string name="grid_lines_off_desc">Tha loidhnichean a’ ghriod dheth</string>
     <string name="grid_lines_on_desc">Tha loidhnichean a’ ghriod air</string>
+    <!-- Accessibility text for countdown timer toggle button states [CHAR_LIMIT=NONE] -->
     <string name="countdown_timer_off">Tha an tìmear cunntaidh sìos dheth</string>
     <string name="countdown_timer_duration_3s">Chaidh an tìmear cunntaidh sìos a shuidheachadh air 3 diogan</string>
     <string name="countdown_timer_duration_10s">Chaidh an tìmear cunntaidh sìos a shuidheachadh air 10 diogan</string>
+    <!-- Accessibility text for More Options button [CHAR_LIMIT=NONE] -->
     <string name="more_options_desc">Barrachd roghainnean</string>
+    <!-- Accessibility text for cancel button [CHAR_LIMIT=NONE] -->
     <string name="cancel_button_description">Sguir dheth</string>
+    <!-- Accessibility text for done button [CHAR_LIMIT=NONE] -->
     <string name="done_button_description">Deiseil</string>
+    <!-- Accessibility text for retake button [CHAR_LIMIT=NONE] -->
     <string name="retake_button_description">Ath-thog</string>
+    <!-- Accessibility text for video review button [CHAR_LIMIT=NONE] -->
     <string name="review_button_description">Sgrùd</string>
+    <!-- Accessibility text for filmstrip share button [CHAR_LIMIT=NONE] -->
     <string name="share_button_description">Co-roinn</string>
+    <!-- Accessibility text for filmstrip view button used to open special image viewers, like 3d photosphere [CHAR_LIMIT=NONE] -->
     <string name="view_button_description">Seall</string>
+    <!-- Accessibility text for filmstrip edit button [CHAR_LIMIT=NONE] -->
     <string name="edit_button_description">Deasaich</string>
+    <!-- Accessibility text for filmstrip delete button [CHAR_LIMIT=NONE] -->
     <string name="delete_button_description">Sguab às</string>
+    <!-- Accessibility text for manual exposure compensation button [CHAR_LIMIT=NONE] -->
     <string name="manual_exposure_compensation_desc">Co-leasachadh an deisearais a làimh</string>
+    <!-- Accessibility text for exposure compensation -2 button [CHAR_LIMIT=NONE] -->
     <string name="exposure_compensation_desc_n2">Co-leasachadh an deisearais -2</string>
+    <!-- Accessibility text for exposure compensation -1 button [CHAR_LIMIT=NONE] -->
     <string name="exposure_compensation_desc_n1">Co-leasachadh an deisearais -1</string>
+    <!-- Accessibility text for exposure compensation 0 button [CHAR_LIMIT=NONE] -->
     <string name="exposure_compensation_desc_0">Co-leasachadh an deisearais 0</string>
+    <!-- Accessibility text for exposure compensation +1 button [CHAR_LIMIT=NONE] -->
     <string name="exposure_compensation_desc_p1">Co-leasachadh an deisearais +1</string>
+    <!-- Accessibility text for exposure compensation +2 button [CHAR_LIMIT=NONE] -->
     <string name="exposure_compensation_desc_p2">Co-leasachadh an deisearais +2</string>
+    <!-- Accessibility announcement when option button changes on screen after tap, e.g. from flash auto to flash off [CHAR_LIMIT=NONE] -->
     <string name="button_change_announcement">Chaidh am putan atharrachadh gu %s</string>
+    <!-- Text shown in camera settings list for toggling photo location on or off [CHAR LIMIT=25] -->
     <string name="setting_location">Ionad</string>
+    <!-- Camera settings title for back camera photo resolution. [CHAR LIMIT=25] -->
     <string name="setting_back_camera_photo">Dealbh a’ chamara cùil</string>
+    <!-- Camera settings title for back camera video resolution. [CHAR LIMIT=25] -->
     <string name="setting_back_camera_video">Video a’ chamara cùil</string>
+    <!-- Camera settings title for front camera photo resolution. [CHAR LIMIT=25] -->
     <string name="setting_front_camera_photo">Dealbh a’ chamara beòil</string>
+    <!-- Camera settings title for front camera video resolution. [CHAR LIMIT=25] -->
     <string name="setting_front_camera_video">Video a’ chamara beòil</string>
+    <!-- Text shown in camera settings list for selecting the camera mode that will be used by default when the app starts [CHAR LIMIT=25] -->
     <string name="setting_default_camera">An camara bunaiteach</string>
+    <!-- Text shown in camera settings list for launching Google Help [CHAR LIMIT=25] -->
     <string name="setting_google_help_and_feedback">Cobhair ⁊ beachdan thugainn</string>
-    <string name="processing_hdr_plus">A’ pròiseasadh HDR+ …</string>
+    <!-- TODO: don't ship with these. -->
+    <!-- camera jpeg quality settings -->
+    <!-- Default for camera startup module index -->
+    <!-- Default number of times to play shimmy. -->
+    <!-- A message shown to the user, indicating that an HDR+ photo is being processed. [CHAR LIMIT=25] -->
+    <string name="processing_hdr_plus">A’ pròiseasadh HDR+ &#8230;</string>
+    <!-- Title of a dialog showing open source licenses used in the app. [CHAR LIMIT=30] -->
     <string name="open_source_licenses">Ceadachasan Open Source</string>
+    <!-- Default number of times to play peek animation. -->
+    <!--  Title of a preference group which contains general settings. [CHAR LIMIT=30]  -->
     <string name="pref_category_general">Roghainnean coitcheann</string>
+    <!--  Title of a preference group which contains settings for changing capture resolution and quality. [CHAR LIMIT=30]  -->
     <string name="pref_category_resolution_quality">Dùmhlachd-bhreacaidh ⁊ càileachd</string>
+    <!--  Title of a preference group which contains information about the app. [CHAR LIMIT=30]  -->
     <string name="pref_category_about">Mu dhèidhinn</string>
+    <!--  Title of a preference which shows the build version of the app. [CHAR LIMIT=30]  -->
     <string name="pref_title_build_version">Tionndadh na togail</string>
+    <!-- Video quality setting entry. Videos will be recorded in the lowest quality available on the device. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_low">Ìseal</string>
+    <!-- Video quality setting entry. Videos will be recorded in the highest quality available on the device. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_high">Àrd</string>
+    <!-- Video quality setting entry. Videos will be recorded in quarter CIF quality. Details on CIF: http://goo.gl/3jDK [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_qcif">QCIF</string>
+    <!-- Video quality setting entry. Videos will be recorded in CIF quality. Details on CIF: http://goo.gl/3jDK [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_cif">CIF</string>
+    <!-- Video quality setting entry. Videos will be recorded in 480p quality. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_480p">SD 480p</string>
+    <!-- Video quality setting entry. Videos will be recorded in 720p quality. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_720p">HD 720p</string>
+    <!-- Video quality setting entry. Videos will be recorded in 1080p quality. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_1080p">HD 1080p</string>
+    <!-- Video quality setting entry. Videos will be recorded in quarter VGA quality. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_qvga">QVGA</string>
+    <!-- Video quality setting entry. Videos will be recorded in 2160p quality. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_2160p">UHD 4K</string>
+    <!--  The strings below will not be translated. We're using them until the above translations are sane. -->
+    <!-- Message shown in the settings summary for how many megapixels have been selected. [CHAR LIMIT=24]-->
     <string name="setting_summary_x_megapixels">%1$s meaga-piogsail</string>
+    <!-- Message shown in the settings summary that includes the the aspect ratio of the selected resolution i.e. (4:3) and the size of the selected resolution in megapixels. [CHAR LIMIT=24]-->
     <string name="setting_summary_aspect_ratio_and_megapixels">(%1$d:%2$d) %3$s meaga-piogsail</string>
+    <!-- Text shown above the button that opens to editor for images created from lens blur mode. [CHAR LIMIT=60] -->
     <string name="cling_text_for_refocus_editor_button">Suath an-seo airson ath-fhòcas</string>
+    <!-- Title of a preference group for advanced preferences. [CHAR LIMIT=30] -->
     <string name="pref_category_advanced">Adhartach</string>
+    <!-- Title of a preference for enabling manual exposure compensation. [CHAR LIMIT=20] -->
     <string name="pref_camera_exposure_compensation">Deisearas a làimh</string>
+    <!-- Text shown next to the settings button to explain what is in settings menu. [CHAR LIMIT=120] !-->
     <string name="settings_cling_text">Atharraich an dùmhlachd-bhreacaidh is a’ chàileachd sna roghainnean no feuch na gleusan adhartach.</string>
+    <!-- Title on the startup screen that lets user select photo aspect ratio. [CHAR LIMIT=40]-->
     <string name="photo_size_selection_title">Tagh meud an deilbh</string>
+    <!-- Text on the photo aspect ratio selection screen. [CHAR LIMIT=120] -->
     <string name="photo_aspect_ratio_selection_content">’S urrainn dhut seo atharrachadh uair sam bith sna roghainnean.</string>
+    <!-- Shown above the intent chooser when the user is about to share an item. [CHAR LIMIT=20] -->
     <string name="share_to">Co-roinn gu</string>
+    <!-- Shown above the intent chooser when the user is about to edit an item. [CHAR LIMIT=20] -->
     <string name="edit_with">Deasaich le</string>
+    <!-- Text on the button to take user to the next page of the on-screen instructions. [CHAR LIMIT=20] -->
     <string name="startup_dialog_button_next">AIR ADHART</string>
+    <!-- Text on the button to confirm that user understands the on-screen instructions. [CHAR LIMIT=20] -->
     <string name="confirm_button_text">CEART MA-THÀ, THA MI AGAIBH</string>
+    <!-- Selection for a 4:3 picture size where the sensor provides 4:3 so the result is not cropped. [CHAR LIMIT=30] -->
     <string name="full_sensor_4x3_aspect_ratio">Mothaichear slàn \n(4:3)</string>
+    <!-- Selection for a 16:9 picture size where the sensor provides 4:3 so the result will be cropped. [CHAR LIMIT=30] -->
     <string name="cropped_sensor_16x9_aspect_ratio">Mothaichear beàrrte\n(16:9)</string>
+    <!-- String representation of boolean false, allows for integer conversion. -->
     <string name="pref_boolean_false">0</string>
+    <!-- String representation of boolean true, allows for integer conversion. -->
     <string name="pref_boolean_true">1</string>
+    <!-- Shown to the user while an image/video is being saved to disk. -->
     <string name="session_saving_image">’Ga shàbhaladh\u2026</string>
 </resources>

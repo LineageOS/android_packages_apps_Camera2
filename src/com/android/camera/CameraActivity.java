@@ -1359,10 +1359,6 @@ public class CameraActivity extends QuickActivity
             case R.id.action_details:
                 showDetailsDialog(mFilmstripController.getCurrentAdapterIndex());
                 return true;
-            case R.id.action_help_and_feedback:
-                mResetToPreviewOnResume = false;
-                new GoogleHelpHelper(this).launchGoogleHelp();
-                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -2338,17 +2334,6 @@ public class CameraActivity extends QuickActivity
         }
 
         return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
-        if (isSecureCamera() && !ApiHelper.isLOrHigher()) {
-            // Compatibility pre-L: launching new activities right above
-            // lockscreen does not reliably work, only show help if not secure
-            menu.removeItem(R.id.action_help_and_feedback);
-        }
-
-        return super.onPrepareOptionsMenu(menu);
     }
 
     protected long getStorageSpaceBytes() {

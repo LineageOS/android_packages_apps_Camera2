@@ -163,6 +163,11 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-    </application>
 
+        <activity
+            android:name="org.lineageos.quickreader.ScannerActivity"
+            android:label="@string/quick_reader_name"
+            android:theme="@style/ScannerTheme"
+            android:exported="true" />
+    </application>
 </manifest>

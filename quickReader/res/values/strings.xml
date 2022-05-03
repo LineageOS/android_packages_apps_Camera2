@@ -50,4 +50,9 @@
 
     <!-- QuickReader: Action is only allowed when performed unlocked -->
     <string name="quick_reader_only_unlocked">This action can only be performed with the device unlocked</string>
+
+    <!-- QuickReader: launcher long shortcut label -->
+    <string name="quick_reader_shortcut_long">QR scanner</string>
+    <!-- QuickReader: launcher short shortcut label -->
+    <string name="quick_reader_shortcut_short">QR</string>
 </resources>

@@ -8,6 +8,7 @@ bin/
 libs/
 gen/
 .idea/
+!quickReader/libs/
 
 # ignore OS X metadata
 .DS_Store

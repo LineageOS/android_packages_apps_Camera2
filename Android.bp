@@ -21,6 +21,9 @@ android_app {
         "glide",
         "guava",
         "jsr305",
+        "camera2-zxing-core",
+        "camera2-qreader-core",
+        "camera2-qreader-zxing",
     ],
 
     optional_uses_libs: ["org.apache.http.legacy"],
@@ -29,11 +32,13 @@ android_app {
         "src/**/*.java",
         "src_pd/**/*.java",
         "src_pd_gcam/**/*.java",
+        "quickReader/src/**/*.java"
     ],
 
     resource_dirs: [
         "res",
         "res_p",
+        "quickReader/res",
     ],
 
     aaptflags: [
@@ -42,6 +47,10 @@ android_app {
         "2.0.002",
         "--version-code",
         "20002000",
+        "--extra-packages",
+        "me.dm7.barcodescanner.core",
+        "--extra-packages",
+        "me.dm7.barcodescanner.zxing",
     ],
 
     sdk_version: "current",

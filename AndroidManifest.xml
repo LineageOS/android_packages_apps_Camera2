@@ -171,5 +171,16 @@
             android:label="@string/quick_reader_name"
             android:theme="@style/ScannerTheme"
             android:exported="true" />
+
+        <service
+            android:name="org.lineageos.quickreader.ScannerTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_qr_tile"
+            android:label="@string/quick_reader_shortcut_long"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
     </application>
 </manifest>

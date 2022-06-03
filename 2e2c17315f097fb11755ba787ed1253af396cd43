@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b8fffb0_53e85a93",
+        "filename": "quickReader/src/org/lineageos/quickreader/ScannerActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-06-03T15:15:32Z",
+      "side": 1,
+      "message": "unused",
+      "revId": "2e2c17315f097fb11755ba787ed1253af396cd43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

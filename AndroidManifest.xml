@@ -168,9 +168,17 @@
 
         <activity
             android:name="org.lineageos.quickreader.ScannerActivity"
-            android:label="@string/quick_reader_name"
+            android:label="@string/quick_reader_shortcut_long"
+            android:icon="@drawable/ic_qr_shortcut"
             android:theme="@style/ScannerTheme"
-            android:exported="true" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <service
             android:name="org.lineageos.quickreader.ScannerTileService"

@@ -16,6 +16,41 @@
       "message": "We could change icon too. keeping it seperate app icon makes it easy to access",
       "revId": "fe095c5890a9ab07809a55173f2276b5c464aebc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6896dfc_440e9af7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-06-05T14:30:20Z",
+      "side": 1,
+      "message": "*keeping it seperate launcher icon i meant. also remove camera icon shortcut?. not many people noticed qr scanner is being added.",
+      "revId": "fe095c5890a9ab07809a55173f2276b5c464aebc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50db1db3_6bbd7a0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-06-05T14:30:20Z",
+      "side": 1,
+      "message": "*keeping it seperate launcher icon i meant. also remove launcher icon shortcut?. not many people noticed thar qr scanner is added.",
+      "parentUuid": "b38b102d_3d4a2b7b",
+      "revId": "fe095c5890a9ab07809a55173f2276b5c464aebc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

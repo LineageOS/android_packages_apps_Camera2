@@ -57,6 +57,8 @@ android_app {
 
     product_specific: true,
 
+    overrides: ["Aperture"],
+
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },

@@ -53,7 +53,7 @@ android_app {
         "me.dm7.barcodescanner.zxing",
     ],
 
-    sdk_version: "current",
+    sdk_version: "system_current",
 
     product_specific: true,
 

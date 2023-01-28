@@ -2849,9 +2849,7 @@ public class CameraActivity extends QuickActivity
     }
 
     private void finishActivityWithIntentResult(int resultCode, Intent resultIntent) {
-        mResultCodeForTesting = resultCode;
-        mResultDataForTesting = resultIntent;
-        setResult(resultCode, resultIntent);
+        setResultEx(resultCode, resultIntent);
         finish();
     }
 

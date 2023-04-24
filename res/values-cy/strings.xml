@@ -155,7 +155,7 @@
     <string name="dialog_cancel">Diddymu</string>
     <string name="dialog_report">Rhoi Adborth</string>
     <string name="dialog_dismiss">Diystyru</string>
-    <string name="spaceIsLow_content" product="default">Mae dy gerdyn SD yn rhedeg yn brin o le. Newidia\'r gosodiad ansawdd neu ddileu rhai delweddau neu ffeiliau eraill.</string>
+    <string name="spaceIsLow_content" product="default">Mae dy gerdyn SD yn rhedeg yn brin o le. Newidia\'r gosodiad ansawdd neu dileu rhai delweddau neu ffeiliau eraill.</string>
     <string name="video_reach_size_limit">Wedi cyrraedd y terfyn maint.</string>
     <string name="pano_too_fast_prompt">Rhy gyflym</string>
     <string name="pano_dialog_prepare_preview">Yn paratoi\'r panorama</string>
@@ -271,7 +271,7 @@
     <string name="set_duration">Gosod yr hyd mewn eiliadau</string>
     <string name="count_down_title_text">Yn cyfrif i lawr i dynnu llun</string>
     <string name="remember_location_title">Cofio lleoliadau cymryd lluniau?</string>
-    <string name="remember_location_prompt">Tagia dy luniau a fideos gyda\'r lleoliadau ble y\'i cymerwyd.</string>
+    <string name="remember_location_prompt">Tagio dy luniau a fideos gyda\'r lleoliadau ble y\'i cymerwyd.</string>
     <string name="remember_location_no">Dim diolch</string>
     <string name="remember_location_yes">Iawn</string>
     <string name="camera_menu_more_label">RHAGOR O DDEWISIADAU</string>
@@ -345,7 +345,7 @@
     <string name="processing_hdr_plus">Yn prosesu HDR+ …</string>
     <string name="open_source_licenses">Trwyddedau cod agored</string>
     <string name="pref_category_general">Gosodiadau Cyffredinol</string>
-    <string name="pref_category_resolution_quality">Cymhareb agwedd ac ansawdd</string>
+    <string name="pref_category_resolution_quality">Cydraniad ac ansawdd</string>
     <string name="pref_category_about">Ynghylch</string>
     <string name="pref_title_build_version">Fersiwn adeiledd</string>
     <string name="pref_video_quality_entry_low">Isel</string>
@@ -362,7 +362,7 @@
     <string name="cling_text_for_refocus_editor_button">Cyffyrdda yma i ail-ffocysu</string>
     <string name="pref_category_advanced">Uwch</string>
     <string name="pref_camera_exposure_compensation">Amlygiad â llaw</string>
-    <string name="settings_cling_text">Yng Ngosodiadau, newidia’r gymhareb agwedd a\'r ansawdd neu addasu nodweddion uwch.</string>
+    <string name="settings_cling_text">Yng Ngosodiadau, newidia’r cydraniad a\'r ansawdd neu addasu nodweddion uwch.</string>
     <string name="photo_size_selection_title">Dewis maint llun</string>
     <string name="photo_aspect_ratio_selection_content">Gellir newid hyn yn hwyrach yng Ngosodiadau.</string>
     <string name="share_to">Rhannu i</string>

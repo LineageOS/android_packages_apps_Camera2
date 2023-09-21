@@ -288,7 +288,7 @@ public class TaskCompressImageToJpeg extends TaskJpegEncode {
                     // actual number of bytes will be returned.
                     if (numBytes > jpgBufferSize) {
                         byteBufferResource.close();
-                        mByteBufferDirectPool.acquire(maxPossibleJpgSize);
+                        byteBufferResource = mByteBufferDirectPool.acquire(maxPossibleJpgSize);
                         compressedData = byteBufferResource.get();
 
                         // On memory allocation failure, fail gracefully.

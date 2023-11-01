@@ -1735,8 +1735,12 @@ public class CameraActivity extends QuickActivity
     private boolean shouldUseNoOpLocation () {
         String callingPackage = getCallingPackage();
         if (callingPackage == null) {
-            // Activity not started through startActivityForResult.
-            return false;
+            if (isCaptureIntent()) {
+                // Activity not started through startActivityForResult.
+                return true;
+            } else {
+                callingPackage = mAppContext.getPackageName();
+            }
         }
         PackageInfo packageInfo = null;
         try {

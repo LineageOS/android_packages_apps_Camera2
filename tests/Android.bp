@@ -1,0 +1,14 @@
+package {
+    // See: http://go/android-license-faq
+    default_applicable_licenses: [
+        "Android-Apache-2.0",
+    ],
+}
+
+android_test {
+    name: "Camera2Tests",
+    sdk_version: "16",
+    srcs: ["src/**/*.java"],
+    instrumentation_for: "Camera2",
+}
+

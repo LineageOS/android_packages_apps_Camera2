@@ -16,19 +16,18 @@
 
 package com.android.camera.stress;
 
-import com.android.camera.CameraActivity;
-
 import android.app.Activity;
 import android.app.Instrumentation;
 import android.content.Intent;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.test.InstrumentationTestCase;
-import android.test.suitebuilder.annotation.LargeTest;
 import android.util.Log;
 
-import java.io.FileWriter;
+import com.android.camera.CameraActivity;
+
 import java.io.BufferedWriter;
+import java.io.FileWriter;
 
 /**
  * Test cases to measure the camera and video recorder startup time.

@@ -42,11 +42,6 @@ public class MemoryManagerImpl implements MemoryManager, QueueListener, Componen
      */
     private static final float MAX_MEM_ALLOWED = 0.70f;
 
-    private static final int[] sCriticalStates = new int[] {
-            ComponentCallbacks2.TRIM_MEMORY_COMPLETE,
-            ComponentCallbacks2.TRIM_MEMORY_RUNNING_CRITICAL
-    };
-
     private final LinkedList<MemoryListener> mListeners = new LinkedList<MemoryListener>();
 
     /**
@@ -123,11 +118,8 @@ public class MemoryManagerImpl implements MemoryManager, QueueListener, Componen
 
     @Override
     public void onTrimMemory(int level) {
-        for (int i = 0; i < sCriticalStates.length; ++i) {
-            if (level == sCriticalStates[i]) {
-                notifyLowMemory();
-                return;
-            }
+        if (level >= ComponentCallbacks2.TRIM_MEMORY_BACKGROUND) {
+            notifyLowMemory();
         }
     }
 

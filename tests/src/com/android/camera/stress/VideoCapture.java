@@ -16,18 +16,14 @@
 
 package com.android.camera.stress;
 
-import com.android.camera.CameraActivity;
-import com.android.camera.stress.TestUtil;
-
 import android.app.Activity;
 import android.app.Instrumentation;
 import android.content.Intent;
 import android.provider.MediaStore;
 import android.test.ActivityInstrumentationTestCase2;
-import android.test.suitebuilder.annotation.LargeTest;
 import android.view.KeyEvent;
 
-import com.android.camera.stress.CameraStressTestRunner;
+import com.android.camera.CameraActivity;
 
 /**
  * Junit / Instrumentation test case for camera test

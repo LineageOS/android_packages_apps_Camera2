@@ -16,8 +16,6 @@
 
 package com.android.camera.functional;
 
-import com.android.camera.CameraActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -25,7 +23,10 @@ import android.os.Environment;
 import android.os.Process;
 import android.provider.MediaStore;
 import android.test.InstrumentationTestCase;
-import android.test.suitebuilder.annotation.LargeTest;
+
+import androidx.test.filters.LargeTest;
+
+import com.android.camera.CameraActivity;
 
 import java.io.File;
 import java.lang.ref.WeakReference;

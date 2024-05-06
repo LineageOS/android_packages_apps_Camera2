@@ -16,9 +16,6 @@
 
 package com.android.camera.functional;
 
-import com.android.camera.CameraActivity;
-import com.android.camera2.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -27,8 +24,12 @@ import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.test.ActivityInstrumentationTestCase2;
-import android.test.suitebuilder.annotation.LargeTest;
 import android.view.KeyEvent;
+
+import androidx.test.filters.LargeTest;
+
+import com.android.camera.CameraActivity;
+import com.android.camera2.R;
 
 import java.io.BufferedInputStream;
 import java.io.File;

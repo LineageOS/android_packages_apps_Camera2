@@ -22,7 +22,7 @@ package {
 
 android_test {
     name: "Camera2Tests",
-    sdk_version: "19",
+    sdk_version: "21",
     srcs: ["src/**/*.java"],
     instrumentation_for: "Camera2",
     static_libs: ["androidx.test.rules"],

@@ -53,7 +53,7 @@ android_app {
     },
 
     // Guava uses deprecated org.apache.http.legacy classes.
-    libs: ["org.apache.http.legacy"],
+    libs: ["org.apache.http.legacy.stubs.system"],
 
     jni_libs: [
         "libjni_tinyplanet",

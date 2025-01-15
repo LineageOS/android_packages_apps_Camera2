@@ -46,6 +46,7 @@
         android:restoreAnyVersion="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.Camera"
+        android:enableOnBackInvokedCallback="false"
         android:usesCleartextTraffic="false" >
         <activity
             android:name="com.android.camera.CameraActivity"

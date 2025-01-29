@@ -1703,21 +1703,22 @@ public class CameraActivity extends QuickActivity
      * it valid location information in exif.
      */
     private boolean shouldUseNoOpLocation () {
-        String callingPackage = getCallingPackage();
-        if (callingPackage == null) {
+        String launchedFromPackage =
+                ApiHelper.AT_LEAST_34 ? getLaunchedFromPackage() : getCallingPackage();
+        if (launchedFromPackage == null) {
             if (isCaptureIntent()) {
                 // Activity not started through startActivityForResult.
                 return true;
             } else {
-                callingPackage = mAppContext.getPackageName();
+                launchedFromPackage = mAppContext.getPackageName();
             }
         }
         PackageInfo packageInfo = null;
         try {
-            packageInfo = getPackageManager().getPackageInfo(callingPackage,
+            packageInfo = getPackageManager().getPackageInfo(launchedFromPackage,
                     PackageManager.GET_PERMISSIONS);
         } catch (Exception e) {
-            Log.w(TAG, "Unable to get PackageInfo for callingPackage " + callingPackage);
+            Log.w(TAG, "Unable to get PackageInfo for launchedFromPackage " + launchedFromPackage);
         }
         if (packageInfo != null) {
             if (packageInfo.requestedPermissions == null) {

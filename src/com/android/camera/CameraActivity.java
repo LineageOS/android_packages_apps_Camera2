@@ -32,6 +32,7 @@ import android.content.IntentFilter;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.pm.ProviderInfo;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
@@ -1403,7 +1404,6 @@ public class CameraActivity extends QuickActivity
         mOnCreateTime = System.currentTimeMillis();
         mAppContext = getApplicationContext();
         mMainHandler = new MainHandler(this, getMainLooper());
-        mLocationManager = new LocationManager(mAppContext, shouldUseNoOpLocation());
         mOrientationManager = new OrientationManagerImpl(this, mMainHandler);
         mSettingsManager = getServices().getSettingsManager();
         mSoundPlayer = new SoundPlayer(mAppContext);
@@ -1538,6 +1538,8 @@ public class CameraActivity extends QuickActivity
         } else {
             mSecureCamera = intent.getBooleanExtra(SECURE_CAMERA_EXTRA, false);
         }
+
+        mLocationManager = new LocationManager(mAppContext, shouldUseNoOpLocation(intent));
 
         if (mSecureCamera) {
             // Change the window flags so that secure camera can show when
@@ -1702,39 +1704,38 @@ public class CameraActivity extends QuickActivity
      * Incase the calling package doesn't have ACCESS_FINE_LOCATION permissions, we should not pass
      * it valid location information in exif.
      */
-    private boolean shouldUseNoOpLocation () {
-        String launchedFromPackage =
-                ApiHelper.AT_LEAST_34 ? getLaunchedFromPackage() : getCallingPackage();
-        if (launchedFromPackage == null) {
+    private boolean shouldUseNoOpLocation (Intent intent) {
+        final PackageManager pm = getPackageManager();
+
+        // Check who implements the ContentProvider behind a URI, and check its
+        // FINE_LOCATION permission.
+        final Bundle myExtras = intent.getExtras();
+        if (myExtras != null) {
+            Uri saveUri = myExtras.getParcelable(MediaStore.EXTRA_OUTPUT);
+            if (saveUri != null) {
+                ProviderInfo info = pm.resolveContentProvider(saveUri.getAuthority(), 0);
+                if (info == null) {
+                    // The URI cannot be resolved to a valid ProviderInfo. In this case,
+                    // we should use no-op location
+                    return true;
+                }
+                return (pm.checkPermission(Manifest.permission.ACCESS_FINE_LOCATION,
+                      info.packageName) != PackageManager.PERMISSION_GRANTED);
+            }
+        }
+
+        // If no save Uri is provided, fall back to inspect calling package.
+        String callingPackage = getCallingPackage();
+        if (callingPackage == null) {
             if (isCaptureIntent()) {
                 // Activity not started through startActivityForResult.
                 return true;
             } else {
-                launchedFromPackage = mAppContext.getPackageName();
+                callingPackage = mAppContext.getPackageName();
             }
         }
-        PackageInfo packageInfo = null;
-        try {
-            packageInfo = getPackageManager().getPackageInfo(launchedFromPackage,
-                    PackageManager.GET_PERMISSIONS);
-        } catch (Exception e) {
-            Log.w(TAG, "Unable to get PackageInfo for launchedFromPackage " + launchedFromPackage);
-        }
-        if (packageInfo != null) {
-            if (packageInfo.requestedPermissions == null) {
-                // No-permissions at all, were requested by the calling app.
-                return true;
-            }
-            for (int i = 0; i < packageInfo.requestedPermissions.length; i++) {
-                if (packageInfo.requestedPermissions[i].equals(
-                        Manifest.permission.ACCESS_FINE_LOCATION) &&
-                        (packageInfo.requestedPermissionsFlags[i] &
-                        PackageInfo.REQUESTED_PERMISSION_GRANTED) != 0) {
-                  return false;
-                }
-            }
-        }
-        return true;
+        return (pm.checkPermission(Manifest.permission.ACCESS_FINE_LOCATION,
+              callingPackage) != PackageManager.PERMISSION_GRANTED);
     }
     /**
      * Call this whenever the mode drawer or filmstrip change the visibility

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b515ce2b_8035d4ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-27T04:57:38Z",
+      "side": 1,
+      "message": "So while this is, of course, fine, do we have a single device that can\u0027t use Aperture now? Or that can\u0027t be made to?\n\nThe old justification was \"hyper legacy devices\" (gone), and \"non CAF devices being forced to use CAF camera\" (no longer CAF app).\n\nWe could just kill Camera2 all together... One less thing to deal with.",
+      "revId": "0f06b67aefa8c4524f9aeb890fd6d1417269fad8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
